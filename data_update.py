@@ -1,5 +1,8 @@
 import pandas as pd
 import datetime as dt
+import last_run as lr
+
+lr.save_last_run_time_stamp()
 
 # load previous data
 df = pd.read_excel('data_all.xlsx', dtype='object')

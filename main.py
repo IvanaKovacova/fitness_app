@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-pd.set_option('display.precision', 1)
 import plotly.express as px
 import datetime as dt
+import last_run as lr
 
 
 st.set_page_config(layout="wide")
@@ -13,21 +13,10 @@ df['Date'] = df['Date'].dt.date
 df.loc[df['Activity'] == 'Swim', 'Distance'] = df['Distance']/1000
 
 
-tab1, tab2, tab3 = st.tabs(['Table', 'Graphs', 'Milestones'])
+tab1, tab2, tab3 = st.tabs(['Graphs', 'Table', 'Milestones'])
 
+    
 with tab1:
-    st.header('Table')
-    st.subheader('Review all activities up to date.')
-    st.write('You can sort the table by clicking on column names')
-
-    
-    st.dataframe(
-        data = df
-        .style.format({'Distance':"{:.1f} km",'Activity_points':"{:.1f}",'Daily_points':"{:.0f}",'Total_points_with_bonus':"{:.1f}"}),
-        width=1000
-        )
-    
-with tab2:
     st.header('Graphs')
     st.subheader('See your points in graphs')
     
@@ -67,6 +56,17 @@ with tab2:
         )
     
     st.plotly_chart(fig_comparison, use_container_width=True)
+    
+with tab2:  
+    st.header('Table')
+    st.subheader('Review all activities up to date.')
+    st.write('You can sort the table by clicking on column names')
+    
+    st.dataframe(
+        data = df
+        .style.format({'Distance':"{:.1f} km",'Activity_points':"{:.1f}",'Daily_points':"{:.0f}",'Total_points_with_bonus':"{:.1f}"}),
+        width = 1000
+        )
     
 with tab3:
     st.header('Milestone awards fulfillment')
@@ -216,3 +216,6 @@ with tab3:
         st.plotly_chart(fig2, use_container_width=True)
     elif option == 'Other':
         st.plotly_chart(fig4, use_container_width=True)
+
+last_run = lr.get_last_run_time_stamp()
+st.write(f'Last data update: {last_run}')
