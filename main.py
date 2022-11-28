@@ -3,6 +3,7 @@ import pandas as pd
 import datetime as dt
 import last_run as lr
 import timedelta as td
+import plotly.express as px
 from milestone_tab import milestone
 from overview_tab import overview
 from team_graph_tab import team_graph
