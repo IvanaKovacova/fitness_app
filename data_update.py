@@ -5,10 +5,13 @@ import last_run as lr
 lr.save_last_run_time_stamp()
 
 # load previous data
-df = pd.read_excel('data_all.xlsx', dtype='object')
+df = pd.read_excel('data/data_all.xlsx', dtype='object')
+old_length = len(df)
+old_kms = df['Distance'].astype('int64').sum()
+old_mins = (df['duration_hours'].astype('int64').sum())*60 + df['duration_minutes'].astype('int64').sum()
 
 # Import new data
-df_new = pd.read_csv('data_new.csv', usecols = [1, 5, 4, 2, 6, 9], dtype='object')  
+df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9], dtype='object')  
 df_new.rename(columns= {list(df_new)[0]: 'Activity_ID', list(df_new)[1]: 'Activity'}, inplace = True)
 df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Virtual Ride':'Cycling',
                 'Virtual Run': 'Run','Trail Run':'Run',
@@ -34,11 +37,12 @@ df_diff['duration_minutes'] = pd.to_datetime(df_diff['Duration']).dt.minute
 # df_diff.drop(columns = 'Duration', inplace = True)
 df_diff['Day_of_week'] = df_diff['Date'].dt.day_name()
 df_diff['Distance'] = df_diff['Distance'].astype(str).str.replace(pat = ',', repl = '').astype(float).fillna(value = 0)
+df_diff.loc[df_diff['Activity'] == 'Swim', 'Distance'] = df_diff['Distance']/1000
 
 # assign activity points by activity
 df_diff.loc[df_diff['Activity'].isin(['Walk', 'Run']), 'Activity_points'] = df_diff['Distance']*5
 df_diff.loc[df_diff['Activity'] == 'Cycling', 'Activity_points'] = df_diff['Distance']
-df_diff.loc[df_diff['Activity'] == 'Swim', 'Activity_points'] = df_diff['Distance']/100*4
+df_diff.loc[df_diff['Activity'] == 'Swim', 'Activity_points'] = df_diff['Distance']*40
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] >=2), 'Activity_points'] = 40
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==1) & (df_diff['duration_minutes'] >= 30), 'Activity_points'] = 30
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==1) & (df_diff['duration_minutes'] < 30), 'Activity_points'] = 20
@@ -123,10 +127,25 @@ df_points.loc[df_points['Bonus'] == '3X', 'Total_points_with_bonus'] = df_points
 # great comeback
 df_points.loc[df_points['Comeback'] == True, 'Total_points_with_bonus'] = df_points['Total_points'] + 100
 
-# check length of new df against old df
-new_len = len(df_points)
-print(f'Old df length = {old_len}')
-print(f'New df length = {new_len}')
+# specify teams
+team_a = ['Jesse Williams', 'Emily Tibbens', 'Renoy Zachariah']
+team_b = ['Ivana Kovacova', 'Antônio Ravazzolo', 'Subramita Dash']
+team_c = ['Madhav Parashar', 'Sanjay K', 'Balaji Venkatesh']
+
+df_points['Team'] ='no team'
+df_points.loc[df_points['Name'].isin(team_a), 'Team'] = 'Team A'
+df_points.loc[df_points['Name'].isin(team_b), 'Team'] = 'Team B'
+df_points.loc[df_points['Name'].isin(team_c), 'Team'] = 'Team C'
+
+
+# save old and new data
+new_length = len(df_points)
+new_kms = df_points['Distance'].astype('int64').sum()
+new_mins = (df_points['duration_hours'].astype('int64').sum())*60 + df_points['duration_minutes'].astype('int64').sum()
+df_info = pd.DataFrame({'count_of_activites': [old_length, new_length],
+                       'sum_of_kms' : [old_kms, new_kms],
+                       'total_minutes' : [old_mins, new_mins]})
+df_info.to_pickle('data/data_update_data.pkl')
 
 # export data to excel
-df_points.to_excel('data_all.xlsx', index=False)
+df_points.to_excel('data/data_all.xlsx', index=False)

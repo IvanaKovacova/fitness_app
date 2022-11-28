@@ -17,11 +17,11 @@ def get_last_run_time_stamp():
     """
     # try loading the datetime of the last run, else print warning
     try:
-        with open("last_update.txt", mode="r") as file:
+        with open("data/last_update.txt", mode="r") as file:
             return datetime.datetime.strptime(file.read(), fmt)
     except:
         # Return with current time-stamp if last_run.txt file is not present
-        return datetime.datetime.now().strftime(fmt)
+        return datetime.datetime.now(datetime.timezone.utc).strftime(fmt)
 
 
 # ... run script code using the last_run variable as input ...
@@ -39,6 +39,7 @@ def save_last_run_time_stamp():
     Then Create the file, open the file, save it with current time stamp and close the file\n
     """
     # update the script execution time and save it to the file
-    with open("last_update.txt", mode="w") as file:
-        current_timestamp = datetime.datetime.now().strftime(fmt);
+    with open("data/last_update.txt", mode="w") as file:
+        current_timestamp = datetime.datetime.now(datetime.timezone.utc).strftime(fmt);
         file.write(current_timestamp)
+        
