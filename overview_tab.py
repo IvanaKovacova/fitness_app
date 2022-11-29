@@ -34,7 +34,7 @@ def overview():
         select_date = st.date_input(label = "Choose which day's activities you want to display (defaults to today)", key = 'select_date')
         
         if select_date: 
-            df_show = df.query('Date == @select_date')
+            df_show = df.query('Date == @select_date').reset_index(drop=True)
             st.dataframe(
                 data = df_show
                 .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
@@ -70,6 +70,13 @@ def overview():
                        names = 'Name',
                        color_discrete_sequence = list_of_colors
                        )
+                .update_traces(
+                    showlegend=False,
+                    textposition = 'outside',
+                    texttemplate= "%{label}<br>%{percent}",
+                    selector=dict(type='pie'),
+                    hovertemplate = "%{value} points"
+                    )
                 )
             st.plotly_chart(fig_member_points, use_container_width=True)
         with right:
@@ -86,10 +93,11 @@ def overview():
                  xaxis_title = '',
                  yaxis_title ='Points by Person',
                  template = 'plotly_white',   
-                 height = 550
                  )
              .update_traces(
-                 textposition='outside'
+                 showlegend=False,
+                 textposition='outside',
+                 hovertemplate= '%{y} points'
                  )
              )
             st.plotly_chart(fig_member_points2, use_container_width=True)

@@ -15,17 +15,18 @@ def comparison():
         options = df['Team'].unique(),
         default = df['Team'].unique()
         )
-    name = left.multiselect(
-        'Name',
-        options=df['Name'].unique(),
-        default = df['Name'].unique()
-        )
-    
+  
 
     activity = mid.multiselect(
         'Activity',
         options = df['Activity'].unique(),
         default = df['Activity'].unique()
+        )
+    
+    name = st.multiselect(
+        'Name',
+        options=df['Name'].unique(),
+        default = df['Name'].unique()
         )
 
    
@@ -54,6 +55,9 @@ def comparison():
             xaxis_title = '',
             yaxis_title ='Points by activity',
             template = 'plotly_white'
+            )
+        .update_traces(
+            hovertemplate= '%{x}<br>%{y} points'
             )
         )
     

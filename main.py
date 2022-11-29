@@ -11,8 +11,8 @@ from team_graph_tab import team_graph
 
 st.set_page_config(
     page_title= 'DADS 100 days fitness challenge', 
-    page_icon = '🏃',
-    layout="wide"
+    layout="wide", 
+    page_icon= ':sports_medal:'
     )
 
 st.markdown(
@@ -31,9 +31,8 @@ st.markdown(
 
 with st.sidebar:
     st.image("img/logo.png", width=150)
-    st.header('')     
 
-tab1, tab2, tab3 = st.tabs(['Overview', 'Graphs & Comparison', 'Milestones Achievement'])
+tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Graphs & Comparison', 'Milestones Achievement', 'General Information'])
 
 with tab1:  
     overview()
@@ -44,7 +43,29 @@ with tab2:
    
 with tab3:
     milestone()
-        
+    
+with tab4:
+    st.subheader('Information')
+    st.write('PDF with point calculation overview:')
+    with open("data/Fitness Challenge.pdf", "rb") as pdf_file:
+        pdf = pdf_file.read()
+
+    st.download_button(label="Download PDF",
+                       data=pdf,
+                       file_name="Fitness Challenge.pdf",
+                       mime='application/octet-stream')
+    
+    st.subheader('Contacts')
+    st.markdown('***Issues with the app:***')
+    st.write('>Ivana Kovacova - ivana.kovacova@dell.com')
+    st.markdown('***Other issues:***')
+    st.write('>Subramita Dash - subramita_dash@dell.com')
+    st.write('>Madhav Parashar - madhav_parashar@dell.com')
+    st.write('>Sanjay Kumar - sanjay_kumar29@dell.com')
+    st.write('>Ivana Kovacova - ivana.kovacova@dell.com')
+       
+
+
 
 last_run = lr.get_last_run_time_stamp()
 now = dt.datetime.utcnow()

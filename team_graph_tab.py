@@ -27,16 +27,23 @@ def team_graph():
                color= 'Team',
                color_discrete_sequence = list_of_colors,
                text= 'Total_points_with_bonus',
-               hover_name = 'Team'
+               title = '<b>Points by Team</b>',
+               
                )
         .update_layout(
+            title = {
+                'x': 0.5
+                },
             xaxis_title = '',
             yaxis_title ='Total Team Points',
             template = 'plotly_white',   
-            height = 550
+            height = 550,
+            title_font_size =24
             )
         .update_traces(
-            textposition='outside'
+            showlegend=False,
+            textposition='outside',
+            hovertemplate= '%{y} points'
             )
         )
         
@@ -52,23 +59,30 @@ def team_graph():
                 y = 'team_points_cum',
                 color = 'Team',
                 color_discrete_sequence = list_of_colors,
-                title = '<b>Evolution of Team Points</b>'
+                title = '<b>Evolution of Team Points</b>',
+                hover_name = 'Team'
                 )
         .update_layout(
+            title = {
+                'x': 0.5
+                },
             xaxis_title = '',
             yaxis_title ='Team points',
             template = 'plotly_white',   
             height = 550,
             title_font_size =24
             )
+        .update_traces(
+            hovertemplate= '%{x}<br>%{y} points'
+            )
         )
     
         
     
-    option = st.selectbox('Choose view', options = ['Points overview', 'Points over time', 'Comparison'])
-    if option == 'Points overview':
+    option = st.selectbox('Choose view', options = ['Points Overview', 'Evolution of Team Points', 'Comparison'])
+    if option == 'Points Overview':
         st.plotly_chart(fig_points, use_container_width=True)
-    elif option == 'Points over time':
+    elif option == 'Evolution of Team Points':
         st.plotly_chart(fig_evolution, use_container_width=True)
     elif option == 'Comparison':
         comparison()
