@@ -31,6 +31,9 @@ st.markdown(
 
 with st.sidebar:
     st.image("img/logo.png", width=150)
+    
+    strava_widget = "<h3><iframe allowtransparency frameborder='0' height='300' scrolling='no' src='https://www.strava.com/clubs/995662/latest-rides/84e66ad0283c10bf7ace6e5b31be4058becca9c3?show_rides=false' width='300'></iframe></h3>"
+    st.markdown(strava_widget, unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Graphs & Comparison', 'Milestones Achievement', 'General Information'])
 

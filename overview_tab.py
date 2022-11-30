@@ -13,7 +13,7 @@ def overview():
         }, inplace=True)
     data_update_data = pd.read_pickle('data/data_update_data.pkl')
     
-    list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#66278F','#F8A433','#FE6873', '#9BC438']
+    list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#A8396F', '#F8A433', '#B85200','#DB9EFF', '#8C161F', '#FEC97A', '#66278F', '#FE6873']
 
     new_activities = (data_update_data.iloc[1,0] - data_update_data.iloc[0,0]).astype('str')
     all_kilometers = data_update_data.iloc[1,1].astype('int').astype('str')
@@ -21,7 +21,7 @@ def overview():
     all_hours = (data_update_data.iloc[1,2]/60).astype('int').astype('str')
     new_hours = ((data_update_data.iloc[1,2] - data_update_data.iloc[0,2])/60).astype('int').astype('str')
     
-    st.subheader('')
+    st.subheader('Overall stats')
     left, mid, right = st.columns(3)
     with left:
         st.metric(label ='🏋 Total activities', value=data_update_data.iloc[1,0], delta = new_activities)
@@ -29,6 +29,7 @@ def overview():
         st.metric(label ='🏃 Total kilometers', value= all_kilometers, delta = new_kilometers)
     with right:
         st.metric(label ='🕛 Total hours', value=all_hours, delta = new_hours)
+    
     
     def select_date():
         select_date = st.date_input(label = "Choose which day's activities you want to display (defaults to today)", key = 'select_date')

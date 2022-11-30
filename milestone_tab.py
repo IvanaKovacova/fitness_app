@@ -37,9 +37,9 @@ def milestone():
             height = 600
         )
         .update_traces(
-            texttemplate = '%{text:.1f} kms',
+            texttemplate = '%{text:.1f} km',
             textposition = 'outside',
-            hovertemplate= '%{x}<br>%{y} kms',
+            hovertemplate= '%{x}<br>%{y} km',
             showlegend=False
         )
         .add_hline(y=1000, line_width = 4, line_color = '#FE6873')
@@ -74,9 +74,9 @@ def milestone():
             width = 1000
         )
         .update_traces(
-            texttemplate = '%{text:.1f} kms',
+            texttemplate = '%{text:.1f} km',
             textposition = 'outside',
-            hovertemplate= '%{x}<br>%{y} kms',
+            hovertemplate= '%{x}<br>%{y} km',
             showlegend=False
         )
         .add_hline(y=200, line_width = 4, line_color = '#FE6873')
@@ -111,9 +111,9 @@ def milestone():
             width = 1000
         )
         .update_traces(
-            texttemplate = '%{text:.1f} kms',
+            texttemplate = '%{text:.1f} km',
             textposition = 'outside',
-            hovertemplate= '%{x}<br>%{y} kms',
+            hovertemplate= '%{x}<br>%{y} km',
             showlegend=False
         )
         .add_hline(y=25, line_width = 4, line_color = '#FE6873')
@@ -150,7 +150,7 @@ def milestone():
         .update_traces(
             texttemplate = '%{text:.0f} activities',
             textposition = 'outside',
-            hovertemplate= '%{x}<br>%{y} kms',
+            hovertemplate= '%{x}<br>%{y} activities',
             showlegend=False
         )
         .add_hline(y=20, line_width = 4, line_color = '#FE6873')
