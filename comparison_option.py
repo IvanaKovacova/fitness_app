@@ -3,8 +3,6 @@ import pandas as pd
 import plotly.express as px
 
 def comparison():
-    st.subheader('Check the graphs to compare yourself with the others')
-    
     df = pd.read_excel('data/data_all.xlsx')
     df['Date'] = df['Date'].dt.date
     

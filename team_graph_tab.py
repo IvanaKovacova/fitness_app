@@ -7,7 +7,6 @@ from comparison_option import comparison
 def team_graph():
     df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team', 'Date', 'Total_points_with_bonus'])
     df['Date'] = df['Date'].dt.date
-    
     list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#66278F','#F8A433','#FE6873', '#9BC438']
     
     # option 1
