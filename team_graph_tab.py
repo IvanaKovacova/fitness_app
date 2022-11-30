@@ -11,7 +11,6 @@ def team_graph():
     list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#66278F','#F8A433','#FE6873', '#9BC438']
     
     # option 1
-    st.subheader('Team points standing')
     data_points = (
         df
         .groupby('Team')['Total_points_with_bonus']

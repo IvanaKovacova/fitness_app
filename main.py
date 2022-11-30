@@ -31,9 +31,9 @@ st.markdown(
 
 with st.sidebar:
     st.image("img/logo.png", width=150)
-    
-    strava_widget = "<h3><iframe allowtransparency frameborder='0' height='300' scrolling='no' src='https://www.strava.com/clubs/995662/latest-rides/84e66ad0283c10bf7ace6e5b31be4058becca9c3?show_rides=false' width='300'></iframe></h3>"
+    strava_widget = "<h3><iframe allowtransparency frameborder='0' height='300' scrolling='yes' src='https://www.strava.com/clubs/995662/latest-rides/84e66ad0283c10bf7ace6e5b31be4058becca9c3?show_rides=false' width='285'></iframe></h3>"
     st.markdown(strava_widget, unsafe_allow_html=True)
+    
 
 tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Graphs & Comparison', 'Milestones Achievement', 'General Information'])
 
@@ -68,11 +68,15 @@ with tab4:
     st.write('>Ivana Kovacova - ivana.kovacova@dell.com')
        
 
+col1, col2, col3, col4 = st.columns(4)
 
 
 last_run = lr.get_last_run_time_stamp()
 now = dt.datetime.utcnow()
 dif = (now - last_run)
 dif_time = td.format_timedelta(dif)
-st.header('')
-st.write(f'Last data update: {dif_time} ago')
+
+with col4:
+    st.header('')
+    st.write(f'Last data update: {dif_time} ago')
+

@@ -58,7 +58,7 @@ df = (
     pd
     .concat([df,df_diff])
     .sort_values(by = ['Date', 'Name'], ignore_index = True)
-    .query('Date >= "2022-08-01"')
+    .query('Date >= "2022-10-01"')
 #    .query('Date <= "2022-11-20"') #replace later
 )
 
