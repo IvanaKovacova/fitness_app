@@ -7,6 +7,64 @@ def comparison():
     df['Date'] = df['Date'].dt.date
     
     # prepare graphs
+    left, mid = st.columns(2)
+    
+    team = left.multiselect(
+        'Team',
+        options = df['Team'].unique(),
+        default = df['Team'].unique()
+        )
+  
+
+    activity = mid.multiselect(
+        'Activity',
+        options = df['Activity'].unique(),
+        default = df['Activity'].unique()
+        )
+    
+    name = st.multiselect(
+        'Name',
+        options=df['Name'].unique(),
+        default = df['Name'].unique()
+        )
+    
+    list_of_colors = ['#00468B', '#0063B8','#0672CB','#1282D6', '#31A2E3', '#5CC1EE', '#94DCF7']
+
+    df_sum = (
+        df
+        .query("Team == @team & Name == @name & Activity == @activity")
+        .groupby('Name')['Total_points_with_bonus'].sum()
+        .reset_index()
+        .sort_values(by = 'Total_points_with_bonus', ascending = False)
+        )
+    
+    fig_comparison_total_points = (
+        px.bar(df_sum, 
+               x = 'Name', 
+               y= 'Total_points_with_bonus', 
+               color_discrete_sequence= list_of_colors,
+               color = 'Name',
+               title = 'Total points',
+               text = 'Total_points_with_bonus'
+               )
+        .update_layout(
+            showlegend=False,
+            title = {
+                'x': 0.5
+                },
+            title_font_size = 24,
+            xaxis_title = '',
+            yaxis_title ='Points',
+            template = 'plotly_white',
+            height = 600
+            )
+        .update_traces(
+            hovertemplate= '%{y} points',
+            texttemplate = '%{y:.0f} pts',
+            textposition = 'outside'
+            )
+        )
+    
     df_show = (
         df
         .query("Team == @team & Name == @name & Activity == @activity")
@@ -27,7 +85,7 @@ def comparison():
                    'Walk': '#F8A433',
                    'Other': '#FE6873'
                    },
-               title = 'Comparison by points'
+               title = 'Points by activity'
                )
         .update_layout(
             title = {
@@ -36,13 +94,14 @@ def comparison():
             title_font_size = 24,
             xaxis_title = '',
             yaxis_title ='Points by activity',
-            template = 'plotly_white'
+            template = 'plotly_white',
+            height = 600
             )
         .update_traces(
             hovertemplate= '%{x}<br>%{y} points'
             )
         )
-    
+
     
     df_time = (
         df
@@ -120,31 +179,12 @@ def comparison():
 
 # page output
     
-    left, mid = st.columns(2)
-    
-    team = left.multiselect(
-        'Team',
-        options = df['Team'].unique(),
-        default = df['Team'].unique()
-        )
-  
-
-    activity = mid.multiselect(
-        'Activity',
-        options = df['Activity'].unique(),
-        default = df['Activity'].unique()
-        )
-    
-    name = st.multiselect(
-        'Name',
-        options=df['Name'].unique(),
-        default = df['Name'].unique()
-        )
     
     type_of_graph = st.selectbox('Select which metric you want to compare', options=['Points', 'Duration', 'Distance'])
 
 
     if type_of_graph == 'Points':
+        st.plotly_chart(fig_comparison_total_points, use_container_width=True)
         st.plotly_chart(fig_comparison_points, use_container_width=True)
     elif type_of_graph == 'Duration':
         st.plotly_chart(fig_comparison_time, use_container_width=True)
