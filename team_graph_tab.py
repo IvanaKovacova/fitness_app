@@ -9,6 +9,23 @@ def team_graph():
     df['Date'] = df['Date'].dt.date
     list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#66278F','#F8A433','#FE6873', '#9BC438']
     
+    data_update_data = pd.read_pickle('data/data_update_data.pkl')
+    
+    new_activities = (data_update_data.iloc[1,0] - data_update_data.iloc[0,0]).astype('str')
+    all_kilometers = data_update_data.iloc[1,1].astype('int').astype('str')
+    new_kilometers = (data_update_data.iloc[1,1] - data_update_data.iloc[0,1]).astype('int').astype('str')
+    all_hours = (data_update_data.iloc[1,2]/60).astype('int').astype('str')
+    new_hours = ((data_update_data.iloc[1,2] - data_update_data.iloc[0,2])/60).astype('int').astype('str')
+    
+    st.subheader('Overall stats')
+    left, mid, right = st.columns(3)
+    with left:
+        st.metric(label ='🏋 Total activities', value=data_update_data.iloc[1,0], delta = new_activities)
+    with mid:
+        st.metric(label ='🏃 Total kilometers', value= all_kilometers, delta = new_kilometers)
+    with right:
+        st.metric(label ='🕛 Total hours', value=all_hours, delta = new_hours)
+        
     # option 1
     data_points = (
         df
