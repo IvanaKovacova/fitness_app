@@ -28,7 +28,7 @@ def comparison():
         default = df['Name'].unique()
         )
     
-    list_of_colors = ['#00468B', '#0063B8','#0672CB','#1282D6', '#31A2E3', '#5CC1EE', '#94DCF7']
+    list_of_colors = ['#0672CB','#5D8C00','#66278F','#F8A433','#FE6873']
 
     df_sum = (
         df
@@ -59,7 +59,7 @@ def comparison():
             height = 600
             )
         .update_traces(
-            hovertemplate= '%{y} points',
+            hovertemplate= '%{y:.0f} points',
             texttemplate = '%{y:.0f} pts',
             textposition = 'outside'
             )
@@ -98,7 +98,7 @@ def comparison():
             height = 600
             )
         .update_traces(
-            hovertemplate= '%{x}<br>%{y} points'
+            hovertemplate= '%{x}<br>%{y:.0f} points'
             )
         )
 
@@ -173,7 +173,7 @@ def comparison():
             template = 'plotly_white'
             )
         .update_traces(
-            hovertemplate= '%{x}<br>%{y} km'
+            hovertemplate= '%{x}<br>%{y:.0f} km'
             )
         )
 

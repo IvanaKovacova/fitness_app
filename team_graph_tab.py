@@ -58,7 +58,8 @@ def team_graph():
         .update_traces(
             showlegend=False,
             textposition='outside',
-            hovertemplate= '%{y} points'
+            hovertemplate= '%{y:.0f} points',
+            texttemplate = '%{y:.0f} pts'
             )
         )
         
@@ -88,7 +89,7 @@ def team_graph():
             title_font_size =24
             )
         .update_traces(
-            hovertemplate= '%{x}<br>%{y} points'
+            hovertemplate= '%{x}<br>%{y:.0f} points'
             )
         )
     

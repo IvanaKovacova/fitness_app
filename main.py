@@ -49,13 +49,10 @@ with tab3:
     milestone()
     
 with tab4:
-    st.subheader('Strava Club Link')
-    def redirect(_url):
-        link = ''
-        st.markdown(link, unsafe_allow_html=True)
+    st.subheader('Links')
+    url='https://www.strava.com/clubs/DCFC'
+    st.write("[Strava Club](%s)" % url)
     
-    if st.button('Go to Strava Club'):
-        redirect('https://www.strava.com/clubs/DCFC')
     
     st.subheader('Downloads')
 

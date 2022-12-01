@@ -59,9 +59,9 @@ def overview():
                 .update_traces(
                     showlegend=False,
                     textposition = 'outside',
-                    texttemplate= "%{label}<br>%{percent}",
+                    texttemplate= "%{label}<br>%{percent:.1%}",
                     selector=dict(type='pie'),
-                    hovertemplate = "%{value} points"
+                    hovertemplate = "%{value:.0f} points"
                     )
                 )
             st.plotly_chart(fig_member_points, use_container_width=True)
@@ -83,7 +83,8 @@ def overview():
              .update_traces(
                  showlegend=False,
                  textposition='outside',
-                 hovertemplate= '%{y} points'
+                 hovertemplate= '%{y:.0f} points',
+                 texttemplate = '%{y:.0f} pts'
                  )
              )
             st.plotly_chart(fig_member_points2, use_container_width=True)
