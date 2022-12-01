@@ -6,30 +6,7 @@ def comparison():
     df = pd.read_excel('data/data_all.xlsx')
     df['Date'] = df['Date'].dt.date
     
-    left, mid = st.columns(2)
-    
-    team = left.multiselect(
-        'Team',
-        options = df['Team'].unique(),
-        default = df['Team'].unique()
-        )
-  
-
-    activity = mid.multiselect(
-        'Activity',
-        options = df['Activity'].unique(),
-        default = df['Activity'].unique()
-        )
-    
-    name = st.multiselect(
-        'Name',
-        options=df['Name'].unique(),
-        default = df['Name'].unique()
-        )
-    
-    type_of_graph = st.selectbox('Select which metric you want to compare', options=['Points', 'Duration', 'Distance'])
-
-   
+    # prepare graphs
     df_show = (
         df
         .query("Team == @team & Name == @name & Activity == @activity")
@@ -140,7 +117,32 @@ def comparison():
             hovertemplate= '%{x}<br>%{y} km'
             )
         )
+
+# page output
     
+    left, mid = st.columns(2)
+    
+    team = left.multiselect(
+        'Team',
+        options = df['Team'].unique(),
+        default = df['Team'].unique()
+        )
+  
+
+    activity = mid.multiselect(
+        'Activity',
+        options = df['Activity'].unique(),
+        default = df['Activity'].unique()
+        )
+    
+    name = st.multiselect(
+        'Name',
+        options=df['Name'].unique(),
+        default = df['Name'].unique()
+        )
+    
+    type_of_graph = st.selectbox('Select which metric you want to compare', options=['Points', 'Duration', 'Distance'])
+
 
     if type_of_graph == 'Points':
         st.plotly_chart(fig_comparison_points, use_container_width=True)
@@ -148,6 +150,3 @@ def comparison():
         st.plotly_chart(fig_comparison_time, use_container_width=True)
     elif type_of_graph == 'Distance':
         st.plotly_chart(fig_comparison_distance, use_container_width=True)
-
-
-    
