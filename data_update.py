@@ -10,6 +10,7 @@ old_length = len(df)
 old_kms = df['Distance'].astype('int64').sum()
 old_mins = (df['duration_hours'].astype('int64').sum())*60 + df['duration_minutes'].astype('int64').sum()
 
+
 # Import new data
 df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9], dtype='object')  
 df_new.rename(columns= {list(df_new)[0]: 'Activity_ID', list(df_new)[1]: 'Activity'}, inplace = True)
@@ -17,11 +18,14 @@ df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Virtual Ride':'Cyclin
                 'Virtual Run': 'Run','Trail Run':'Run',
                 'Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
 df_new.fillna(value = 0, inplace=True)
+df_new['activity_for_points'] = df_new['Activity']
+df_new.loc[(df_new['Activity'] == 'Run') | (df_new['Activity'] == 'Walk'), 'activity_for_points'] = 'Run/Walk'
 
 # get date    
 df_new[['Date', 'Time']] = df_new['Date'].str.split(pat ='T', n =1, expand = True)
 df_new.drop(columns = 'Time', inplace = True)
 df_new['Date'] = pd.to_datetime(df_new['Date'], format="%Y-%m-%d")
+
 
 # rename other activities
 sports = ['Cycling', 'Run', 'Swim', 'Other', 'Walk']
@@ -125,7 +129,31 @@ df_points.loc[df_points['Bonus'] == '2X', 'Total_points_with_bonus'] = df_points
 df_points.loc[df_points['Bonus'] == '3X', 'Total_points_with_bonus'] = df_points['Total_points']*3
 
 # great comeback
-df_points.loc[df_points['Comeback'] == True, 'Total_points_with_bonus'] = df_points['Total_points'] + 100
+df_points.loc[df_points['Comeback'] == True, 'Total_points_with_bonus'] = (df_points['Total_points_with_bonus'] + 100)
+df_points.loc[(df_points['Comeback'] == True) & (df_points['Bonus'] =='2X'), 'Bonus'] = '2X and Comeback'
+df_points.loc[(df_points['Comeback'] == True) & (df_points['Bonus'] =='3X'), 'Bonus'] = '3X and Comeback'
+
+# milestones
+df_points['Distance'] = df_points['Distance'].astype('float')
+df_points['Sum_of_kms'] = df_points.sort_values(by ='Date').groupby(['Name', 'activity_for_points'])['Distance'].transform('cumsum')
+df_points['count_of_activities'] = df_points.sort_values(by = 'Date').groupby(['Name', 'activity_for_points'])['Duration'].transform('cumcount')
+df_points = df_points.sort_values(by =['Name', 'activity_for_points', 'count_of_activities'])
+df_points['previous_km_sum'] = df_points.groupby(['Name', 'activity_for_points'])['Sum_of_kms'].transform(lambda x: x.shift()).fillna(0)
+
+df_points['Milestone'] = False
+df_points.loc[(df_points['activity_for_points'] == 'Run/Walk') & (df_points['previous_km_sum'] < 200) & (df_points['Sum_of_kms'] >= 200), 'Milestone'] = True
+df_points.loc[(df_points['activity_for_points'] == 'Swim') & (df_points['previous_km_sum'] < 25) & (df_points['Sum_of_kms'] >= 25), 'Milestone'] = True
+df_points.loc[(df_points['activity_for_points'] == 'Cycling') & (df_points['previous_km_sum'] < 1000) & (df_points['Sum_of_kms'] >= 1000), 'Milestone'] = True
+df_points.loc[(df_points['activity_for_points'] == 'Other') & (df_points['count_of_activities'] == 19), 'Milestone'] = True
+
+df_points.loc[(df_points['Milestone'] == True), 'Bonus'] = 'Milestone'
+df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='2X'), 'Bonus'] = '2X and Milestone'
+df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='3X'), 'Bonus'] = '3X and Milestone'
+df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='2X and Comeback'), 'Bonus'] = '2X, Milestone, Comeback'
+df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='3X and Comeback'), 'Bonus'] = '3X, Milestone, Comeback'
+
+df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] != 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +1000
+df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] == 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +500
 
 # specify teams
 team_a = ['Jesse Williams', 'Emily Tibbens', 'Renoy Zachariah']
