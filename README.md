@@ -1,6 +1,6 @@
 # fitness_mockup
 
-Versions: <br>
+Versions: <br><br>
 plotly == 5.9.0<br>
 openpyxl == 3.0.10
 <br>
