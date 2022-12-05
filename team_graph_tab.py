@@ -7,7 +7,18 @@ from comparison_option import comparison
 def team_graph():
     df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team', 'Date', 'Total_points_with_bonus'])
     df['Date'] = df['Date'].dt.date
-    list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#66278F','#F8A433','#FE6873', '#9BC438']
+    dic_of_colors = {
+        'Team 1': '#0672CB', 
+        'Team 2': '#FF99A1', 
+        'Team 3':'#5D8C00',
+        'Team 4': '#66278F',
+        'Team 5': '#F8A433',
+        'Team 6': '#D0353F',
+        'Team 7': '#9BC438',
+        'Team 8': '#C47AF4',
+        'Team 9': '#A64600',
+        'Team 10': '#5CC1EE'
+        }
     
     data_update_data = pd.read_pickle('data/data_update_data.pkl')
     
@@ -40,7 +51,7 @@ def team_graph():
                x = 'Team', 
                y= 'Total_points_with_bonus', 
                color= 'Team',
-               color_discrete_sequence = list_of_colors,
+               color_discrete_map = dic_of_colors,
                text= 'Total_points_with_bonus',
                title = '<b>Points by Team</b>',
                
@@ -74,7 +85,7 @@ def team_graph():
                 x = 'Date',
                 y = 'team_points_cum',
                 color = 'Team',
-                color_discrete_sequence = list_of_colors,
+                color_discrete_map = dic_of_colors,
                 title = '<b>Evolution of Team Points</b>',
                 hover_name = 'Team'
                 )
@@ -102,3 +113,6 @@ def team_graph():
         st.plotly_chart(fig_evolution, use_container_width=True)
     elif option == 'Comparison':
         comparison()
+
+    team_df = pd.read_excel('data/teams.xlsx')
+    st.table(team_df)

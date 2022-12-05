@@ -12,10 +12,8 @@ def overview():
         'Total_points_with_bonus': 'Total points including bonus'
         }, inplace=True)
     
-    list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#A8396F', '#F8A433', '#B85200','#DB9EFF', '#8C161F', '#FEC97A', '#66278F', '#FE6873']
+    list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#C47AF4','#A64600', '#5CC1EE', '#D0353F', '#9BC438', '#66278F', '#F8A433']
 
-   
-    
     def select_date():
         select_date = st.date_input(label = "Choose which day's activities you want to display (defaults to today)", key = 'select_date')
         
