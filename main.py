@@ -10,7 +10,7 @@ from team_graph_tab import team_graph
 
 
 st.set_page_config(
-    page_title= 'DADS 100 days fitness challenge', 
+    page_title= 'DADS Fitness Challenge', 
     layout="wide", 
     page_icon= ':sports_medal:'
     )
