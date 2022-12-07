@@ -86,7 +86,7 @@ with tab4:
         st.write('Ivana Kovacova - ivana.kovacova@dell.com')
        
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 
 
 last_run = lr.get_last_run_time_stamp()
@@ -94,7 +94,7 @@ now = dt.datetime.utcnow()
 dif = (now - last_run)
 dif_time = td.format_timedelta(dif)
 
-with col4:
+with col3:
     st.header('')
     st.write(f'Last data update: {dif_time} ago')
 

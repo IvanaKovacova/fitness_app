@@ -14,7 +14,7 @@ old_mins = (df['duration_hours'].astype('int64').sum())*60 + df['duration_minute
 # Import new data
 df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9], dtype='object')  
 df_new.rename(columns= {list(df_new)[0]: 'Activity_ID', list(df_new)[1]: 'Activity'}, inplace = True)
-df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Virtual Ride':'Cycling',
+df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling',
                 'Virtual Run': 'Run','Trail Run':'Run',
                 'Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
 df_new.fillna(value = 0, inplace=True)
@@ -35,10 +35,8 @@ df_new.loc[~df_new['Activity'].isin(sports), 'Activity'] = 'Other'
 df_diff = df_new[~df_new['Activity_ID'].isin(df['Activity_ID'])].copy()
 
 # prep duration and distance data
-# df_diff['Duration'] = pd.to_datetime(df_diff['Duration'])
 df_diff['duration_hours'] = pd.to_datetime(df_diff['Duration']).dt.hour
 df_diff['duration_minutes'] = pd.to_datetime(df_diff['Duration']).dt.minute
-# df_diff.drop(columns = 'Duration', inplace = True)
 df_diff['Day_of_week'] = df_diff['Date'].dt.day_name()
 df_diff['Distance'] = df_diff['Distance'].astype(str).str.replace(pat = ',', repl = '').astype(float).fillna(value = 0)
 df_diff.loc[df_diff['Activity'] == 'Swim', 'Distance'] = df_diff['Distance']/1000
@@ -62,8 +60,8 @@ df = (
     pd
     .concat([df,df_diff])
     .sort_values(by = ['Date', 'Name'], ignore_index = True)
-    .query('Date >= "2022-10-01"')
-#    .query('Date <= "2022-11-20"') #replace later
+    .query('Date >= "2022-12-10"')
+    .query('Date <= "2023-03-19"') 
 )
 
 # choose top 2 activities for each person
@@ -108,7 +106,7 @@ df_points['Bonus'] = 'None'
 df_points.loc[(df_points['Day_of_week'] == 'Saturday') | (df_points['Day_of_week'] == 'Sunday'), 'Bonus'] = '2X'
 
 # 3X
-triple_x_list = ['2022-11-17T00:00:00.000000000', '2022-11-21T00:00:00.000000000']
+triple_x_list = ['2022-12-10T00:00:00.000000000', '2023-01-01T00:00:00.000000000', '2023-01-02T00:00:00.000000000', '2023-01-03T00:00:00.000000000', '2023-03-19T00:00:00.000000000']
 df_points.loc[df_points['Date'].isin(triple_x_list), 'Bonus'] = '3X'
 
 # create calculation of days between activities for the great comeback award
@@ -147,10 +145,10 @@ df_points.loc[(df_points['activity_for_points'] == 'Cycling') & (df_points['prev
 df_points.loc[(df_points['activity_for_points'] == 'Other') & (df_points['count_of_activities'] == 19), 'Milestone'] = True
 
 df_points.loc[(df_points['Milestone'] == True), 'Bonus'] = 'Milestone'
-df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='2X'), 'Bonus'] = '2X and Milestone'
-df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='3X'), 'Bonus'] = '3X and Milestone'
-df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='2X and Comeback'), 'Bonus'] = '2X, Milestone, Comeback'
-df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] =='3X and Comeback'), 'Bonus'] = '3X, Milestone, Comeback'
+df_points.loc[(df_points['Milestone'] == True) & ((df_points['Day_of_week'] == 'Saturday') | (df_points['Day_of_week'] == 'Sunday')), 'Bonus'] = '2X and Milestone'
+df_points.loc[(df_points['Milestone'] == True) & df_points['Date'].isin(triple_x_list), 'Bonus'] = '3X and Milestone'
+df_points.loc[(df_points['Milestone'] == True) & ((df_points['Day_of_week'] == 'Saturday') | (df_points['Day_of_week'] == 'Sunday')) & (df_points['Comeback'] == True), 'Bonus'] = '2X, Milestone, Comeback'
+df_points.loc[(df_points['Milestone'] == True) & df_points['Date'].isin(triple_x_list) & (df_points['Comeback'] == True), 'Bonus'] = '3X, Milestone, Comeback'
 
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] != 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +1000
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] == 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +500
@@ -159,11 +157,11 @@ df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points
 team_1 = ['Fernanda Mattei', 'Karthik Gunda', 'tinku sand', 'Manish Shetty', 'Abhishek Singh', 'Dio Goldoni', 'Krushi Punyamantula', 'Prerna Dewale', 'Victor Caetano']
 team_2 = ['Jesse Williams', 'Manoj M','Antônio Ravazzolo', 'Aditya Aggarwal', 'Anjana Prem kumar', 'Aswani Gande', 'kunjal gosar', 'Rafael Fraga Mohr', 'Sravan Katepalli']
 team_3 = ['Madhav Parashar', 'Fabia Zarballa', 'Vaibhav Chandan', 'Anvesh Kalia', 'Aarzoo Tandon', 'Ashwini Maddala', 'Leela Krishna', 'Rahul Roy Choudhury', 'Simon Talapa']
-team_4 = ['Andrew CD', 'Brian Fitzgerald', 'Sowjanya Sowji', 'Craig Friedman', 'Aditi Bhardya', 'Balaji Venkatesh', 'Felipe Garcez', 'Rajat Sadanand', 'Suparna Lala']
-team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'DIVYA TALUR', 'Marco Martins', 'Ravinder Singh Bisht', 'Tejaswini Sira']
+team_4 = ['Andrew CD', 'Brian Fitzgerald', 'Sowjanya Sowji', 'craig friedman', 'Aditi Bhardya', 'Balaji Venkatesh', 'Felipe Garcez', 'Rajat Sadanand', 'Suparna Lala']
+team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'DIVYA TALUR', 'Marco Martins', 'RAVINDER SINGH BISHT', 'Tejaswini Sira']
 team_6 = ['Shailesh abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Matheus Avila', 'Renoy Zachariah', 'Tushar Bhandari']
 team_7 = ['manimegalai kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'Santhoshraghavan Subramanian', 'Sree Kothapalli']
-team_8 = ['Prabal Paul', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj Sp', 'Yesrat Rahman']
+team_8 = ['Prabal Paul', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj SP', 'Yesrat Rahman']
 team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'sathyanarayanan ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'Will Matheson']
 team_10 = ['Som Shubham Sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
 
@@ -179,8 +177,6 @@ df_points.loc[df_points['Name'].isin(team_7), 'Team'] = 'Team 7'
 df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'Team 8'
 df_points.loc[df_points['Name'].isin(team_9), 'Team'] = 'Team 9'
 df_points.loc[df_points['Name'].isin(team_10), 'Team'] = 'Team 10'
-
-
 
 # save old and new data
 new_length = len(df_points)

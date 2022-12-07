@@ -1,81 +1,21 @@
-"Athlete","Activity", "Type","Location","Name","Date","Distance","Pace","Unit","Duration","Elev","Calo","EstPace","EstSpeed"
-"/athletes/100629210","/activities/8213151540","Workout","Morning Workout","Abhishek Singh","2022-12-06T10:19:00.000+01:00","","","","00:38:30","","284","",""
-"/athletes/94332495","/activities/8213001710","Run","Morning run · Bengaluru, India","Renoy Zachariah","2022-12-06T08:53:00.000+01:00","1.63","9:20","km","00:15:14","","","9:20","6.4"
-"/athletes/95444598","/activities/8212830994","Walk","Morning Walk · Bengaluru, India","Manoj M","2022-12-06T07:07:00.000+01:00","1.10","","km","00:14:11","8","","12:53","4.7"
-"/athletes/47182741","/activities/8212786472","Ride","Solo polo · Philadelphia, USA","Andrew CD","2022-12-05T19:37:00.000+01:00","9.15","","km","00:44:17","49","","4:50","12.4"
-"/athletes/111254054","/activities/8212579495","Hike","Afternoon Hike · Los Angeles, USA","Allen Mills","2022-12-05T16:04:00.000+01:00","8.21","","km","00:00:58","0","","0:07","509.6"
-"/athletes/80921500","/activities/8211511285","Weight Training","Evening Weight Training","Juraj Mečír","2022-12-05T18:13:00.000+01:00","","","","01:31:00","","686","",""
-"/athletes/94332657","/activities/8211473579","Run","Lunch Run","Jesse Williams","2022-12-05T11:10:00.000+01:00","6.96","4:20","km","00:30:08","","","4:19","13.9"
-"/athletes/25025384","/activities/8209137192","Virtual Ride","Zwift - Welcome Workout in Watopia","Madhav Parashar","2022-12-05T10:20:00.000+01:00","17.93","","km","00:50:08","71","","2:47","21.5"
-"/athletes/95444598","/activities/8208795591","Walk","Morning Walk · Bengaluru, India","Manoj M","2022-12-05T06:02:00.000+01:00","1.30","","km","00:18:22","8","","14:07","4.2"
-"/athletes/94332657","/activities/8208562737","Run","Afternoon Run","Jesse Williams","2022-12-04T15:32:00.000+01:00","5.66","4:22","km","00:24:43","","","4:22","13.7"
-"/athletes/47182741","/activities/8208013953","Ride","Sunday bike polo · Philadelphia, USA","Andrew CD","2022-12-04T09:54:00.000+01:00","32.54","","km","03:13:00","239","","5:55","10.1"
-"/athletes/100596399","/activities/8205164889","Weight Training","Morning Weight Training","Ivana Kovacova","2022-12-04T10:36:00.000+01:00","","","","00:41:00","","230","",""
-"/athletes/100596399","/activities/8204941953","Trail Run","Pre-strength training warm up · District of Trenčín, Region of Trenčín","Ivana Kovacova","2022-12-04T10:20:00.000+01:00","1.27","8:14","km","00:10:28","","","8:14","7.3"
-"/athletes/80921500","/activities/8204697175","Walk","Morning Walk · District of Piešťany, Region of Trnava","Juraj Mečír","2022-12-04T08:22:00.000+01:00","2.63","","km","00:42:07","19","","16:00","3.7"
-"/athletes/79541758","/activities/8204424538","Walk","Morning Walk · S.A.S. Nagar (Mohali) Tahsil, India","Sanjay K","2022-12-04T08:31:00.000+01:00","8.72","","km","01:48:00","107","","12:23","4.8"
-"/athletes/94332495","/activities/8204213352","Walk","Morning walk · Bengaluru, India","Renoy Zachariah","2022-12-04T07:15:00.000+01:00","4.00","","km","00:43:19","15","","10:49","5.5"
-"/athletes/47182741","/activities/8203758708","Run","Afternoon Run · Philadelphia, USA","Andrew CD","2022-12-03T17:37:00.000+01:00","4.95","4:26","km","00:21:57","","","4:26","13.5"
-"/athletes/93272730","/activities/8208970853","Swim","Afternoon Swim","Satish Patil","2022-12-03T15:58:00.000+01:00","1,000","3:06","m","00:31:08","","","3:06/100m","1.9"
-"/athletes/94332657","/activities/8203616524","Run","Afternoon Run","Jesse Williams","2022-12-03T14:34:00.000+01:00","6.49","4:38","km","00:30:06","","","4:38","12.9"
-"/athletes/74529016","/activities/8201545035","Run","Morning Run · Porto Alegre, Brazil","Rafael Fraga Mohr","2022-12-03T09:12:00.000+01:00","5.35","6:10","km","00:32:58","","","6:09","9.7"
-"/athletes/100596399","/activities/8200981642","Trail Run","Hill sprints · District of Trenčín, Region of Trenčín","Ivana Kovacova","2022-12-03T10:50:00.000+01:00","8.49","7:30","km","01:03:00","","","7:25","8.1"
-"/athletes/25025384","/activities/8200959370","Virtual Ride","Zwift - The Long Ride - Spiked Base in France","Madhav Parashar","2022-12-03T14:45:00.000+01:00","39.36","","km","01:35:00","245","","2:24","24.9"
-"/athletes/80921500","/activities/8200137058","Run","Morning Run · District of Piešťany, Region of Trnava","Juraj Mečír","2022-12-03T06:59:00.000+01:00","4.25","6:17","km","00:26:43","","","6:17","9.5"
-"/athletes/79541758","/activities/8200069736","Walk","Morning Walk","Sanjay K","2022-12-03T09:44:00.000+01:00","5.77","","km","01:17:00","46","","13:20","4.5"
-"/athletes/100629210","/activities/8200063503","Workout","Morning Workout","Abhishek Singh","2022-12-03T10:41:00.000+01:00","","","","00:23:02","","182","",""
-"/athletes/100629210","/activities/8200034441","Weight Training","Morning Weight Training","Abhishek Singh","2022-12-03T10:07:00.000+01:00","","","","00:30:46","","128","",""
-"/athletes/110803027","/activities/8212732282","Run","Morning Run · Bengaluru, India","tinku sand","2022-12-03T07:27:00.000+01:00","3.37","8:50","km","00:29:47","","","8:50","6.8"
-"/athletes/41252175","/activities/8199869881","Run","Morning Run","Shailesh abecedarian","2022-12-03T06:03:00.000+01:00","13.00","7:23","km","01:36:00","","","7:23","8.1"
-"/athletes/110803027","/activities/8199769302","Run","1run · Bengaluru, India","tinku sand","2022-11-22T06:23:00.000+01:00","15.34","5:05","km","01:17:00","","","5:01","12.0"
-"/athletes/94332657","/activities/8198625551","Run","Lunch Run","Jesse Williams","2022-12-02T11:07:00.000+01:00","7.03","4:20","km","00:30:28","","","4:20","13.8"
-"/athletes/111223184","/activities/8197428798","Walk","Afternoon Walk · Rajganj, India","Palak Agarwal","2022-12-02T18:16:00.000+01:00","0.80","","km","00:11:00","3","","13:45","4.4"
-"/athletes/80921500","/activities/8196506911","Run","Morning Run · District of Piešťany, Region of Trnava","Juraj Mečír","2022-12-02T08:09:00.000+01:00","5.01","5:56","km","00:29:45","","","5:56","10.1"
-"/athletes/25025384","/activities/8196250393","Virtual Ride","Zwift - Zone Benchmarking in Makuri Islands","Madhav Parashar","2022-12-02T10:30:00.000+01:00","10.69","","km","00:30:11","100","","2:49","21.3"
-"/athletes/100629210","/activities/8196193677","Workout","Morning Workout","Abhishek Singh","2022-12-02T09:31:00.000+01:00","","","","00:39:29","","419","",""
-"/athletes/47182741","/activities/8196097073","Ride","Polo · Philadelphia, USA","Andrew CD","2022-12-01T18:28:00.000+01:00","28.61","","km","02:37:00","156","","5:29","10.9"
-"/athletes/94332495","/activities/8196088471","Run","Morning run · Bengaluru, India","Renoy Zachariah","2022-12-02T07:55:00.000+01:00","5.36","9:52","km","00:52:59","","","9:53","6.1"
-"/athletes/41252175","/activities/8195993688","Run","Morning Run","Shailesh abecedarian","2022-12-02T07:03:00.000+01:00","1.41","9:58","km","00:14:04","","","9:58","6.0"
-"/athletes/41252175","/activities/8195993373","Run","Morning Run 13 kms Tempo","Shailesh abecedarian","2022-12-02T05:57:00.000+01:00","13.02","4:59","km","01:04:00","","","4:54","12.2"
-"/athletes/93272730","/activities/8197471120","Swim","Evening Swim","Satish Patil","2022-12-01T19:01:00.000+01:00","","","","00:30:26","","","",""
-"/athletes/41252175","/activities/8195993594","Run","Morning Run","Shailesh abecedarian","2022-12-02T05:38:00.000+01:00","2.13","8:01","km","00:17:07","","","8:02","7.5"
-"/athletes/94335999","/activities/8194651217","Walk","Evening Walk · The Metropolitan District of Limerick City, Ireland","Brian Fitzgerald","2022-12-01T18:01:00.000+01:00","3.89","","km","00:51:27","29","","13:13","4.5"
-"/athletes/94332657","/activities/8194577545","Run","Lunch Run","Jesse Williams","2022-12-01T11:20:00.000+01:00","5.14","4:28","km","00:22:57","","","4:27","13.4"
-"/athletes/100596399","/activities/8192848827","Run","Fartlek · District of Bratislava IV, Region of Bratislava","Ivana Kovacova","2022-12-01T11:13:00.000+01:00","9.72","6:33","km","01:03:00","","","6:28","9.3"
-"/athletes/94332495","/activities/8191881508","Walk","Morning walk  · Bengaluru, India","Renoy Zachariah","2022-12-01T08:47:00.000+01:00","4.79","","km","00:49:32","21","","10:20","5.8"
-"/athletes/94916427","/activities/8191438311","Weight Training","Weight lifting ","Antônio Ravazzolo","2022-11-30T19:10:00.000+01:00","","","","02:03:00","","","",""
-"/athletes/94332657","/activities/8191253189","Run","Afternoon Run","Jesse Williams","2022-11-30T15:35:00.000+01:00","6.45","4:22","km","00:28:10","","","4:22","13.7"
-"/athletes/100596399","/activities/8189818849","Run","Recovery run · District of Bratislava I, Region of Bratislava","Ivana Kovacova","2022-11-30T17:10:00.000+01:00","5.02","8:25","km","00:42:18","","","8:25","7.1"
-"/athletes/85362332","/activities/8189596637","Crossfit","Morning functional training (soccer)","Fernanda Mattei","2022-11-30T06:00:00.000+01:00","","","","00:50:00","","","",""
-"/athletes/80921500","/activities/8187994415","Run","Morning Run · District of Piešťany, Region of Trnava","Juraj Mečír","2022-11-30T08:41:00.000+01:00","4.00","6:04","km","00:24:16","","","6:03","9.9"
-"/athletes/25025384","/activities/8187571038","Virtual Ride","Ramp Test in Watopia","Madhav Parashar","2022-11-30T09:34:00.000+01:00","8.26","","km","00:22:20","38","","2:42","22.2"
-"/athletes/94332495","/activities/8187531249","Run","Morning walk · Bengaluru, India","Renoy Zachariah","2022-11-30T08:59:00.000+01:00","4.06","10:14","km","00:41:37","","","10:15","5.9"
-"/athletes/41252175","/activities/8187291836","Run","Morning Run","Shailesh abecedarian","2022-11-30T05:36:00.000+01:00","12.02","7:01","km","01:24:00","","","6:59","8.6"
-"/athletes/47182741","/activities/8186906956","Walk","Afternoon Walk · Philadelphia, USA","Andrew CD","2022-11-29T17:33:00.000+01:00","2.02","","km","00:21:23","28","","10:35","5.7"
-"/athletes/94332657","/activities/8185888804","Run","Lunch Run","Jesse Williams","2022-11-29T11:40:00.000+01:00","5.06","4:19","km","00:21:49","","","4:18","13.9"
-"/athletes/94335999","/activities/8186151108","Walk","Afternoon Walk · The Metropolitan District of Limerick City, Ireland","Brian Fitzgerald","2022-11-29T17:46:00.000+01:00","3.32","","km","00:47:07","26","","14:11","4.2"
-"/athletes/47182741","/activities/8185312588","Run","Lunch Run · Philadelphia, USA","Andrew CD","2022-11-29T11:37:00.000+01:00","6.82","4:41","km","00:31:56","","","4:40","12.8"
-"/athletes/100596399","/activities/8185151044","Weight Training","Afternoon Weight Training","Ivana Kovacova","2022-11-29T16:12:00.000+01:00","","","","01:18:00","","384","",""
-"/athletes/111167294","/activities/8184323364","Workout","Workout","Rahul Roy Choudhury","2022-11-29T15:47:00.000+01:00","","","","01:23:00","","","",""
-"/athletes/100596399","/activities/8183169148","Run","Indoor Run & Running Technique 6","Ivana Kovacova","2022-11-29T07:03:00.000+01:00","3.40","16:05","km","00:54:45","","","16:06","3.7"
-"/athletes/79541758","/activities/8182872100","Walk","Morning Walk","Sanjay K","2022-11-29T09:00:00.000+01:00","3.37","","km","00:45:12","24","","13:24","4.5"
-"/athletes/95362701","/activities/8182838832","Walk","Morning walk  · Rourkela, India","Subramita Dash","2022-11-29T09:02:00.000+01:00","2.80","","km","00:35:38","12","","12:43","4.7"
-"/athletes/41252175","/activities/8182665046","Run","Morning Run · Mulshi, India","Shailesh abecedarian","2022-11-29T05:53:00.000+01:00","11.04","7:21","km","01:21:00","","","7:20","8.2"
-"/athletes/94916427","/activities/8182239571","Weight Training","Weight lifting ","Antônio Ravazzolo","2022-11-28T19:00:00.000+01:00","","","","01:26:00","","","",""
-"/athletes/80921500","/activities/8181704614","Walk","Night Walk · District of Piešťany, Region of Trnava","Juraj Mečír","2022-11-28T21:02:00.000+01:00","2.26","","km","00:28:19","20","","12:31","4.8"
-"/athletes/94335999","/activities/8181107979","Walk","Evening Walk · The Metropolitan District of Limerick City, Ireland","Brian Fitzgerald","2022-11-28T17:56:00.000+01:00","2.38","","km","00:32:52","16","","13:48","4.3"
-"/athletes/94332657","/activities/8180960473","Run","Morning Run","Jesse Williams","2022-11-28T10:33:00.000+01:00","5.53","4:06","km","00:22:44","","","4:06","14.6"
-"/athletes/85362332","/activities/8181350349","Crossfit","Morning functional training","Fernanda Mattei","2022-11-28T06:00:00.000+01:00","","","","00:45:00","","","",""
-"/athletes/25025384","/activities/8178495375","Workout","Morning Workout","Madhav Parashar","2022-11-28T07:38:00.000+01:00","","","","00:36:01","","150","",""
-"/athletes/94332657","/activities/8177685500","Run","Day 373: Treadmill 313","Jesse Williams","2022-11-27T12:53:00.000+01:00","8.37","4:04","km","00:34:05","","","4:04","14.7"
-"/athletes/80921500","/activities/8177647105","Walk","Evening Walk · District of Piešťany, Region of Trnava","Juraj Mečír","2022-11-27T20:48:00.000+01:00","2.02","","km","00:26:18","14","","13:01","4.6"
-"/athletes/47182741","/activities/8176638691","Run","Morning Run · Philadelphia, USA","Andrew CD","2022-11-27T10:32:00.000+01:00","4.98","4:57","km","00:24:42","","","4:57","12.1"
-"/athletes/25025384","/activities/8175266176","Workout","Dumbbell fat loss workout","Madhav Parashar","2022-11-27T16:51:00.000+01:00","","","","00:35:44","","284","",""
-"/athletes/100596399","/activities/8175076489","Trail Run","Home hills · District of Bratislava III, Region of Bratislava","Ivana Kovacova","2022-11-27T10:23:00.000+01:00","15.32","","km","02:02:00","388","","7:57","7.5"
-"/athletes/80921500","/activities/8174011391","Run","Morning Run · District of Piešťany, Region of Trnava","Juraj Mečír","2022-11-27T08:09:00.000+01:00","5.19","6:26","km","00:33:24","","","6:26","9.3"
-"/athletes/79541758","/activities/8173685888","Walk","Morning Walk","Sanjay K","2022-11-27T08:13:00.000+01:00","6.15","","km","01:14:00","71","","12:01","5.0"
-"/athletes/41252175","/activities/8173655441","Run","Morning Run · Pune City, India","Shailesh abecedarian","2022-11-27T07:43:00.000+01:00","2.16","9:01","km","00:19:32","","","9:02","6.6"
-"/athletes/41252175","/activities/8173655965","Run","Morning Run · Mulshi, India","Shailesh abecedarian","2022-11-27T06:02:00.000+01:00","17.07","5:51","km","01:39:00","","","5:47","10.3"
-"/athletes/94332657","/activities/8173246088","Run","Day 372: Treadmill 312","Jesse Williams","2022-11-26T16:36:00.000+01:00","7.03","4:35","km","00:32:15","","","4:35","13.1"
-"/athletes/25025384","/activities/8169446735","Ride","Mahabs and village roads exploration ride · Alandur, India","Madhav Parashar","2022-11-26T06:26:00.000+01:00","126.40","","km","06:40:00","227","","3:09","19.0"
-"/athletes/80921500","/activities/8169336939","Run","Morning Run · District of Piešťany, Region of Trnava","Juraj Mečír","2022-11-26T07:57:00.000+01:00","11.03","6:47","km","01:14:00","","","6:42","8.9"
+Athlete,Activity," ""Type""",Location,Name,Date,Distance,Pace,Unit,Duration,Elev,Calo,EstPace,EstSpeed
+/athletes/100629210,/activities/8213151540,Workout,Morning Workout,Abhishek Singh,2022-12-06T10:19:00.000+01:00,,,,0:38:30,,284,,
+/athletes/94332495,/activities/8213001710,Run,"Morning run · Bengaluru, India",Renoy Zachariah,2022-12-06T08:53:00.000+01:00,1.63,9:20,km,0:15:14,,,9:20,6.4
+/athletes/95444598,/activities/8212830994,Walk,"Morning Walk · Bengaluru, India",Manoj M,2022-12-06T07:07:00.000+01:00,1.1,,km,0:14:11,8,,12:53,4.7
+/athletes/47182741,/activities/8212786472,Ride,"Solo polo · Philadelphia, USA",Andrew CD,2022-12-15T19:37:00.000+01:00,9.15,,km,0:44:17,49,,4:50,12.4
+/athletes/111254054,/activities/8212579495,Hike,"Afternoon Hike · Los Angeles, USA",Allen Mills,2022-12-05T16:04:00.000+01:00,8.21,,km,0:00:58,0,,0:07,509.6
+/athletes/80921500,/activities/8211511285,Weight Training,Evening Weight Training,Juraj Mečír,2022-12-05T18:13:00.000+01:00,,,,1:31:00,,686,,
+/athletes/94332657,/activities/8211473579,Run,Lunch Run,Jesse Williams,2022-12-05T11:10:00.000+01:00,6.96,4:20,km,0:30:08,,,4:19,13.9
+/athletes/25025384,/activities/8209137192,Virtual Ride,Zwift - Welcome Workout in Watopia,Madhav Parashar,2022-12-05T10:20:00.000+01:00,17.93,,km,0:50:08,71,,2:47,21.5
+/athletes/95444598,/activities/8208795591,Walk,"Morning Walk · Bengaluru, India",Manoj M,2022-12-05T06:02:00.000+01:00,1.3,,km,0:18:22,8,,14:07,4.2
+/athletes/94332657,/activities/8208562737,Run,Afternoon Run,Jesse Williams,2022-12-04T15:32:00.000+01:00,5.66,4:22,km,0:24:43,,,4:22,13.7
+/athletes/47182741,/activities/8208013953,Ride,"Sunday bike polo · Philadelphia, USA",Andrew CD,2022-12-04T09:54:00.000+01:00,32.54,,km,3:13:00,239,,5:55,10.1
+/athletes/100596399,/activities/8205164889,Weight Training,Morning Weight Training,Ivana Kovacova,2022-12-04T10:36:00.000+01:00,,,,0:41:00,,230,,
+/athletes/100596399,/activities/8204941953,Trail Run,"Pre-strength training warm up · District of Trenčín, Region of Trenčín",Ivana Kovacova,2022-12-04T10:20:00.000+01:00,1.27,8:14,km,0:10:28,,,8:14,7.3
+/athletes/80921500,/activities/8204697175,Walk,"Morning Walk · District of Piešťany, Region of Trnava",Juraj Mečír,2022-12-04T08:22:00.000+01:00,2.63,,km,0:42:07,19,,16:00,3.7
+/athletes/79541758,/activities/8204424538,Walk,"Morning Walk · S.A.S. Nagar (Mohali) Tahsil, India",Sanjay K,2022-12-04T08:31:00.000+01:00,8.72,,km,1:48:00,107,,12:23,4.8
+/athletes/94332495,/activities/8204213352,Walk,"Morning walk · Bengaluru, India",Renoy Zachariah,2022-12-04T07:15:00.000+01:00,4,,km,0:43:19,15,,10:49,5.5
+/athletes/47182741,/activities/8203758708,Run,"Afternoon Run · Philadelphia, USA",Andrew CD,2022-12-03T17:37:00.000+01:00,4.95,4:26,km,0:21:57,,,4:26,13.5
+/athletes/93272730,/activities/8208970853,Swim,Afternoon Swim,Satish Patil,2022-12-03T15:58:00.000+01:00,"1,000",3:06,m,0:31:08,,,3:06/100m,1.9
+/athletes/94332657,/activities/8203616524,Run,Afternoon Run,Jesse Williams,2022-12-03T14:34:00.000+01:00,6.49,4:38,km,0:30:06,,,4:38,12.9
+/athletes/74529016,/activities/8201545035,Run,"Morning Run · Porto Alegre, Brazil",Rafael Fraga Mohr,2022-12-03T09:12:00.000+01:00,5.35,6:10,km,0:32:58,,,6:09,9.7
