@@ -160,9 +160,9 @@ team_3 = ['Madhav Parashar', 'Fabia Zarballa', 'Vaibhav Chandan', 'Anvesh Kalia'
 team_4 = ['Andrew CD', 'Brian Fitzgerald', 'Sowjanya Sowji', 'craig friedman', 'Aditi Bhardya', 'Balaji Venkatesh', 'Felipe Garcez', 'Rajat Sadanand', 'Suparna Lala']
 team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'DIVYA TALUR', 'Marco Martins', 'RAVINDER SINGH BISHT', 'Tejaswini Sira']
 team_6 = ['Shailesh abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Matheus Avila', 'Renoy Zachariah', 'Tushar Bhandari']
-team_7 = ['manimegalai kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'Santhoshraghavan Subramanian', 'Sree Kothapalli']
+team_7 = ['manimegalai kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'S Santhoshraghavan', 'Sree Kothapalli']
 team_8 = ['Prabal Paul', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj SP', 'Yesrat Rahman']
-team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'sathyanarayanan ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'Will Matheson']
+team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'sathyanarayanan ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'William Matheson']
 team_10 = ['Som Shubham Sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
 
 # assign teams

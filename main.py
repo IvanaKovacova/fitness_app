@@ -7,6 +7,7 @@ import plotly.express as px
 from milestone_tab import milestone
 from overview_tab import overview
 from team_graph_tab import team_graph
+from text_tabs import general, faq
 
 
 st.set_page_config(
@@ -37,10 +38,17 @@ with st.sidebar:
 
 df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Activity', 'Date'])
 if len(df) < 2:
-    st.header('There are no data to display yet')
+    tab1, tab2, tab3 = st.tabs(['Home', 'FAQ', 'General Information'])
+    with tab1:
+        st.header('There are no data to display yet')
+    with tab2:
+        faq()
+        
+    with tab3:
+        general()     
 else:
     
-    tab1, tab2, tab3, tab4 = st.tabs(['Team Standings','Activities Overview', 'Milestones Achievement', 'General Information'])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(['Team Standings','Activities Overview', 'Milestones Achievement', 'General Information'])
     
     with tab1:  
         team_graph()
@@ -53,41 +61,10 @@ else:
         milestone()
         
     with tab4:
-        st.subheader('Links')
-        url='https://www.strava.com/clubs/DCFC'
-        st.write("[Strava Club](%s)" % url)
+        faq()
         
-        
-        st.subheader('Downloads')
-    
-        with open("data/rulebook.pdf", "rb") as pdf_file:
-            pdf = pdf_file.read()
-            
-        st.download_button(label="Download Rulebook",
-                           data=pdf,
-                           file_name="Rulebook.pdf",
-                           mime='application/octet-stream')
-            
-        with open("data/Fitness Challenge.pdf", "rb") as pdf_file:
-            pdf = pdf_file.read()
-    
-        st.download_button(label="Download Points Calculation Overview",
-                           data=pdf,
-                           file_name="Fitness Challenge.pdf",
-                           mime='application/octet-stream')
-        
-        st.subheader('Contacts')
-        col1, col2, col3 = st.columns(3)
-    
-        with col1:
-            st.markdown('***If you have any questions contact:***')
-            st.write('Subramita Dash - subramita_dash@dell.com')
-            st.write('Madhav Parashar - madhav_parashar@dell.com')
-            st.write('Sanjay Kumar - sanjay_kumar29@dell.com')
-            st.write('Ivana Kovacova - ivana.kovacova@dell.com')
-        with col2:
-            st.markdown('***For issues with the app:***')
-            st.write('Ivana Kovacova - ivana.kovacova@dell.com')
+    with tab5:
+        general()     
        
 
 col1, col2, col3 = st.columns(3)
