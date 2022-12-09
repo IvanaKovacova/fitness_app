@@ -41,6 +41,7 @@ if len(df) < 2:
     tab1, tab2, tab3 = st.tabs(['Home', 'FAQ', 'General Information'])
     with tab1:
         st.header('There are no data to display yet')
+        st.subheader('Please come back on Monday')
     with tab2:
         faq()
         

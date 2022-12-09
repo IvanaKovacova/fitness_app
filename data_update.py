@@ -156,10 +156,10 @@ df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points
 # specify teams
 team_1 = ['Fernanda Mattei', 'Karthik Gunda', 'tinku sand', 'Manish Shetty', 'Abhishek Singh', 'Dio Goldoni', 'Krushi Punyamantula', 'Prerna Dewale', 'Victor Caetano']
 team_2 = ['Jesse Williams', 'Manoj M','Antônio Ravazzolo', 'Aditya Aggarwal', 'Anjana Prem kumar', 'Aswani Gande', 'kunjal gosar', 'Rafael Fraga Mohr', 'Sravan Katepalli']
-team_3 = ['Madhav Parashar', 'Fabia Zarballa', 'Vaibhav Chandan', 'Anvesh Kalia', 'Aarzoo Tandon', 'Ashwini Maddala', 'Leela Krishna', 'Rahul Roy Choudhury', 'Simon Talapa']
+team_3 = ['Madhav Parashar', 'Fabia Zarballa', 'Vaibhav Chandan', 'Anvesh Kalia', 'Aarzoo Tandon', 'Ashwini Maddala', 'leela krishna', 'Rahul Roy Choudhury', 'Simon Talapa']
 team_4 = ['Andrew CD', 'Brian Fitzgerald', 'Sowjanya Sowji', 'craig friedman', 'Aditi Bhardya', 'Balaji Venkatesh', 'Felipe Garcez', 'Rajat Sadanand', 'Suparna Lala']
 team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'DIVYA TALUR', 'Marco Martins', 'RAVINDER SINGH BISHT', 'Tejaswini Sira']
-team_6 = ['Shailesh abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Matheus Avila', 'Renoy Zachariah', 'Tushar Bhandari']
+team_6 = ['Shailesh abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Isha Kanani', 'Renoy Zachariah', 'Tushar Bhandari']
 team_7 = ['manimegalai kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'S Santhoshraghavan', 'Sree Kothapalli']
 team_8 = ['Prabal Paul', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj SP', 'Yesrat Rahman']
 team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'sathyanarayanan ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'William Matheson']
@@ -167,15 +167,15 @@ team_10 = ['Som Shubham Sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Ano
 
 # assign teams
 df_points['Team'] ='no team'
-df_points.loc[df_points['Name'].isin(team_1), 'Team'] = 'Team 1'
+df_points.loc[df_points['Name'].isin(team_1), 'Team'] = 'Pace Makers'
 df_points.loc[df_points['Name'].isin(team_2), 'Team'] = 'Team 2'
-df_points.loc[df_points['Name'].isin(team_3), 'Team'] = 'Team 3'
-df_points.loc[df_points['Name'].isin(team_4), 'Team'] = 'Team 4'
-df_points.loc[df_points['Name'].isin(team_5), 'Team'] = 'Team 5'
+df_points.loc[df_points['Name'].isin(team_3), 'Team'] = 'The Gladeaters'
+df_points.loc[df_points['Name'].isin(team_4), 'Team'] = 'Flab-u-less'
+df_points.loc[df_points['Name'].isin(team_5), 'Team'] = 'Unstoppable 9'
 df_points.loc[df_points['Name'].isin(team_6), 'Team'] = 'Team 6'
-df_points.loc[df_points['Name'].isin(team_7), 'Team'] = 'Team 7'
+df_points.loc[df_points['Name'].isin(team_7), 'Team'] = 'The Pokemons'
 df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'Team 8'
-df_points.loc[df_points['Name'].isin(team_9), 'Team'] = 'Team 9'
+df_points.loc[df_points['Name'].isin(team_9), 'Team'] = "Fit don't Quit"
 df_points.loc[df_points['Name'].isin(team_10), 'Team'] = 'Team 10'
 
 # save old and new data
