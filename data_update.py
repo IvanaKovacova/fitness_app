@@ -60,8 +60,8 @@ df = (
     pd
     .concat([df,df_diff])
     .sort_values(by = ['Date', 'Name'], ignore_index = True)
-    .query('Date >= "2022-12-10"')
-    .query('Date <= "2023-03-19"') 
+#    .query('Date >= "2022-12-10"')
+#    .query('Date <= "2023-03-19"') 
 )
 
 # choose top 2 activities for each person
