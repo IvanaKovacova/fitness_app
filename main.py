@@ -49,7 +49,7 @@ if len(df) < 2:
         general()     
 else:
     
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(['Team Standings','Activities Overview', 'Milestones Achievement', 'General Information'])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(['Team Standings','Activities Overview', 'Milestones Achievement', 'FAQ', 'General Information'])
     
     with tab1:  
         team_graph()
