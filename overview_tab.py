@@ -15,7 +15,11 @@ def overview():
     list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#C47AF4','#A64600', '#5CC1EE', '#D0353F', '#9BC438', '#66278F', '#F8A433']
 
     def select_date():
-        select_date = st.date_input(label = "Choose which day's activities you want to display (defaults to today)", key = 'select_date')
+        select_date = st.date_input(label = "Choose which day's activities you want to display (defaults to today)", 
+                                    key = 'select_date',
+                                    min_value = dt.date(2022, 12, 10),
+                                    max_value = dt.date(2023, 3, 19)
+                                    )
         
         if select_date: 
             df_show = df.query('Date == @select_date').reset_index(drop=True)
