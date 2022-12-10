@@ -51,9 +51,6 @@ df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==1) &
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) & (df_diff['duration_minutes'] >= 30), 'Activity_points'] = 10
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) & (df_diff['duration_minutes'] < 30), 'Activity_points'] = 0
 
-# Check length of old data
-old_len = len(df)
-
 # concat old & new data
 df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 df = (
