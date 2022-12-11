@@ -129,11 +129,7 @@ def overview():
             .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
             width = 1400
             )
-        all_data = pd.read_excel('data/data_all.xlsx')
-        st.download_button(label="Download Data",
-                           data=all_data,
-                           file_name="all_data.xlsx",
-                           mime='application/octet-stream')
+
     elif option == 'Filter by Date':
         select_date()
     elif option == 'Filter by Team':

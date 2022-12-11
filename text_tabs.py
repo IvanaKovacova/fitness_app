@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+
 
 def general():
     st.header('General Information')
@@ -24,6 +26,23 @@ def general():
                        data=pdf,
                        file_name="Fitness Challenge.pdf",
                        mime='application/octet-stream')
+    
+    #excel with all data
+    all_data = pd.read_excel('data/data_all.xlsx')
+    
+    @st.cache
+    def convert_df(df):
+        # IMPORTANT: Cache the conversion to prevent computation on every rerun
+        return df.to_csv().encode('utf-8')
+    
+    csv = convert_df(all_data)
+    
+    st.download_button(
+        label="Download data as CSV",
+        data=csv,
+        file_name='all_data.csv',
+        mime='text/csv',
+    )
     
     st.subheader('Contacts')
     col1, col2, col3 = st.columns(3)
