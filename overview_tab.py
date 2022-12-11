@@ -9,7 +9,7 @@ def overview():
     df.rename(columns={
         'Activity_points':'Activity Points',
         'Daily_points': 'Daily Points',
-        'Total_points_with_bonus': 'Total points including bonus'
+        'Total_points_with_bonus': 'Total points w. bonus'
         }, inplace=True)
     
     list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#C47AF4','#A64600', '#5CC1EE', '#D0353F', '#9BC438', '#66278F', '#F8A433']
@@ -45,16 +45,16 @@ def overview():
 
         data_member = (
             data_team
-            .groupby(['Name'])['Total points including bonus']
+            .groupby(['Name'])['Total points w. bonus']
             .sum()
             .reset_index()
-            .sort_values(by = 'Total points including bonus', ascending = False)
+            .sort_values(by = 'Total points w. bonus', ascending = False)
             )
         left, right = st.columns(2)
         with left:
             fig_member_points = (
                 px.pie(data_member,
-                       values = 'Total points including bonus',
+                       values = 'Total points w. bonus',
                        names = 'Name',
                        color_discrete_sequence = list_of_colors
                        )
@@ -72,10 +72,10 @@ def overview():
                 px.bar(
                     data_member,
                     x = 'Name', 
-                    y= 'Total points including bonus', 
+                    y= 'Total points w. bonus', 
                     color= 'Name',
                     color_discrete_sequence = list_of_colors,
-                    text= 'Total points including bonus'
+                    text= 'Total points w. bonus'
                     )
              .update_layout(
                  xaxis_title = '',
@@ -129,6 +129,11 @@ def overview():
             .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
             width = 1400
             )
+        all_data = pd.read_excel('data/data_all.xlsx')
+        st.download_button(label="Download Data",
+                           data=all_data,
+                           file_name="all_data.xlsx",
+                           mime='application/octet-stream')
     elif option == 'Filter by Date':
         select_date()
     elif option == 'Filter by Team':
