@@ -12,11 +12,15 @@ old_mins = (df['duration_hours'].astype('int64').sum())*60 + df['duration_minute
 
 
 # Import new data
-df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9], dtype='object')  
+df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9, 3], dtype='object')  
 df_new.rename(columns= {list(df_new)[0]: 'Activity_ID', list(df_new)[1]: 'Activity'}, inplace = True)
 df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling',
                 'Virtual Run': 'Run','Trail Run':'Run',
                 'Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
+df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('walk', case = False)), 'Activity']  = 'Walk'
+df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('swim', case = False)), 'Activity']  = 'Swim'
+df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('run', case = False)), 'Activity']  = 'Run'
+df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('ride', case = False)), 'Activity']  = 'Cycling'
 df_new.fillna(value = 0, inplace=True)
 df_new['activity_for_points'] = df_new['Activity']
 df_new.loc[(df_new['Activity'] == 'Run') | (df_new['Activity'] == 'Walk'), 'activity_for_points'] = 'Run/Walk'
@@ -165,13 +169,13 @@ team_10 = ['som shubham sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Ano
 # assign teams
 df_points['Team'] ='no team'
 df_points.loc[df_points['Name'].isin(team_1), 'Team'] = 'Pace Makers'
-df_points.loc[df_points['Name'].isin(team_2), 'Team'] = 'Team 2'
+df_points.loc[df_points['Name'].isin(team_2), 'Team'] = "J's Kaarmaa"
 df_points.loc[df_points['Name'].isin(team_3), 'Team'] = 'The Gladeaters'
 df_points.loc[df_points['Name'].isin(team_4), 'Team'] = 'Flab-u-less!'
 df_points.loc[df_points['Name'].isin(team_5), 'Team'] = 'Unstoppable 9'
-df_points.loc[df_points['Name'].isin(team_6), 'Team'] = 'Team 6'
+df_points.loc[df_points['Name'].isin(team_6), 'Team'] = 'Not fast but furious'
 df_points.loc[df_points['Name'].isin(team_7), 'Team'] = 'The Pokemons'
-df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'Team 8'
+df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'FANTASTIC 9'
 df_points.loc[df_points['Name'].isin(team_9), 'Team'] = "Fit don't Quit"
 df_points.loc[df_points['Name'].isin(team_10), 'Team'] = 'No Mo Junk in da Trunk'
 

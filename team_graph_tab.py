@@ -8,16 +8,16 @@ def team_graph():
     df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team', 'Date', 'Total_points_with_bonus'])
     df['Date'] = df['Date'].dt.date
     dic_of_colors = {
-        'Team 1': '#0672CB', 
-        'Team 2': '#FF99A1', 
-        'Team 3':'#5D8C00',
-        'Team 4': '#66278F',
-        'Team 5': '#F8A433',
-        'Team 6': '#D0353F',
-        'Team 7': '#9BC438',
-        'Team 8': '#C47AF4',
-        'Team 9': '#A64600',
-        'Team 10': '#5CC1EE'
+        "Fit don't quit": '#0672CB', 
+        'Not fast but furious': '#FF99A1', 
+        'The Gladeaters':'#5D8C00',
+        'Pace Makers': '#66278F',
+        'The Pokemons': '#F8A433',
+        'Flab-u-less!': '#D0353F',
+        'Unstoppable 9': '#9BC438',
+        'FANTASTIC 9': '#C47AF4',
+        "J's Kaarmaa": '#A64600',
+        'No Mo Junk in da Trunk': '#5CC1EE'
         }
     
     data_update_data = pd.read_pickle('data/data_update_data.pkl')
@@ -29,6 +29,8 @@ def team_graph():
     new_hours = ((data_update_data.iloc[1,2] - data_update_data.iloc[0,2])/60).astype('int').astype('str')
     
     st.subheader('Overall stats')
+    st.write('Please note that despite our best efforts, discrepancies in data may happen.')
+    st.write('Each participant is responsible for controlling their own data and reporting discrepancies or missing data to the organizers.')
     left, mid, right = st.columns(3)
     with left:
         st.metric(label ='🏋 Total activities', value=data_update_data.iloc[1,0], delta = new_activities)

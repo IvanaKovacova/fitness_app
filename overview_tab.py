@@ -25,7 +25,7 @@ def overview():
             df_show = df.query('Date == @select_date').reset_index(drop=True)
             st.dataframe(
                 data = df_show
-                .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
+                .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
                 width = 1400
                 )
     
@@ -95,7 +95,7 @@ def overview():
 
         st.dataframe(
             data = data_team
-            .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
+            .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
             width = 1400
             )
         
@@ -114,7 +114,7 @@ def overview():
             )
         st.dataframe(
             data = data_name
-            .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
+            .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
             width = 1400
             )
         
@@ -126,7 +126,7 @@ def overview():
     if option == 'Show all':
         st.dataframe(
             data = df.sort_values(by = 'Date', ascending = False).reset_index(drop = True)
-            .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points including bonus':"{:.1f}"}),
+            .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
             width = 1400
             )
 
