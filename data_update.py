@@ -1,8 +1,6 @@
 import pandas as pd
 import datetime as dt
-import last_run as lr
 
-lr.save_last_run_time_stamp()
 
 # load previous data
 df = pd.read_excel('data/data_all.xlsx', dtype='object')
@@ -165,7 +163,7 @@ team_6 = ['Shailesh abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhw
 team_7 = ['manimegalai kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'S Santhoshraghavan', 'Sree Kothapalli']
 team_8 = ['Prabal Paul', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj SP', 'Yesrat Rahman']
 team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'sathyanarayanan ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'William Matheson']
-team_10 = ['som shubham sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
+team_10 = ['som shubham sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna  N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
 
 # assign teams
 df_points['Team'] ='no team'
