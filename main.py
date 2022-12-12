@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import datetime as dt
-import last_run as lr
-import timedelta as td
 import plotly.express as px
 from milestone_tab import milestone
 from overview_tab import overview
@@ -37,46 +35,33 @@ with st.sidebar:
     st.markdown(strava_widget, unsafe_allow_html=True)
 
 df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Activity', 'Date'])
-if len(df) < 2:
-    tab1, tab2, tab3 = st.tabs(['Home', 'FAQ', 'General Information'])
-    with tab1:
-        st.header('There are no data to display yet')
-        st.subheader('Please come back on Monday')
-    with tab2:
-        faq()
-        
-    with tab3:
-        general()     
-else:
+
+tab1, tab2, tab3, tab4, tab5 = st.tabs(['Team Standings','Activities Overview', 'Milestones Achievement', 'FAQ', 'General Information'])
+
+with tab1:  
+    team_graph()
     
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(['Team Standings','Activities Overview', 'Milestones Achievement', 'FAQ', 'General Information'])
+with tab2:
+    overview()
+         
+with tab3:
+    milestone()
     
-    with tab1:  
-        team_graph()
-        
-    with tab2:
-        overview()
-        
-       
-    with tab3:
-        milestone()
-        
-    with tab4:
-        faq()
-        
-    with tab5:
-        general()     
+with tab4:
+    faq()
+    
+with tab5:
+    general()     
        
 
 col1, col2, col3 = st.columns(3)
 
 
-last_run = lr.get_last_run_time_stamp()
-now = dt.datetime.utcnow()
-dif = (now - last_run)
-dif_time = td.format_timedelta(dif)
+df['Date'] = df['Date'].dt.date
+df.sort_values(by = 'Date', ascending = False, inplace=True)
+last_data = df.iloc[0]['Date'].strftime('%A %B %d, %Y')
 
 with col3:
     st.header('')
-    st.write(f'Last data update: {dif_time} ago')
+    st.write(f'Newest data are from {last_data}')
 

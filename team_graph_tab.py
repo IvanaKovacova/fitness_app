@@ -30,7 +30,8 @@ def team_graph():
     
     st.subheader('Overall stats')
     st.write('Please note that despite our best efforts, discrepancies in data may happen.')
-    st.write('Each participant is responsible for controlling their own data and reporting discrepancies or missing data to the organizers.')
+    st.write('Each participant can help us by checking their activities and reporting discrepancies or missing data to the organizers.')
+    st.write('')
     left, mid, right = st.columns(3)
     with left:
         st.metric(label ='🏋 Total activities', value=data_update_data.iloc[1,0], delta = new_activities)

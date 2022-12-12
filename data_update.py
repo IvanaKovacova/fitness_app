@@ -57,12 +57,13 @@ df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) &
 
 # concat old & new data
 df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
+this_day = dt.date.today()
 df = (
     pd
     .concat([df,df_diff])
     .sort_values(by = ['Date', 'Name'], ignore_index = True)
     .query('Date >= "2022-12-10"')
-    .query('Date <= "2023-03-19"') 
+    .query('Date < @this_day') 
 )
 
 # choose top 2 activities for each person
