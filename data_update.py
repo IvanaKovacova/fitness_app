@@ -32,6 +32,7 @@ df_new['Date'] = pd.to_datetime(df_new['Date'], format="%Y-%m-%d")
 # rename other activities
 sports = ['Cycling', 'Run', 'Swim', 'Other', 'Walk']
 df_new.loc[~df_new['Activity'].isin(sports), 'Activity'] = 'Other' 
+df_new.loc[df_new['Distance'] == 0, 'Activity'] = 'Other'
 
 # Create df with only new activities
 df_diff = df_new[~df_new['Activity_ID'].isin(df['Activity_ID'])].copy()
@@ -178,14 +179,6 @@ df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'FANTASTIC 9'
 df_points.loc[df_points['Name'].isin(team_9), 'Team'] = "Fit don't Quit"
 df_points.loc[df_points['Name'].isin(team_10), 'Team'] = 'No Mo Junk in da Trunk'
 
-# save old and new data
-new_length = len(df_points)
-new_kms = df_points['Distance'].astype('int64').sum()
-new_mins = (df_points['duration_hours'].astype('int64').sum())*60 + df_points['duration_minutes'].astype('int64').sum()
-df_info = pd.DataFrame({'count_of_activites': [old_length, new_length],
-                       'sum_of_kms' : [old_kms, new_kms],
-                       'total_minutes' : [old_mins, new_mins]})
-df_info.to_pickle('data/data_update_data.pkl')
 
 # export data to excel
 df_points.to_excel('data/data_all.xlsx', index=False)

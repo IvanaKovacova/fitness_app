@@ -1,51 +1,5 @@
 Athlete,Activity," ""Type""",Location,Name,Date,Distance,Pace,Unit,Duration,Elev,Calo,EstPace,EstSpeed
-/athletes/25025384,/activities/8239074392,Virtual Ride,Zwift - Introductory Intervals in Watopia,Madhav Parashar,2022-12-12T15:32:00.000+01:00,22.23,,km,0:55:12,125,,2:28,24.2
-/athletes/85362332,/activities/8238941616,Crossfit,Morning functional training (soccer),Fernanda Mattei,2022-12-12T09:00:00.000+01:00,,,,0:45:00,,,,
-/athletes/95439814,/activities/8238916623,Yoga,Lunes Yoga,Fabia Zarballa,2022-12-12T08:00:00.000+01:00,,,,1:03:00,,,,
-/athletes/97845585,/activities/8238774626,Walk,"Morning Walk · District of Bratislava I, Region of Bratislava",Simon Talapa,2022-12-12T09:25:00.000+01:00,1.37,,km,0:14:17,3,,10:25,5.8
+/athletes/95558986,/activities/8241117092,Walk,Evening Walk,Damien Lorigan,2022-12-12T18:28:00.000+01:00,1.3,,km,0:14:22,2,,11:03,5.4
 /athletes/95558986,/activities/8238692904,Walk,Morning Walk,Damien Lorigan,2022-12-12T08:49:00.000+01:00,1.59,,km,0:17:41,3,,11:07,5.4
-/athletes/100596399,/activities/8238655543,Walk,"Morning Walk · District of Bratislava I, Region of Bratislava",Ivana Kovacova,2022-12-12T08:36:00.000+01:00,0.99,,km,0:08:20,3,,8:25,7.1
-/athletes/80921500,/activities/8238771137,Run,"Morning Run · District of Piešťany, Region of Trnava",Juraj Mečír,2022-12-12T08:32:00.000+01:00,2.01,5:13,km,0:10:30,,,5:13,11.5
-/athletes/111179707,/activities/8238606722,Ride,Lunch Ride,sathyanarayanan ragothaman,2022-12-12T07:01:00.000+01:00,,,,0:13:51,,113,,
-/athletes/111179707,/activities/8238563022,Workout,Lunch Activity,sathyanarayanan ragothaman,2022-12-12T06:22:00.000+01:00,,,,0:39:07,,435,,
-/athletes/89759398,/activities/8238518407,Weight Training,Weight Training,Sandeep Malhotra,2022-12-12T05:44:00.000+01:00,,,,0:51:01,,,,
-/athletes/111179707,/activities/8238497430,Run,Lunch Run,sathyanarayanan ragothaman,2022-12-12T11:47:00.000+01:00,0.21,28:35:00,km,0:06:03,,,28:48:00,2.1
-/athletes/92419547,/activities/8238494810,Walk,Walk,Khushboo Mehrotra,2022-12-12T10:13:00.000+01:00,9.09,,km,1:05:00,36,,7:09,8.4
-/athletes/111167294,/activities/8238487854,Workout,Gym,Rahul Roy Choudhury,2022-12-12T08:45:00.000+01:00,,,,2:07:00,,,,
-/athletes/111452005,/activities/8238425528,Run,Night Run,Tushar bhandari,2022-12-11T22:20:00.000+01:00,3.21,18:38,km,1:00:00,,,18:41,3.2
-/athletes/35500962,/activities/8238388745,Run,"Morning Run · Mulshi, India",Ankit Talele,2022-12-12T09:20:00.000+01:00,6.21,3:02,km,0:18:50,,,3:01,19.8
-/athletes/111004967,/activities/8238400068,Workout,Monday Batminton,Sowjanya Sowji,2022-12-11T19:00:00.000+01:00,,,,1:30:00,,,,
-/athletes/111443093,/activities/8238332827,Walk,"Morning Walk · Gurgaon, India",Ankit Agarwal,2022-12-12T08:43:00.000+01:00,2.32,,km,0:29:19,12,,12:38,4.7
-/athletes/111457277,/activities/8238290351,Ride,Evening Ride,Sree Kothapalli,2022-12-11T20:57:00.000+01:00,1.72,,km,0:10:34,,,6:08,9.8
-/athletes/89759398,/activities/8238385303,Run,Morning Run,Sandeep Malhotra,2022-12-12T02:30:00.000+01:00,3.4,9:42,km,0:33:00,,,9:42,6.2
-/athletes/111457277,/activities/8238272148,Ride,Evening Ride,Sree Kothapalli,2022-12-11T20:40:00.000+01:00,1.75,,km,0:10:11,,,5:49,10.3
-/athletes/111457277,/activities/8238234326,Ride,Evening Ride,Sree Kothapalli,2022-12-11T20:06:00.000+01:00,1.69,,km,0:10:18,,,6:05,9.8
-/athletes/16846403,/activities/8238230760,Walk,"Caminhada noturna · Guaíba, Brazil",Felipe Garcez,2022-12-11T22:43:00.000+01:00,2.25,,km,0:26:18,26,,11:41,5.1
-/athletes/111408325,/activities/8238239037,Walk,Evening Walk,Sumit Wadhwa,2022-12-12T00:20:00.000+01:00,1.64,,km,1:37:00,,,59:08:00,1
-/athletes/111394610,/activities/8238230964,Workout,Evening walk,craig friedman,2022-12-11T18:27:00.000+01:00,,,,0:54:32,,,,
-/athletes/111453240,/activities/8238068327,Walk,"Evening Walk · Austin, USA",Jason Lee,2022-12-11T18:00:00.000+01:00,1.54,,km,0:18:41,26,,12:07,4.9
-/athletes/111354273,/activities/8238265427,Walk,Walk,Jonathon Klanderman,2022-12-11T16:59:00.000+01:00,,,,1:06:00,,553,,
-/athletes/93272730,/activities/8238315642,Workout,Afternoon Tennis,Satish Patil,2022-12-11T15:50:00.000+01:00,,,,1:00:00,,463,,
-/athletes/111192942,/activities/8237834607,Workout,Group Fitness,Nealie Glasser,2022-12-11T15:57:00.000+01:00,,,,1:30:00,,466,,
-/athletes/25401364,/activities/8237759620,Run,Afternoon Run,Jose Martinez,2022-12-11T15:22:00.000+01:00,6.46,5:21,km,0:34:36,,,5:21,11.2
-/athletes/94332657,/activities/8237693316,Run,Day 387: Treadmill 326,Jesse Williams,2022-12-11T13:38:00.000+01:00,12.22,4:22,km,0:53:21,,,4:21,13.7
-/athletes/95558986,/activities/8237654388,Walk,Night Walk,Damien Lorigan,2022-12-11T21:29:00.000+01:00,2.46,,km,0:33:23,3,,13:34,4.4
-/athletes/85362332,/activities/8237631811,Walk,"Afternoon walk with family  · Cabedelo, Brazil",Fernanda Mattei,2022-12-11T17:19:00.000+01:00,4.34,,km,0:46:21,39,,10:40,5.6
-/athletes/111192942,/activities/8237732068,Walk,"Afternoon Walk · Manhattan, USA",Nealie Glasser,2022-12-11T15:25:00.000+01:00,2.52,,km,0:26:03,9,,10:20,5.8
-/athletes/94335999,/activities/8237541471,Walk,"Evening Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2022-12-11T19:00:00.000+01:00,2.87,,km,0:42:45,19,,14:53,4
-/athletes/111405068,/activities/8237455529,Walk,"Afternoon Walk · Chesterfield County, USA",Elena Teytelman,2022-12-11T14:25:00.000+01:00,2.45,,km,0:35:41,54,,14:33,4.1
-/athletes/111453240,/activities/8237351492,Ride,"Afternoon Ride · Austin, USA",Jason Lee,2022-12-10T19:07:00.000+01:00,2.58,,km,0:32:29,40,,12:35,4.8
-/athletes/111408325,/activities/8237318233,Walk,Afternoon Walk,Sumit Wadhwa,2022-12-11T18:32:00.000+01:00,3.69,,km,0:50:31,,,13:41,4.4
-/athletes/80921500,/activities/8237191642,Walk,"Evening Walk · District of Piešťany, Region of Trnava",Juraj Mečír,2022-12-11T18:05:00.000+01:00,6.17,,km,1:18:00,38,,12:38,4.7
-/athletes/111354273,/activities/8238264549,Walk,Walk,Jonathon Klanderman,2022-12-11T11:59:00.000+01:00,,,,1:05:00,,811,,
-/athletes/111179707,/activities/8236475967,Walk,Sunday walk,sathyanarayanan ragothaman,2022-12-11T07:47:00.000+01:00,9.1,,km,2:00:00,0,,13:11,4.5
-/athletes/111354273,/activities/8238265427,Walk,Walk,Jonathon Klanderman,2022-12-11T16:59:00.000+01:00,6.5,,,1:06:00,,553,,
-/athletes/111354273,/activities/8238264549,Walk,Walk,Jonathon Klanderman,2022-12-11T11:59:00.000+01:00,6.5,,,1:05:00,,811,,
-/athletes/111354273,/activities/8238264497,Walk,Walk,Jonathon Klanderman,2022-12-10T17:33:00.000+01:00,2,,,0:17:49,,187,,
-/athletes/111354273,/activities/8238264445,Walk,Walk,Jonathon Klanderman,2022-12-10T16:03:00.000+01:00,4,,,0:36:38,,414,,
-/athletes/111211736,/activities/8235787666,Walk,"Evening Walk · Tiruporur, India",Aruna  N,2022-12-11T18:23:00.000+01:00,2.96,,km,0:37:03,2,,12:31,4.8
-/athletes/111211736,/activities/8234116402,Ride,"Cycling in humid weather · Tiruporur, India",Aruna  N,2022-12-11T10:31:00.000+01:00,13.55,,km,1:02:00,13,,4:34,13.1
-/athletes/111211736,/activities/8234108705,unknown,"Morning Ride · Tiruporur, India",Aruna  N,2022-12-11T10:31:00.000+01:00,12.78,,km,0:55:49,11,,4:22,13.7
-/athletes/111211736,/activities/8234108702,unknown,"Morning Ride · Tiruporur, India",Aruna  N,2022-12-11T10:31:00.000+01:00,12.62,,km,0:53:32,10,,4:14,14.1
-/athletes/111211736,/activities/8234049322,Walk,Lunch Walk,Aruna  N,2022-12-10T11:22:00.000+01:00,3.69,,km,0:47:59,,329,13:00,4.6
-/athletes/111211736,/activities/8229963492,Walk,"Afternoon Walk  · Tiruporur, India",Aruna  N,2022-12-10T11:18:00.000+01:00,4.19,,km,0:50:50,9,,12:07,4.9
+/athletes/100596399,/activities/8240505401,Walk,"Evening Walk · District of Bratislava I, Region of Bratislava",Ivana Kovacova,2022-12-12T18:28:00.000+01:00,1.28,,km,0:14:41,2,,11:28,5.2
+/athletes/111394610,/activities/8241652893,Run,Evening run,craig friedman,2022-12-12T17:09:00.000+01:00,,,,0:40:52,,,,

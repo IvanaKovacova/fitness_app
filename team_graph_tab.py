@@ -5,7 +5,7 @@ from comparison_option import comparison
 
     
 def team_graph():
-    df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team', 'Date', 'Total_points_with_bonus'])
+    df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team','Distance', 'Date', 'duration_hours', 'duration_minutes', 'Total_points_with_bonus'])
     df['Date'] = df['Date'].dt.date
     dic_of_colors = {
         "Fit don't quit": '#0672CB', 
@@ -20,13 +20,19 @@ def team_graph():
         'No Mo Junk in da Trunk': '#5CC1EE'
         }
     
-    data_update_data = pd.read_pickle('data/data_update_data.pkl')
+#    data_update_data = pd.read_pickle('data/data_update_data.pkl')
     
-    new_activities = (data_update_data.iloc[1,0] - data_update_data.iloc[0,0]).astype('str')
-    all_kilometers = data_update_data.iloc[1,1].astype('int').astype('str')
-    new_kilometers = (data_update_data.iloc[1,1] - data_update_data.iloc[0,1]).astype('int').astype('str')
-    all_hours = (data_update_data.iloc[1,2]/60).astype('int').astype('str')
-    new_hours = ((data_update_data.iloc[1,2] - data_update_data.iloc[0,2])/60).astype('int').astype('str')
+    total_length = len(df)
+    df.sort_values(by = 'Date', ascending = False, inplace = True)
+    yesterday = df.iloc[0]['Date']
+    new_length = len(df.loc[df['Date'] == yesterday])
+    total_kms = df['Distance'].astype('int64').sum().astype('str')
+    new_kilometers = df['Distance'].astype('int64').loc[df['Date'] == yesterday].sum().astype('str')
+
+    all_mins = (df['duration_hours'].astype('int64').sum())*60 + df['duration_minutes'].astype('int64').sum()
+    all_hours = (all_mins/60).astype('int').astype('str')
+    df_new_hours = df.query('Date == @yesterday')
+    new_hours = (((df_new_hours['duration_hours'].astype('int64').sum())*60 + df_new_hours['duration_minutes'].astype('int64').sum())/60).astype('int64').astype('str')
     
     st.subheader('Overall stats')
     st.write('Please note that despite our best efforts, discrepancies in data may happen.')
@@ -34,9 +40,9 @@ def team_graph():
     st.write('')
     left, mid, right = st.columns(3)
     with left:
-        st.metric(label ='🏋 Total activities', value=data_update_data.iloc[1,0], delta = new_activities)
+        st.metric(label ='🏋 Total activities', value=total_length, delta = new_length)
     with mid:
-        st.metric(label ='🏃 Total kilometers', value= all_kilometers, delta = new_kilometers)
+        st.metric(label ='🏃 Total kilometers', value= total_kms, delta = new_kilometers)
     with right:
         st.metric(label ='🕛 Total hours', value=all_hours, delta = new_hours)
         
