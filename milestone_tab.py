@@ -74,7 +74,7 @@ def milestone():
             width = 1000
         )
         .update_traces(
-            texttemplate = '%{text:.1f} km',
+            texttemplate = '%{text:.1f}',
             textposition = 'outside',
             hovertemplate= '%{x}<br>%{y:.1f} km',
             showlegend=False
@@ -148,7 +148,7 @@ def milestone():
             width = 1000
         )
         .update_traces(
-            texttemplate = '%{text:.0f} activities',
+            texttemplate = '%{text:.0f}',
             textposition = 'outside',
             hovertemplate= '%{x}<br>%{y} activities',
             showlegend=False

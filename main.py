@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import datetime as dt
-import plotly.express as px
 from milestone_tab import milestone
 from overview_tab import overview
 from team_graph_tab import team_graph
@@ -64,4 +62,3 @@ last_data = df.iloc[0]['Date'].strftime('%A %B %d, %Y')
 with col3:
     st.header('')
     st.write(f'Newest data are from {last_data}')
-

@@ -6,7 +6,8 @@ from comparison_option import comparison
     
 def team_graph():
     df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team','Distance', 'Date', 'duration_hours', 'duration_minutes', 'Total_points_with_bonus'])
-    df['Date'] = df['Date'].dt.date
+    df['Date'] = pd.to_datetime(df['Date']).dt.date
+
     dic_of_colors = {
         "Fit don't quit": '#0672CB', 
         'Not fast but furious': '#FF99A1', 
@@ -20,8 +21,7 @@ def team_graph():
         'No Mo Junk in da Trunk': '#5CC1EE'
         }
     
-#    data_update_data = pd.read_pickle('data/data_update_data.pkl')
-    
+      
     total_length = len(df)
     df.sort_values(by = 'Date', ascending = False, inplace = True)
     yesterday = df.iloc[0]['Date']
@@ -45,25 +45,34 @@ def team_graph():
         st.metric(label ='🏃 Total kilometers', value= total_kms, delta = new_kilometers)
     with right:
         st.metric(label ='🕛 Total hours', value=all_hours, delta = new_hours)
-        
+    
+  
     # option 1
-    data_points = (
+
+    df_top9 = (
         df
+        .groupby(['Team', 'Name'])['Total_points_with_bonus']
+        .sum()
+        .reset_index()
+        .sort_values('Total_points_with_bonus', ascending = False)
+        .groupby('Team')
+        .head(9)
+        )  
+    df_top9_sum = (
+        df_top9
         .groupby('Team')['Total_points_with_bonus']
         .sum()
         .reset_index()
         .sort_values(by = 'Total_points_with_bonus', ascending = False)
         )
-
     fig_points = (
-        px.bar(data_points, 
+        px.bar(df_top9_sum, 
                x = 'Team', 
                y= 'Total_points_with_bonus', 
                color= 'Team',
                color_discrete_map = dic_of_colors,
                text= 'Total_points_with_bonus',
                title = '<b>Points by Team</b>',
-               
                )
         .update_layout(
             title = {
@@ -84,10 +93,11 @@ def team_graph():
         )
         
     # option 2
+    df_evolution = df.loc[df['Name'].isin(df_top9['Name'])]    
     data_evolution = (
-        df
+        df_evolution
         .sort_values(by = 'Date')
-        .assign(team_points_cum = lambda x: x.groupby(['Team'])['Total_points_with_bonus'].cumsum())
+        .assign(team_points_cum = lambda x: x.groupby('Team')['Total_points_with_bonus'].cumsum())
         )
     fig_evolution = (
         px.line(data_evolution,

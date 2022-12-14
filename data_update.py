@@ -4,10 +4,7 @@ import datetime as dt
 
 # load previous data
 df = pd.read_excel('data/data_all.xlsx', dtype='object')
-old_length = len(df)
-old_kms = df['Distance'].astype('int64').sum()
-old_mins = (df['duration_hours'].astype('int64').sum())*60 + df['duration_minutes'].astype('int64').sum()
-
+df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 
 # Import new data
 df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9, 3], dtype='object')  
@@ -26,7 +23,7 @@ df_new.loc[(df_new['Activity'] == 'Run') | (df_new['Activity'] == 'Walk'), 'acti
 # get date    
 df_new[['Date', 'Time']] = df_new['Date'].str.split(pat ='T', n =1, expand = True)
 df_new.drop(columns = 'Time', inplace = True)
-df_new['Date'] = pd.to_datetime(df_new['Date'], format="%Y-%m-%d")
+df_new['Date'] = pd.to_datetime(df_new['Date']).dt.normalize()
 
 
 # rename other activities
@@ -55,7 +52,7 @@ df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) &
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) & (df_diff['duration_minutes'] < 30), 'Activity_points'] = 0
 
 # concat old & new data
-df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
+#df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 this_day = dt.date.today()
 df = (
     pd
@@ -167,7 +164,7 @@ team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'sathyanarayanan 
 team_10 = ['som shubham sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna  N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
 
 # assign teams
-df_points['Team'] ='no team'
+df_points['Team'] ='Waiting Room'
 df_points.loc[df_points['Name'].isin(team_1), 'Team'] = 'Pace Makers'
 df_points.loc[df_points['Name'].isin(team_2), 'Team'] = "J's Kaarmaa"
 df_points.loc[df_points['Name'].isin(team_3), 'Team'] = 'The Gladeaters'
@@ -179,6 +176,6 @@ df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'FANTASTIC 9'
 df_points.loc[df_points['Name'].isin(team_9), 'Team'] = "Fit don't Quit"
 df_points.loc[df_points['Name'].isin(team_10), 'Team'] = 'No Mo Junk in da Trunk'
 
-
+df_points['Date'] = pd.to_datetime(df_points['Date']).dt.date
 # export data to excel
 df_points.to_excel('data/data_all.xlsx', index=False)
