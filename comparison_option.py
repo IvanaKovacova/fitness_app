@@ -67,10 +67,10 @@ def comparison():
     
     df_show = (
         df
-        .query("Team == @team & Name == @name & Activity == @activity")
-        .groupby(['Name', 'Activity'])['Total_points_with_bonus'].sum()
-        .reset_index()
         .sort_values(by = 'Name')
+        .query("Team == @team & Name == @name & Activity == @activity")
+        .groupby(['Name', 'Activity'], sort = False)['Total_points_with_bonus'].sum()
+        .reset_index()
         )
         
     fig_comparison_points = (
@@ -95,7 +95,8 @@ def comparison():
             xaxis_title = '',
             yaxis_title ='Points by activity',
             template = 'plotly_white',
-            height = 600
+            height = 600,
+            xaxis = {'categoryorder': 'total descending'}
             )
         .update_traces(
             hovertemplate= '%{x}<br>%{y:.0f} points'
@@ -133,7 +134,8 @@ def comparison():
             title_font_size = 24,
             xaxis_title = '',
             yaxis_title ='Duration by activity',
-            template = 'plotly_white'
+            template = 'plotly_white',
+            xaxis = {'categoryorder': 'total descending'}
             )
         .update_traces(
             hovertemplate= '%{x}<br>%{y} min'
@@ -170,7 +172,8 @@ def comparison():
             title_font_size = 24,
             xaxis_title = '',
             yaxis_title ='Distance by activity',
-            template = 'plotly_white'
+            template = 'plotly_white',
+            xaxis = {'categoryorder': 'total descending'}
             )
         .update_traces(
             hovertemplate= '%{x}<br>%{y:.0f} km'

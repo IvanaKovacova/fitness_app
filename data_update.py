@@ -175,6 +175,7 @@ df_points.loc[df_points['Name'].isin(team_8), 'Team'] = 'FANTASTIC 9'
 df_points.loc[df_points['Name'].isin(team_9), 'Team'] = "Fit don't Quit"
 df_points.loc[df_points['Name'].isin(team_10), 'Team'] = 'No Mo Junk in da Trunk'
 
+df_points['Name'] = df_points['Name'].str.title()
 df_points['Date'] = pd.to_datetime(df_points['Date']).dt.date
 # export data to excel
 df_points.to_excel('data/data_all.xlsx', index=False)
