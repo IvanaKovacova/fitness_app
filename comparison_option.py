@@ -60,7 +60,7 @@ def comparison():
             )
         .update_traces(
             hovertemplate= '%{y:.0f} points',
-            texttemplate = '%{y:.0f} pts',
+            texttemplate = '%{y:.0f}',
             textposition = 'outside'
             )
         )
@@ -70,7 +70,7 @@ def comparison():
         .query("Team == @team & Name == @name & Activity == @activity")
         .groupby(['Name', 'Activity'])['Total_points_with_bonus'].sum()
         .reset_index()
-        .sort_values(by = 'Total_points_with_bonus', ascending = False)
+        .sort_values(by = 'Name')
         )
         
     fig_comparison_points = (
@@ -81,9 +81,9 @@ def comparison():
                color_discrete_map={
                    "Swim": '#0672CB',
                    "Cycling": '#5D8C00',
-                   'Run': '#66278F',
-                   'Walk': '#F8A433',
-                   'Other': '#FE6873'
+                   'Run': '#C96100',
+                   'Walk': '#E67F01',
+                   'Other': '#66278F'
                    },
                title = 'Points by activity'
                )
@@ -109,7 +109,7 @@ def comparison():
         .assign(total_time_in_minutes = lambda x: x['duration_hours']*60 + x['duration_minutes'])
         .groupby(['Name', 'Activity'])['total_time_in_minutes'].sum()
         .reset_index()
-        .sort_values(by = 'total_time_in_minutes', ascending = False)
+        .sort_values(by = 'Name')
         )
         
     fig_comparison_time = (
@@ -120,9 +120,9 @@ def comparison():
                color_discrete_map={
                    "Swim": '#0672CB',
                    "Cycling": '#5D8C00',
-                   'Run': '#66278F',
-                   'Walk': '#F8A433',
-                   'Other': '#FE6873'
+                   'Run': '#C96100',
+                   'Walk': '#E67F01',
+                   'Other': '#66278F'
                    },
                title = 'Comparison by duration in minutes'
                )
@@ -146,7 +146,7 @@ def comparison():
         .query("Team == @team & Name == @name & Activity == @activity")
         .groupby(['Name', 'Activity'])['Distance'].sum()
         .reset_index()
-        .sort_values(by = 'Distance', ascending = False)
+        .sort_values(by = 'Name')
         )
         
     fig_comparison_distance = (
@@ -157,9 +157,9 @@ def comparison():
                color_discrete_map={
                    "Swim": '#0672CB',
                    "Cycling": '#5D8C00',
-                   'Run': '#66278F',
-                   'Walk': '#F8A433',
-                   'Other': '#FE6873'
+                   'Run': '#C96100',
+                   'Walk': '#E67F01',
+                   'Other': '#66278F'
                    },
                title = 'Comparison by distance'
                )

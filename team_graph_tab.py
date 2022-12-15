@@ -127,12 +127,12 @@ def team_graph():
     
         
     # selectbox to choose graph
-    option = st.selectbox('Choose view', options = ['Points Overview', 'Evolution of Team Points', 'Comparison'])
+    option = st.selectbox('Choose view', options = ['Points Overview', 'Evolution of Team Points', 'Individual Comparison'])
     if option == 'Points Overview':
         st.plotly_chart(fig_points, use_container_width=True)
     elif option == 'Evolution of Team Points':
         st.plotly_chart(fig_evolution, use_container_width=True)
-    elif option == 'Comparison':
+    elif option == 'Individual Comparison':
         comparison()
 
     # table of teammembers
