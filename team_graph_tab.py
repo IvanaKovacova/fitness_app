@@ -8,6 +8,7 @@ def team_graph():
     df = pd.read_excel('data/data_all.xlsx', usecols = ['Name', 'Team','Distance', 'Date', 'duration_hours', 'duration_minutes', 'Total_points_with_bonus'])
     df['Date'] = pd.to_datetime(df['Date']).dt.date
 
+    # define color for each team
     dic_of_colors = {
         "Fit don't quit": '#0672CB', 
         'Not fast but furious': '#FF99A1', 
@@ -22,6 +23,12 @@ def team_graph():
         }
     
       
+    st.subheader('Overall stats')
+    st.write('Please note that despite our best efforts, discrepancies in data may happen.')
+    st.write('Each participant can help us by checking their activities and reporting discrepancies or missing data to the organizers.')
+    st.write('')
+    
+    # stats about the amount of new data
     total_length = len(df)
     df.sort_values(by = 'Date', ascending = False, inplace = True)
     yesterday = df.iloc[0]['Date']
@@ -34,10 +41,6 @@ def team_graph():
     df_new_hours = df.query('Date == @yesterday')
     new_hours = (((df_new_hours['duration_hours'].astype('int64').sum())*60 + df_new_hours['duration_minutes'].astype('int64').sum())/60).astype('int64').astype('str')
     
-    st.subheader('Overall stats')
-    st.write('Please note that despite our best efforts, discrepancies in data may happen.')
-    st.write('Each participant can help us by checking their activities and reporting discrepancies or missing data to the organizers.')
-    st.write('')
     left, mid, right = st.columns(3)
     with left:
         st.metric(label ='🏋 Total activities', value=total_length, delta = new_length)
@@ -46,9 +49,8 @@ def team_graph():
     with right:
         st.metric(label ='🕛 Total hours', value=all_hours, delta = new_hours)
     
-  
-    # option 1
-
+    # only show top 9 people from each team in both graphs  
+    # team points standings graph
     df_top9 = (
         df
         .groupby(['Team', 'Name'])['Total_points_with_bonus']
@@ -92,7 +94,7 @@ def team_graph():
             )
         )
         
-    # option 2
+    # graph of points evolution
     df_evolution = df.loc[df['Name'].isin(df_top9['Name'])]    
     data_evolution = (
         df_evolution
@@ -124,7 +126,7 @@ def team_graph():
         )
     
         
-    
+    # selectbox to choose graph
     option = st.selectbox('Choose view', options = ['Points Overview', 'Evolution of Team Points', 'Comparison'])
     if option == 'Points Overview':
         st.plotly_chart(fig_points, use_container_width=True)
@@ -133,5 +135,6 @@ def team_graph():
     elif option == 'Comparison':
         comparison()
 
+    # table of teammembers
     team_df = pd.read_excel('data/teams.xlsx')
     st.table(team_df)

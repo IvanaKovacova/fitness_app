@@ -166,6 +166,8 @@ def milestone():
         )
     df_comeback['Date'] = df_comeback['Date'].dt.date
     
+    
+    # selectbox with options of the graphs defined above
     option = st.selectbox('Choose award which you want to check', options = ['Cycling', 'Swimming', 'Running/Walking', 'Other', 'Great Comeback Award'])
     if option == 'Cycling':
         st.plotly_chart(fig, use_container_width=True)

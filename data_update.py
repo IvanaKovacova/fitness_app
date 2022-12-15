@@ -52,7 +52,6 @@ df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) &
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) & (df_diff['duration_minutes'] < 30), 'Activity_points'] = 0
 
 # concat old & new data
-#df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 this_day = dt.date.today()
 df = (
     pd

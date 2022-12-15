@@ -10,10 +10,13 @@ def overview():
         'Activity_points':'Activity Points',
         'Daily_points': 'Daily Points',
         'Total_points_with_bonus': 'Total points w. bonus'
-        }, inplace=True)
+        },
+        inplace=True)
     
+    # define colors used later in the graphs
     list_of_colors = ['#0672CB', '#FF99A1', '#5D8C00','#C47AF4','#A64600', '#5CC1EE', '#D0353F', '#9BC438', '#66278F', '#F8A433']
 
+    # filtering by date
     def select_date():
         select_date = st.date_input(label = "Choose which day's activities you want to display", 
                                     key = 'select_date',
@@ -28,7 +31,7 @@ def overview():
                 .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
                 width = 1400
                 )
-    
+    # filtering by team
     def select_team():
         select_team = st.selectbox(
             'Choose team', 
@@ -50,6 +53,8 @@ def overview():
             .reset_index()
             .sort_values(by = 'Total points w. bonus', ascending = False)
             )
+        
+        # create graphs next to each other
         left, right = st.columns(2)
         with left:
             fig_member_points = (
@@ -67,6 +72,7 @@ def overview():
                     )
                 )
             st.plotly_chart(fig_member_points, use_container_width=True)
+            
         with right:
             fig_member_points2 = (
                 px.bar(
@@ -98,7 +104,7 @@ def overview():
             .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
             width = 1400
             )
-        
+    # filter by name    
     def select_name():
         select_name = st.selectbox(
             'Choose name', 

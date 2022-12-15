@@ -12,6 +12,7 @@ st.set_page_config(
     page_icon= ':sports_medal:'
     )
 
+# center the Dell logo in sidebar
 st.markdown(
     """
     <style>
@@ -51,10 +52,8 @@ with tab4:
 with tab5:
     general()     
        
-
+# information about last data in the app
 col1, col2, col3 = st.columns(3)
-
-
 df['Date'] = df['Date'].dt.date
 df.sort_values(by = 'Date', ascending = False, inplace=True)
 last_data = df.iloc[0]['Date'].strftime('%A %B %d, %Y')
