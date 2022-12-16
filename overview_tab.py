@@ -123,7 +123,36 @@ def overview():
             .style.format({'Distance':"{:.1f} km",'Activity Points':"{:.1f}",'Daily Points':"{:.0f}",'Total points w. bonus':"{:.1f}"}),
             width = 1400
             )
-        
+        # graph of points evolution
+        data_evolution = (
+            data_name
+            .sort_values(by = 'Date')
+            .assign(points_cum = lambda x: x.groupby('Name')['Total points w. bonus'].cumsum())
+            )
+        fig_evolution = (
+            px.line(data_evolution,
+                    x = 'Date',
+                    y = 'points_cum',
+                    title = '<b>Evolution of Individual Points</b>',
+                    hover_name = 'Date',
+                    color_discrete_sequence = list_of_colors
+                    )
+            .update_layout(
+                title = {
+                    'x': 0.5
+                    },
+                xaxis_title = '',
+                yaxis_title ='Points',
+                template = 'plotly_white',   
+                height = 550,
+                title_font_size =24
+                )
+            .update_traces(
+                hovertemplate= '%{x}<br>%{y:.0f} points'
+                )
+            )
+        st.plotly_chart(fig_evolution, use_container_width=True)
+
         
     st.subheader('')
     option = st.selectbox('Choose view', options = ['Show all', 'Filter by Date', 'Filter by Team', 'Filter by Name'])
