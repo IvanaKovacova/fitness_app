@@ -157,9 +157,9 @@ team_4 = ['Andrew Cd', 'Brian Fitzgerald', 'Sowjanya Sowji', 'Craig Friedman', '
 team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'Divya Tallur', 'Marco Martins', 'Ravinder Singh Bisht', 'Tejaswini Sira']
 team_6 = ['Shailesh Abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Isha Kanani', 'Renoy Zachariah', 'Tushar Bhandari']
 team_7 = ['Manimegalai Kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'S Santhoshraghavan', 'Sree Kothapalli']
-team_8 = ['Prabal Paul', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj Sp', 'Yesrat Rahman']
+team_8 = ['Prabal Paul', 'Akhilesh Paliwal', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj Sp', 'Yesrat Rahman']
 team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'Sathyanarayanan Ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'William Matheson']
-team_10 = ['Som Shubham Sahoo', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna  N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
+team_10 = ['Som Shubham Sahoo', 'Souvik Nath', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna  N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
 
 # assign teams
 df_points['Name'] = df_points['Name'].str.title()
