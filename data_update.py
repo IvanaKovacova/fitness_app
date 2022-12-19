@@ -9,17 +9,13 @@ df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 # Import new data
 df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9, 3], dtype='object')  
 df_new.rename(columns= {list(df_new)[0]: 'Activity_ID', list(df_new)[1]: 'Activity'}, inplace = True)
-df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling',
-                'Virtual Run': 'Run','Trail Run':'Run',
-                'Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
+df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling','Virtual Run': 'Run','Trail Run':'Run','Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('walk', case = False)), 'Activity']  = 'Walk'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('hike', case = False)), 'Activity']  = 'Walk'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('swim', case = False)), 'Activity']  = 'Swim'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('run', case = False)), 'Activity']  = 'Run'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('ride', case = False)), 'Activity']  = 'Cycling'
 df_new.fillna(value = 0, inplace=True)
-df_new['activity_for_points'] = df_new['Activity']
-df_new.loc[(df_new['Activity'] == 'Run') | (df_new['Activity'] == 'Walk'), 'activity_for_points'] = 'Run/Walk'
 
 # get date    
 df_new[['Date', 'Time']] = df_new['Date'].str.split(pat ='T', n =1, expand = True)
@@ -31,6 +27,8 @@ df_new['Date'] = pd.to_datetime(df_new['Date']).dt.normalize()
 sports = ['Cycling', 'Run', 'Swim', 'Other', 'Walk']
 df_new.loc[~df_new['Activity'].isin(sports), 'Activity'] = 'Other' 
 df_new.loc[df_new['Distance'] == 0, 'Activity'] = 'Other'
+df_new['activity_for_points'] = df_new['Activity']
+df_new.loc[(df_new['Activity'] == 'Run') | (df_new['Activity'] == 'Walk'), 'activity_for_points'] = 'Run/Walk'
 
 # Create df with only new activities
 df_diff = df_new[~df_new['Activity_ID'].isin(df['Activity_ID'])].copy()
