@@ -13,6 +13,7 @@ df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling'
                 'Virtual Run': 'Run','Trail Run':'Run',
                 'Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('walk', case = False)), 'Activity']  = 'Walk'
+df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('hike', case = False)), 'Activity']  = 'Walk'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('swim', case = False)), 'Activity']  = 'Swim'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('run', case = False)), 'Activity']  = 'Run'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('ride', case = False)), 'Activity']  = 'Cycling'
