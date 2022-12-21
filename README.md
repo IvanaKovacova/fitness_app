@@ -10,7 +10,7 @@ pip install plotly<br>
 
 Versions: <br><br>
 plotly == 5.9.0<br>
-openpyxl == 3.0.10
+openpyxl == 3.0.10<br>
 <br>
 Data update process:<br>
 1. open git bash. cd documents, cd fitness_app
