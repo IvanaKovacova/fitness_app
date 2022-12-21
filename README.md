@@ -1,12 +1,12 @@
 # fitness_mockup
 
-Libraries install: 
-conda install pip
-pip install pandas
-pip install datetime
-pip install openpyxl
-pip install streamlit
-pip install plotly
+Libraries install: <br>
+conda install pip<br>
+pip install pandas<br>
+pip install datetime<br>
+pip install openpyxl<br>
+pip install streamlit<br>
+pip install plotly<br>
 
 Versions: <br><br>
 plotly == 5.9.0<br>
