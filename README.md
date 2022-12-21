@@ -1,6 +1,6 @@
-# fitness_mockup
+# fitness_app
 
-Libraries install: <br>
+Libraries install: <br><br>
 conda install pip<br>
 pip install pandas<br>
 pip install datetime<br>
@@ -13,11 +13,16 @@ plotly == 5.9.0<br>
 openpyxl == 3.0.10
 <br>
 Data update process:<br>
-1. download new data from Strava
-2. rename to data_new.csv and replace in data file
-3. run python data_update.py in prompt
-4. push new data to github
-5. Streamlit app is updated automatically
+1. open git bash. cd documents, cd fitness_app
+2. git pull
+3. download new data from Strava
+4. rename to data_new.csv and replace in data file
+5. open anaconda prompt, cd documents, cd fitness_app
+6. in anaconda prompt type: python data_update.py 
+7. in git bash: git add .
+8. git commit -m 'name of change'
+9. git push
+10. Streamlit app is updated automatically
 
 <br>
 <b>Description of files</b><br>
