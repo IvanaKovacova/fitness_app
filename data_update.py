@@ -50,6 +50,43 @@ df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==1) &
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) & (df_diff['duration_minutes'] >= 30), 'Activity_points'] = 10
 df_diff.loc[(df_diff['Activity'] == 'Other') & (df_diff['duration_hours'] ==0) & (df_diff['duration_minutes'] < 30), 'Activity_points'] = 0
 
+# create column marking 2X and 3X days
+# default value
+df_diff['Bonus'] = 'None'
+
+# 2X
+df_diff.loc[(df_diff['Day_of_week'] == 'Saturday') | (df_diff['Day_of_week'] == 'Sunday'), 'Bonus'] = '2X'
+
+# 3X
+triple_x_list = ['2022-12-10T00:00:00.000000000', '2023-01-01T00:00:00.000000000', '2023-01-02T00:00:00.000000000', '2023-01-03T00:00:00.000000000', '2023-03-19T00:00:00.000000000']
+df_diff.loc[df_diff['Date'].isin(triple_x_list), 'Bonus'] = '3X'
+
+# specify teams
+team_1 = ['Fernanda Mattei', 'Karthik Gunda', 'Tinku Sand', 'Manish Shetty', 'Abhishek Singh', 'Dio Goldoni', 'Krushi Punyamantula', 'Prerna Dewale', 'Victor Caetano']
+team_2 = ['Jesse Williams', 'Manoj M','Antônio Ravazzolo', 'Aditya Aggarwal', 'Anjana Prem Kumar', 'Aswani Gande', 'Kunjal Gosar', 'Rafael Fraga Mohr', 'Sravan Katepalli']
+team_3 = ['Madhav Parashar', 'Fabia Zarballa', 'Vaibhav Chandan', 'Anvesh Kalia', 'Aarzoo Tandon', 'Ashwini Maddala', 'Leela Krishna', 'Rahul Roy Choudhury', 'Simon Talapa']
+team_4 = ['Andrew Cd', 'Brian Fitzgerald', 'Sowjanya Sowji', 'Craig Friedman', 'Aditi Bhardya', 'Balaji Venkatesh', 'Felipe Garcez', 'Rajat Sadanand', 'Suparna Lala']
+team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'Divya Tallur', 'Marco Martins', 'Ravinder Singh Bisht', 'Tejaswini Sira']
+team_6 = ['Shailesh Abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Isha Kanani', 'Renoy Zachariah', 'Tushar Bhandari']
+team_7 = ['Manimegalai Kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'S Santhoshraghavan', 'Sree Kothapalli']
+team_8 = ['Prabal Paul', 'Akhilesh Paliwal', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj Sp', 'Yesrat Rahman']
+team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'Sathyanarayanan Ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'William Matheson']
+team_10 = ['Som Shubham Sahoo', 'Souvik Nath', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna  N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
+
+# assign teams
+df_diff['Name'] = df_diff['Name'].str.title()
+df_diff['Team'] ='Waiting Room'
+df_diff.loc[df_diff['Name'].str.title().isin(team_1), 'Team'] = 'Pace Makers'
+df_diff.loc[df_diff['Name'].str.title().isin(team_2), 'Team'] = "J's Kaarmaa"
+df_diff.loc[df_diff['Name'].str.title().isin(team_3), 'Team'] = 'The Gladeaters'
+df_diff.loc[df_diff['Name'].str.title().isin(team_4), 'Team'] = 'Flab-u-less!'
+df_diff.loc[df_diff['Name'].str.title().isin(team_5), 'Team'] = 'Unstoppable 9'
+df_diff.loc[df_diff['Name'].str.title().isin(team_6), 'Team'] = 'Not fast but furious'
+df_diff.loc[df_diff['Name'].str.title().isin(team_7), 'Team'] = 'The Pokemons'
+df_diff.loc[df_diff['Name'].str.title().isin(team_8), 'Team'] = 'FANTASTIC 9'
+df_diff.loc[df_diff['Name'].str.title().isin(team_9), 'Team'] = "Fit don't Quit"
+df_diff.loc[df_diff['Name'].str.title().isin(team_10), 'Team'] = 'No Mo Junk in da Trunk'
+
 # concat old & new data
 this_day = dt.date.today()
 df = (
@@ -93,17 +130,6 @@ df_points = (
     .sort_values(['Date', 'Name'], ascending = False, ignore_index = True)
     .assign(Total_points = lambda x: x.Activity_points + x.Daily_points)
 )
-
-# create column marking 2X and 3X days
-# default value
-df_points['Bonus'] = 'None'
-
-# 2X
-df_points.loc[(df_points['Day_of_week'] == 'Saturday') | (df_points['Day_of_week'] == 'Sunday'), 'Bonus'] = '2X'
-
-# 3X
-triple_x_list = ['2022-12-10T00:00:00.000000000', '2023-01-01T00:00:00.000000000', '2023-01-02T00:00:00.000000000', '2023-01-03T00:00:00.000000000', '2023-03-19T00:00:00.000000000']
-df_points.loc[df_points['Date'].isin(triple_x_list), 'Bonus'] = '3X'
 
 # create calculation of days between activities for the great comeback award
 # time difference between rows of one person
@@ -149,31 +175,6 @@ df_points.loc[(df_points['Milestone'] == True) & df_points['Date'].isin(triple_x
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] != 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +1000
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] == 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +500
 
-# specify teams
-team_1 = ['Fernanda Mattei', 'Karthik Gunda', 'Tinku Sand', 'Manish Shetty', 'Abhishek Singh', 'Dio Goldoni', 'Krushi Punyamantula', 'Prerna Dewale', 'Victor Caetano']
-team_2 = ['Jesse Williams', 'Manoj M','Antônio Ravazzolo', 'Aditya Aggarwal', 'Anjana Prem Kumar', 'Aswani Gande', 'Kunjal Gosar', 'Rafael Fraga Mohr', 'Sravan Katepalli']
-team_3 = ['Madhav Parashar', 'Fabia Zarballa', 'Vaibhav Chandan', 'Anvesh Kalia', 'Aarzoo Tandon', 'Ashwini Maddala', 'Leela Krishna', 'Rahul Roy Choudhury', 'Simon Talapa']
-team_4 = ['Andrew Cd', 'Brian Fitzgerald', 'Sowjanya Sowji', 'Craig Friedman', 'Aditi Bhardya', 'Balaji Venkatesh', 'Felipe Garcez', 'Rajat Sadanand', 'Suparna Lala']
-team_5 = ['Virendra Singh', 'Damien Lorigan', 'Ivana Kovacova', 'Sandeep Patil', 'Ali Mehrnezhad', 'Divya Tallur', 'Marco Martins', 'Ravinder Singh Bisht', 'Tejaswini Sira']
-team_6 = ['Shailesh Abecedarian', 'Subramita Dash', 'Aastha Banda', 'Sumit Wadhwa', 'Allen Mills', 'Elena Teytelman', 'Isha Kanani', 'Renoy Zachariah', 'Tushar Bhandari']
-team_7 = ['Manimegalai Kailash', 'Sanjay K', 'Jose Martinez', 'Jason Lee', 'Abhishek Sharma', 'Emily Tibbens', 'Nealie Glasser', 'S Santhoshraghavan', 'Sree Kothapalli']
-team_8 = ['Prabal Paul', 'Akhilesh Paliwal', 'Khushboo Mehrotra', 'Enzo Bertoldi', 'Uttam Ghosh', 'Ankit Agarwal', 'Enoch Jolaoso', 'Neha Arora', 'Saranraj Sp', 'Yesrat Rahman']
-team_9 = ['Sandeep Malhotra', 'Satish Patil', 'Juraj Mečír', 'Sathyanarayanan Ragothaman', 'Ankit Talele', 'Joyce Miyazato', 'Nikhitha Vegi', 'Shreeja Verma', 'William Matheson']
-team_10 = ['Som Shubham Sahoo', 'Souvik Nath', 'Preetha Dandapani', 'Jonathon Klanderman', 'Anoop Karunakaran', 'Aruna  N', 'Kalaiselvi Sekar', 'Palak Agarwal', 'Siddharth Malani', 'Victor Frank']
-
-# assign teams
-df_points['Name'] = df_points['Name'].str.title()
-df_points['Team'] ='Waiting Room'
-df_points.loc[df_points['Name'].str.title().isin(team_1), 'Team'] = 'Pace Makers'
-df_points.loc[df_points['Name'].str.title().isin(team_2), 'Team'] = "J's Kaarmaa"
-df_points.loc[df_points['Name'].str.title().isin(team_3), 'Team'] = 'The Gladeaters'
-df_points.loc[df_points['Name'].str.title().isin(team_4), 'Team'] = 'Flab-u-less!'
-df_points.loc[df_points['Name'].str.title().isin(team_5), 'Team'] = 'Unstoppable 9'
-df_points.loc[df_points['Name'].str.title().isin(team_6), 'Team'] = 'Not fast but furious'
-df_points.loc[df_points['Name'].str.title().isin(team_7), 'Team'] = 'The Pokemons'
-df_points.loc[df_points['Name'].str.title().isin(team_8), 'Team'] = 'FANTASTIC 9'
-df_points.loc[df_points['Name'].str.title().isin(team_9), 'Team'] = "Fit don't Quit"
-df_points.loc[df_points['Name'].str.title().isin(team_10), 'Team'] = 'No Mo Junk in da Trunk'
 
 df_points['Date'] = pd.to_datetime(df_points['Date']).dt.date
 # export data to excel
