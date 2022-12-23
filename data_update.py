@@ -9,7 +9,7 @@ df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 # Import new data
 df_new = pd.read_csv('data/data_new.csv', usecols = [1, 5, 4, 2, 6, 9, 3], dtype='object')  
 df_new.rename(columns= {list(df_new)[0]: 'Activity_ID', list(df_new)[1]: 'Activity'}, inplace = True)
-df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling','Virtual Run': 'Run','Trail Run':'Run','Stair-Stepper': 'Walk', 'Hike': 'Walk'}, inplace = True)
+df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling','Virtual Run': 'Run','Trail Run':'Run','Stair-Stepper': 'Walk', 'Hike': 'Walk', 'Backcountry Ski': 'Walk', 'Nordic Ski':'Walk'}, inplace = True)
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('walk', case = False)), 'Activity']  = 'Walk'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('hike', case = False)), 'Activity']  = 'Walk'
 df_new.loc[(df_new['Activity'] == 'unknown') & (df_new['Location'].str.contains('swim', case = False)), 'Activity']  = 'Swim'
