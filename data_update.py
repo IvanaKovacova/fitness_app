@@ -7,7 +7,8 @@ df = pd.read_excel('data/data_all.xlsx', dtype='object')
 df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 
 # Import new data
-df_new = pd.read_csv('data/data_new.csv', dtype='object', sep=';', engine = 'python')  
+df_new = pd.read_csv('data/data_new.csv', dtype='object', engine = 'python', sep =';')  
+
 df_new.rename(columns= {list(df_new)[1]: 'Activity_ID', list(df_new)[2]: 'Activity'}, inplace = True)
 
 df_new.replace({'E-Bike Ride':'Cycling','Ride':'Cycling', 'Handcycle': 'Cycling', 'Virtual Ride':'Cycling','Virtual Run': 'Run','Trail Run':'Run','Stair-Stepper': 'Walk', 'Hike': 'Walk', 'Backcountry Ski': 'Walk', 'Nordic Ski':'Walk'}, inplace = True)
