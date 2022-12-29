@@ -1,141 +1,121 @@
-Athlete,Activity," ""Type""",Location,Name,Date,Distance,Pace,Unit,Duration,Elev,Calo,EstPace,EstSpeed
-/athletes/92419547,/activities/8300792403,Walk,Lunch Walk,Khushboo Mehrotra,2022-12-28T10:58:00.000+01:00,0.61,,km,0:08:08,3,,13:19,4.5
-/athletes/93937948,/activities/8300739792,Walk,Morning walk,Preetha Dandapani,2022-12-28T10:28:00.000+01:00,5.66,,km,0:58:42,54,,10:22,5.8
-/athletes/111428195,/activities/8300731278,Walk,Lunch Walk,Prerna Dewale,2022-12-28T05:30:00.000+01:00,2.41,,km,0:45:00,0,,18:40,3.2
-/athletes/100629210,/activities/8300695930,Weight Training,Morning lower body Training,Abhishek Singh,2022-12-28T10:20:00.000+01:00,,,,0:56:04,,374,,
-/athletes/111167294,/activities/8300784483,Workout,Morning workout,Rahul Roy Choudhury,2022-12-28T09:00:00.000+01:00,,,,2:04:00,,,,
-/athletes/92419547,/activities/8300673979,Walk,Morning Walk,Khushboo Mehrotra,2022-12-28T08:37:00.000+01:00,2.93,,km,0:34:36,0,,11:48,5.1
-/athletes/89759398,/activities/8300672748,Run,"Morning run in Corbett National Park · Ramnagar, India",Sandeep Malhotra,2022-12-28T10:15:00.000+01:00,3.56,9:16,km,0:33:00,,,9:16,6.5
-/athletes/102398735,/activities/8300604632,Walk,Morning walk,RAVINDER SINGH BISHT,2022-12-28T08:25:00.000+01:00,4.51,,km,0:19:26,26,,4:18,13.9
-/athletes/94637059,/activities/8300598430,Walk,"Day 17 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-28T08:47:00.000+01:00,5,,km,0:48:45,4,,9:45,6.2
-/athletes/111254054,/activities/8300584058,Weight Training,Weight training ,Allen Mills,2022-12-27T19:00:00.000+01:00,,,,1:00:00,,,,
-/athletes/111276322,/activities/8300638704,Workout,Morning workout ,Aarzoo Tandon,2022-12-28T07:00:00.000+01:00,,,,2:15:00,,,,
-/athletes/96331780,/activities/8300537142,Walk,"Morning Walk · Faridabad, India",Virendra Singh,2022-12-28T08:19:00.000+01:00,2.52,,km,0:27:45,15,,11:00,5.4
-/athletes/111254054,/activities/8300583357,Weight Training,Weight training ,Allen Mills,2022-12-27T18:58:00.000+01:00,,,,0:06:57,,,,
-/athletes/101154883,/activities/8300510522,Walk,"Morning Walk · Kolkata, India",Suparna Lala,2022-12-28T07:32:00.000+01:00,5.19,,km,1:01:00,17,,11:45,5.1
-/athletes/111457277,/activities/8300486573,Workout,Evening Workout,Sree Kothapalli,2022-12-27T19:09:00.000+01:00,,,,1:36:00,,374,,
-/athletes/95444598,/activities/8300377099,Walk,"Morning Walk · Bengaluru, India",Manoj M,2022-12-28T06:53:00.000+01:00,1.29,,km,0:16:56,7,,13:07,4.6
-/athletes/111354373,/activities/8300226221,Workout,Table tennis,Joyce Miyazato,2022-12-27T19:28:00.000+01:00,,,,2:03:00,,657,,
-/athletes/111405068,/activities/8300215828,Workout,Evening Workout,Elena Teytelman,2022-12-27T18:24:00.000+01:00,,,,1:03:00,,197,,
-/athletes/92777676,/activities/8300112118,Walk,Evening Walk,Victor Caetano,2022-12-27T18:12:00.000+01:00,0.72,,km,0:11:19,27,,15:43,3.8
-/athletes/111408325,/activities/8300506276,Workout,Afternoon Workout,Sumit Wadhwa,2022-12-27T17:11:00.000+01:00,,,,0:36:21,,,,
-/athletes/111192942,/activities/8300237564,Run,Interval Run,Nealie Glasser,2022-12-27T17:00:00.000+01:00,6.1,7:23,km,0:45:00,,,7:22,8.1
-/athletes/94332657,/activities/8299843237,Run,Day 403: Treadmill 341,Jesse Williams,2022-12-27T14:32:00.000+01:00,11.9,4:13,km,0:50:10,,,4:12,14.2
-/athletes/94335999,/activities/8300455079,Walk,"Evening Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2022-12-27T20:54:00.000+01:00,2.29,,km,0:34:01,10,,14:51,4
-/athletes/111400140,/activities/8299640231,Walk,"Walk after work · Plano Piloto, Brazil",Marco Martins,2022-12-27T17:34:00.000+01:00,5.11,,km,0:45:59,67,,8:59,6.7
-/athletes/74529016,/activities/8299629978,Run,"Afternoon Run · Porto Alegre, Brazil",Rafael Fraga Mohr,2022-12-27T17:33:00.000+01:00,6.13,5:58,km,0:36:34,,,5:57,10.1
-/athletes/47182741,/activities/8299602909,Run,"Afternoon Run · Bedford, USA",Andrew CD,2022-12-27T15:37:00.000+01:00,5.36,5:17,km,0:28:19,,,5:16,11.4
-/athletes/92777676,/activities/8299522930,Ride,Afternoon Ride,Victor Caetano,2022-12-27T17:15:00.000+01:00,20.5,,km,0:30:10,0,,1:28,40.8
-/athletes/111405068,/activities/8299508959,Walk,"Afternoon Walk · Chesterfield County, USA",Elena Teytelman,2022-12-27T15:04:00.000+01:00,2.2,,km,0:31:59,45,,14:32,4.1
-/athletes/94916434,/activities/8299459673,Walk,"Afternoon Walk · Gramado, Brazil",Victor Frank,2022-12-27T16:43:00.000+01:00,2.52,,km,0:27:49,53,,11:02,5.4
-/athletes/111254054,/activities/8299321780,Hike,"Lunch Hike · Los Angeles, USA",Allen Mills,2022-12-27T09:45:00.000+01:00,8.2,,km,1:56:00,295,,9:03,6.6
-/athletes/47356495,/activities/8299269306,Walk,Evening Walk,Abhishek Sharma,2022-12-27T19:42:00.000+01:00,3.29,,km,0:38:44,12,,11:46,5.1
-/athletes/111199444,/activities/8300494531,Walk,Morning Walk,Aswani Gande,2022-12-27T10:14:00.000+01:00,3.93,,km,0:50:03,,178,12:44,4.7
-/athletes/111344192,/activities/8300632172,Workout,Lunch Workout,Anvesh Kalia,2022-12-27T11:52:00.000+01:00,,,,0:31:28,,163,,
-/athletes/94332657,/activities/8298881701,Walk,Morning Walk,Jesse Williams,2022-12-27T10:00:00.000+01:00,1.72,,km,0:33:13,0,,19:18,3.1
-/athletes/93937948,/activities/8298772145,Walk,Night walk,Preetha Dandapani,2022-12-27T15:09:00.000+01:00,5.04,,km,0:39:39,9,,7:52,7.6
-/athletes/96331780,/activities/8298643385,Walk,"Post Dinner Walk · Faridabad, India",Virendra Singh,2022-12-27T21:38:00.000+01:00,3.13,,km,0:40:52,16,,13:03,4.6
-/athletes/25025384,/activities/8298636438,Walk,Night Walk,Madhav Parashar,2022-12-27T22:10:00.000+01:00,0.63,,km,0:12:04,5,,19:09,3.1
-/athletes/111276322,/activities/8298660127,Walk,Night walk,Aarzoo Tandon,2022-12-27T21:30:00.000+01:00,3.1,,km,0:41:00,0,,13:13,4.5
-/athletes/111192942,/activities/8300234510,Walk,Morning Walk,Nealie Glasser,2022-12-27T09:33:00.000+01:00,8.8,,km,1:57:00,0,,13:17,4.5
-/athletes/92419547,/activities/8298453375,Walk,Night Walk,Khushboo Mehrotra,2022-12-27T21:00:00.000+01:00,2.02,,km,0:26:54,3,,13:19,4.5
-/athletes/94637059,/activities/8298395388,Walk,"Day 16 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-27T20:49:00.000+01:00,5.01,,km,0:48:54,4,,9:45,6.1
-/athletes/111212512,/activities/8298264669,Walk,"Evening walk  · Hyderabad, India",Nikhitha Vegi,2022-12-27T20:34:00.000+01:00,2.22,,km,0:30:28,26,,13:43,4.4
-/athletes/100596399,/activities/8298455888,Swim,Afternoon Swim,Ivana Kovacova,2022-12-27T15:59:00.000+01:00,"1,025",2:59,m,0:30:40,,,2:59/100m,2
-/athletes/35500962,/activities/8298029097,Walk,Evening Walk,Ankit Talele,2022-12-27T19:53:00.000+01:00,1.39,,km,0:29:36,0,,21:17,2.8
-/athletes/111428509,/activities/8297978468,Workout,Evening Workout,Neha Arora,2022-12-27T19:14:00.000+01:00,,,,1:05:00,,,,
-/athletes/80921500,/activities/8297932193,Weight Training,Afternoon Weight Training,Juraj Mečír,2022-12-27T13:26:00.000+01:00,,,,2:03:00,,994,,
-/athletes/95558986,/activities/8297852409,Walk,Afternoon Walk,Damien Lorigan,2022-12-27T13:11:00.000+01:00,6.88,,km,1:09:00,52,,10:01,6
-/athletes/100629210,/activities/8297787672,Walk,Evening Walk,Abhishek Singh,2022-12-27T18:46:00.000+01:00,4.11,,km,0:54:37,,320,13:17,4.5
-/athletes/62418776,/activities/8297811229,Run,"Evening Run · Bengaluru, India",Aditya Aggarwal,2022-12-27T19:11:00.000+01:00,3.05,8:34,km,0:26:09,,,8:34,7
-/athletes/111167294,/activities/8297407705,Workout,Workout,Rahul Roy Choudhury,2022-12-27T16:00:00.000+01:00,,,,2:08:00,,,,
-/athletes/95439814,/activities/8299416892,Workout,Packing,Fabia Zarballa,2022-12-27T09:00:00.000+01:00,,,,3:00:00,,,,
-/athletes/111428509,/activities/8297326973,Run,Afternoon Run,Neha Arora,2022-12-27T16:54:00.000+01:00,0.38,16s,km,0:00:06,,,0:15,228
-/athletes/85362332,/activities/8296992400,Crossfit,Functional Training- Barre Class,Fernanda Mattei,2022-12-27T10:59:00.000+01:00,,,,0:35:03,,,,
-/athletes/95179503,/activities/8296939162,Walk,"27 Dec · Hyderabad, India",Balaji Venkatesh,2022-12-27T15:49:00.000+01:00,5.11,,km,0:40:35,35,,7:56,7.6
-/athletes/111518187,/activities/8296505264,Workout,Afternoon Activity,Tejaswini Sira,2022-12-27T14:28:00.000+01:00,,,,0:55:03,,636,,
-/athletes/96331780,/activities/8296483940,Workout,Core strength Workout ,Virendra Singh,2022-12-27T08:38:00.000+01:00,,,,5:10:00,,,,
-/athletes/79541758,/activities/8296215805,Walk,Morning Walk,Sanjay K,2022-12-27T10:09:00.000+01:00,4.43,,km,1:00:00,41,,13:32,4.4
-/athletes/100596399,/activities/8296199744,Run,Morning Run,Ivana Kovacova,2022-12-27T06:55:00.000+01:00,4.07,17:23,km,1:10:00,,,17:11,3.5
-/athletes/111211736,/activities/8296099059,Workout,Lunch Activity - mini golf,Aruna  N,2022-12-27T11:13:00.000+01:00,,,,1:10:00,,,,
-/athletes/102341457,/activities/8296333001,Workout,Morning activity,Divya Tallur,2022-12-27T08:43:00.000+01:00,,,,3:14:00,,,,
-/athletes/80921500,/activities/8296055839,Run,"Morning Run · District of Piešťany, Region of Trnava",Juraj Mečír,2022-12-27T06:31:00.000+01:00,6.22,6:35,km,0:40:55,,,6:34,9.1
-/athletes/111167294,/activities/8296002137,Walk,"Marketing · Kolkata, India",Rahul Roy Choudhury,2022-12-27T09:53:00.000+01:00,2.1,,km,0:27:38,9,,13:09,4.6
-/athletes/102398735,/activities/8295965186,Walk,Morning walk,RAVINDER SINGH BISHT,2022-12-27T09:10:00.000+01:00,2.28,,km,0:18:21,16,,8:02,7.5
-/athletes/111421239,/activities/8298503020,Swim,Swimming ,S Santhoshraghavan,2022-12-27T04:30:00.000+01:00,137,14:34,m,0:20:00,,,14:35/100m,0.4
-/athletes/33732068,/activities/8296363587,Run,Morning Run,Ashwini Maddala,2022-12-27T10:09:00.000+01:00,0.02,2:55:50,km,0:04:19,,,215:49:00,0.3
-/athletes/94637059,/activities/8295935885,Walk,"Day 16 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-27T09:01:00.000+01:00,5,,km,0:47:30,9,,9:30,6.3
-/athletes/111443093,/activities/8295927147,Walk,"Morning Walk · Gurgaon, India",Ankit Agarwal,2022-12-27T09:08:00.000+01:00,2.09,,km,0:27:30,11,,13:09,4.6
-/athletes/111457277,/activities/8295887212,Ride,Evening Ride,Sree Kothapalli,2022-12-26T20:23:00.000+01:00,9.84,,km,1:11:00,,,7:12,8.3
-/athletes/111367285,/activities/8295868928,unknown,Yoga,leela krishna,2022-12-27T07:54:00.000+01:00,,,,0:55:07,,,,
-/athletes/101154883,/activities/8295851818,Walk,Morning Walk,Suparna Lala,2022-12-27T07:36:00.000+01:00,5.09,,km,0:58:29,20,,11:29,5.2
-/athletes/93937948,/activities/8296254418,Elliptical,Morning activity,Preetha Dandapani,2022-12-27T02:00:00.000+01:00,,,,0:30:00,0,,,
-/athletes/111408325,/activities/8296015807,Workout,Day 16 : Evening Workout,Sumit Wadhwa,2022-12-26T19:02:00.000+01:00,,,,1:04:00,,,,
-/athletes/111421239,/activities/8298541136,Walk,Morning Walk in Beach ,S Santhoshraghavan,2022-12-27T01:45:00.000+01:00,1,,km,0:15:00,0,,15:00,4
-/athletes/95444598,/activities/8295663529,Walk,"Morning Walk · Bengaluru, India",Manoj M,2022-12-27T06:05:00.000+01:00,1.93,,km,0:25:42,17,,13:18,4.5
-/athletes/41252175,/activities/8295665817,Run,Morning Run,Shailesh abecedarian,2022-12-27T05:32:00.000+01:00,4.83,11:48,km,0:57:02,,,11:48,5.1
-/athletes/94332657,/activities/8295603881,Run,Day 402: Treadmill 340,Jesse Williams,2022-12-26T17:00:00.000+01:00,8.18,4:31,km,0:37:01,,,4:31,13.3
-/athletes/111192942,/activities/8295886251,Walk,Walk,Nealie Glasser,2022-12-26T18:38:00.000+01:00,2.4,,km,0:40:00,0,,16:40,3.6
-/athletes/111344192,/activities/8298627865,Workout,Afternoon Workout,Anvesh Kalia,2022-12-26T16:58:00.000+01:00,,,,0:33:53,,172,,
-/athletes/111405068,/activities/8295226124,Workout,Afternoon Workout,Elena Teytelman,2022-12-26T16:25:00.000+01:00,,,,1:00:00,,168,,
-/athletes/111344192,/activities/8295239513,unknown,Afternoon Yoga,Anvesh Kalia,2022-12-26T14:39:00.000+01:00,,,,1:32:00,,533,,
-/athletes/74529016,/activities/8295235820,Walk,"Evening Walk · Porto Alegre, Brazil",Rafael Fraga Mohr,2022-12-26T18:09:00.000+01:00,7.01,,km,1:03:00,21,,8:59,6.7
-/athletes/92777676,/activities/8294968697,Ride,Afternoon Ride,Victor Caetano,2022-12-26T17:33:00.000+01:00,20.2,,km,0:33:13,0,,1:38,36.5
-/athletes/92777676,/activities/8294959737,Run,Afternoon Run,Victor Caetano,2022-12-26T16:40:00.000+01:00,5.05,7:20,km,0:37:05,,,7:20,8.2
-/athletes/111192942,/activities/8294814462,Workout,Afternoon Workout,Nealie Glasser,2022-12-26T14:46:00.000+01:00,,,,0:30:56,,131,,
-/athletes/47182741,/activities/8294805558,Run,"Afternoon Run · Bedford, USA",Andrew CD,2022-12-26T14:45:00.000+01:00,5.4,5:17,km,0:28:32,,,5:17,11.4
-/athletes/111394610,/activities/8298103194,unknown,Ski,craig friedman,2022-12-26T15:11:00.000+01:00,,,,5:00:00,,,,
-/athletes/111408325,/activities/8296015781,Workout,Lunch Workout,Sumit Wadhwa,2022-12-26T12:39:00.000+01:00,,,,0:30:51,,,,
-/athletes/25401364,/activities/8295263368,Run,Lunch Run,Jose Martinez,2022-12-26T12:12:00.000+01:00,7.68,5:16,km,0:40:29,,,5:16,11.4
-/athletes/47356495,/activities/8294507373,Walk,Evening Walk,Abhishek Sharma,2022-12-26T18:59:00.000+01:00,3.02,,km,0:38:01,10,,12:35,4.8
-/athletes/97845585,/activities/8294337976,Walk,"Evening Walk · District of Trnava, Region of Trnava",Simon Talapa,2022-12-26T18:24:00.000+01:00,1.33,,km,0:16:26,5,,12:21,4.9
-/athletes/100596399,/activities/8294260024,unknown,"Evening climbing · District of Bratislava II, Region of Bratislava",Ivana Kovacova,2022-12-26T16:50:00.000+01:00,,,,1:36:00,0,,,
-/athletes/111453240,/activities/8294238689,Workout,Lunch Activity,Jason Lee,2022-12-26T11:00:00.000+01:00,,,,0:16:10,,,,
-/athletes/111354373,/activities/8294205547,Elliptical,Afternoon Elliptical,Joyce Miyazato,2022-12-26T13:25:00.000+01:00,,,,0:32:58,,113,,
-/athletes/93937948,/activities/8294221254,Walk,Evening Walk,Preetha Dandapani,2022-12-26T20:21:00.000+01:00,5.25,,km,0:51:50,34,,9:52,6.1
-/athletes/95558986,/activities/8294131398,Walk,Afternoon Walk,Damien Lorigan,2022-12-26T16:20:00.000+01:00,3.37,,km,0:35:48,28,,10:37,5.6
-/athletes/94916434,/activities/8294166412,Walk,"Lunch Walk · Gramado, Brazil",Victor Frank,2022-12-26T12:34:00.000+01:00,2.3,,km,0:22:58,15,,9:59,6
-/athletes/94335999,/activities/8293893905,Walk,"Afternoon Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2022-12-26T15:07:00.000+01:00,3.11,,km,0:22:03,25,,7:05,8.5
-/athletes/111394610,/activities/8298088452,Hike,Morning Hike,craig friedman,2022-12-26T15:00:00.000+01:00,4.82,,km,1:00:00,0,,12:26,4.8
-/athletes/35500962,/activities/8293867009,Walk,Night walk,Ankit Talele,2022-12-26T20:32:00.000+01:00,2.18,,km,0:49:40,0,,22:46,2.6
-/athletes/94637059,/activities/8293715709,Walk,"Day 15 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-26T20:07:00.000+01:00,5,,km,0:47:49,7,,9:33,6.3
-/athletes/80921500,/activities/8293635159,Walk,"Afternoon Walk · District of Piešťany, Region of Trnava",Juraj Mečír,2022-12-26T15:01:00.000+01:00,3.21,,km,0:53:22,25,,16:37,3.6
-/athletes/102341457,/activities/8293942845,Workout,Evening Workout,Divya Tallur,2022-12-26T18:24:00.000+01:00,,,,2:02:00,,,,
-/athletes/33732068,/activities/8293647626,Walk,"Evening Walk · Bengaluru, India",Ashwini Maddala,2022-12-26T20:18:00.000+01:00,0.29,,km,0:04:14,2,,14:35,4.1
-/athletes/93272730,/activities/8299228368,Yoga,Morning Yoga,Satish Patil,2022-12-26T08:02:00.000+01:00,,,,0:40:29,,191,,
-/athletes/33732068,/activities/8293647692,Walk,"Evening Walk · Bengaluru, India",Ashwini Maddala,2022-12-26T19:29:00.000+01:00,2.52,,km,0:37:28,24,,14:52,4
-/athletes/85362332,/activities/8293424402,Walk,"Walk @ the beach  · Pitimbu, Brazil",Fernanda Mattei,2022-12-26T10:13:00.000+01:00,4.41,,km,1:03:00,227,,14:17,4.2
-/athletes/62418776,/activities/8293399484,Run,"Evening Run · Bengaluru, India",Aditya Aggarwal,2022-12-26T19:03:00.000+01:00,4.06,8:44,km,0:35:28,,,8:44,6.9
-/athletes/111167294,/activities/8293398464,Workout,Evening workout,Rahul Roy Choudhury,2022-12-26T17:24:00.000+01:00,,,,2:09:00,,,,
-/athletes/33732068,/activities/8293639144,Walk,"Evening Walk · Bengaluru, India",Ashwini Maddala,2022-12-26T19:27:00.000+01:00,0.06,,km,0:01:05,0,,18:03,3.3
-/athletes/100629210,/activities/8293197352,Walk,Afternoon Walk,Abhishek Singh,2022-12-26T17:57:00.000+01:00,4.12,,km,0:57:25,,367,13:56,4.3
-/athletes/95179503,/activities/8293180289,Walk,"26 Dec  · Hyderabad, India",Balaji Venkatesh,2022-12-26T17:34:00.000+01:00,1.61,,km,0:20:28,15,,12:42,4.7
-/athletes/111421239,/activities/8298525392,Walk,Evening Walk along the beach ,S Santhoshraghavan,2022-12-26T12:30:00.000+01:00,1.1,,km,0:30:00,0,,27:16:00,2.2
-/athletes/95444598,/activities/8292965930,Walk,"Evening Walk · Bengaluru, India",Manoj M,2022-12-26T17:52:00.000+01:00,1.16,,km,0:15:38,8,,13:28,4.5
-/athletes/111211736,/activities/8292830045,Walk,"Afternoon Walk · Marakanam, India",Aruna  N,2022-12-26T15:47:00.000+01:00,3.4,,km,0:56:00,11,,16:28,3.6
-/athletes/95558986,/activities/8292514415,Walk,Morning Walk,Damien Lorigan,2022-12-26T10:17:00.000+01:00,6.04,,km,1:05:00,44,,10:45,5.6
-/athletes/95439814,/activities/8292476744,Yoga,Monday Yoga,Fabia Zarballa,2022-12-26T09:02:00.000+01:00,,,,0:58:00,,,,
-/athletes/111518187,/activities/8292841948,Workout,Afternoon Activity,Tejaswini Sira,2022-12-26T13:57:00.000+01:00,,,,1:00:00,,663,,
-/athletes/100596399,/activities/8291831414,Walk,"Morning dog walk · District of Trenčín, Region of Trenčín",Ivana Kovacova,2022-12-26T09:09:00.000+01:00,4.25,,km,0:53:42,212,,12:38,4.7
-/athletes/25025384,/activities/8291643478,Ride,"Brother's first 15k ride · Tambaram, India",Madhav Parashar,2022-12-26T12:12:00.000+01:00,17.85,,km,0:45:29,47,,2:32,23.5
-/athletes/79541758,/activities/8291593844,Walk,Morning Walk,Sanjay K,2022-12-26T08:00:00.000+01:00,7.08,,km,1:30:00,73,,12:42,4.7
-/athletes/93937948,/activities/8291519279,Walk,Morning Walk,Preetha Dandapani,2022-12-26T08:29:00.000+01:00,2.5,,km,0:27:42,0,,11:04,5.4
-/athletes/111276322,/activities/8291499467,Run,Quick run for coffee,Aarzoo Tandon,2022-12-26T09:47:00.000+01:00,2.6,13:28,km,0:35:00,,,13:27,4.5
-/athletes/94637059,/activities/8291484468,Walk,"Day 16 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-26T09:25:00.000+01:00,5,,km,0:49:00,10,,9:48,6.1
-/athletes/102398735,/activities/8291496993,Walk,Morning walk,RAVINDER SINGH BISHT,2022-12-26T09:23:00.000+01:00,3.75,,km,0:10:55,19,,2:54,20.6
-/athletes/92419547,/activities/8291490183,Ride,Gardening,Khushboo Mehrotra,2022-12-26T03:30:00.000+01:00,,,,1:00:00,0,,,
-/athletes/111004967,/activities/8293865213,Workout,Morning Batminton,Sowjanya Sowji,2022-12-25T19:00:00.000+01:00,,,,1:30:00,,,,
-/athletes/111421239,/activities/8298546228,Walk,Morning Walk ,S Santhoshraghavan,2022-12-26T03:30:00.000+01:00,1,,km,0:30:00,0,,30:00:00,2
-/athletes/111457277,/activities/8291418155,Ride,Evening Ride,Sree Kothapalli,2022-12-25T20:20:00.000+01:00,8.24,,km,1:05:00,,,7:53,7.6
-/athletes/101154883,/activities/8291415217,Walk,"Foggy morning · Kolkata, India",Suparna Lala,2022-12-26T07:39:00.000+01:00,6.08,,km,1:11:00,16,,11:40,5.1
-/athletes/94335999,/activities/8291407698,Walk,"Night Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2022-12-26T02:30:00.000+01:00,1.36,,km,0:20:19,17,,14:56,4
-/athletes/111344192,/activities/8291531425,Workout,Evening Workout,Anvesh Kalia,2022-12-25T19:06:00.000+01:00,,,,1:31:00,,459,,
-/athletes/111192942,/activities/8291432054,Walk,Short Walk,Nealie Glasser,2022-12-25T20:40:00.000+01:00,1.9,,km,0:28:00,0,,14:44,4.1
-/athletes/93272730,/activities/8299228427,Walk,"Evening Walk · La Fortuna, Costa Rica",Satish Patil,2022-12-25T18:17:00.000+01:00,1.51,,km,0:28:06,69,,18:36,3.2
-/athletes/47182741,/activities/8291314854,Walk,"Evening Walk · Bedford, USA",Andrew CD,2022-12-25T20:36:00.000+01:00,0.97,,km,0:11:22,11,,11:43,5.1
-/athletes/111199444,/activities/8291324671,Walk,Afternoon Walk,Aswani Gande,2022-12-25T16:39:00.000+01:00,3.63,,km,0:47:26,,150,13:04,4.6
-/athletes/79541758,/activities/8291283889,Yoga,Meditation,Sanjay K,2022-12-26T06:17:00.000+01:00,,,,0:36:45,,,,
-/athletes/94332657,/activities/8291191709,Run,Day 401: Treadmill 339,Jesse Williams,2022-12-25T16:51:00.000+01:00,6.74,4:29,km,0:30:17,,,4:29,13.4
-/athletes/111344192,/activities/8291100636,Walk,"Afternoon Walk · Round Rock, USA",Anvesh Kalia,2022-12-25T16:01:00.000+01:00,5.01,,km,1:11:00,25,,14:10,4.2
-/athletes/47182741,/activities/8290805582,Run,"Merry Christmas! · Bedford, USA",Andrew CD,2022-12-25T15:41:00.000+01:00,5.24,5:11,km,0:27:10,,,5:11,11.6
-/athletes/47182741,/activities/8290692766,Walk,"Afternoon Walk · Bedford, USA",Andrew CD,2022-12-25T15:11:00.000+01:00,0.44,,km,0:06:16,0,,14:14,4.2
+"Athlete","Activity", "Type","Location","Name","Date","Distance","Pace","Unit","Duration","Elev","Calo","EstPace","EstSpeed"
+"/athletes/93937948","/activities/8305398017","Walk","Lunch Walk","Preetha Dandapani","2022-12-29T11:21:00.000+05:30","5.43","","km","01:03:00","61","","11:36","5.2"
+"/athletes/111421239","/activities/8305361870","Walk","Afternoon Walk ","S Santhoshraghavan","2022-12-29T12:20:00.000+05:30","0.87","","km","00:12:00","0","","13:47","4.3"
+"/athletes/111428195","/activities/8305343949","Walk","Lunch Walk","Prerna Dewale","2022-12-29T06:23:00.000+05:30","1.61","","km","00:30:00","0","","18:38","3.2"
+"/athletes/92419547","/activities/8305254937","Walk","Walk","Khushboo Mehrotra","2022-12-29T07:40:00.000+05:30","4.50","","km","01:04:00","0","","14:13","4.2"
+"/athletes/100629210","/activities/8305247957","Weight Training","Morning Weight Training - Biceps ","Abhishek Singh","2022-12-29T10:31:00.000+05:30","","","","00:42:27","","292","",""
+"/athletes/111167294","/activities/8305305090","Workout","Workout","Rahul Roy Choudhury","2022-12-29T09:00:00.000+05:30","","","","02:04:00","","","",""
+"/athletes/79541758","/activities/8305182659","Walk","Walk around the neighbourhood · Ward 13, Chandigarh","Sanjay K","2022-12-29T08:32:00.000+05:30","5.60","","km","01:12:00","53","","12:51","4.7"
+"/athletes/102398735","/activities/8305176950","Walk","Morning walk","RAVINDER SINGH BISHT","2022-12-29T08:55:00.000+05:30","6.04","","km","00:19:32","32","","3:14","18.6"
+"/athletes/111443093","/activities/8305148309","Walk","Morning Walk · Gurgaon, Haryana","Ankit Agarwal","2022-12-29T09:02:00.000+05:30","2.42","","km","00:32:05","13","","13:15","4.5"
+"/athletes/25025384","/activities/8305128371","Ride","Morning Ride · Alandur, Tamil Nadu","Madhav Parashar","2022-12-29T07:21:00.000+05:30","46.47","","km","02:05:00","136","","2:41","22.3"
+"/athletes/111276322","/activities/8305134962","Workout","Cardio workout ","Aarzoo Tandon","2022-12-29T07:00:00.000+05:30","","","","02:15:00","","","",""
+"/athletes/111367285","/activities/8305076514","Workout","Workout ","leela krishna","2022-12-29T07:25:00.000+05:30","","","","01:23:00","","","",""
+"/athletes/93272730","/activities/8305266998","Swim","Evening Swim","Satish Patil","2022-12-28T19:34:00.000+05:30","1,200","3:11","m","00:38:20","","","3:11/100m","1.9"
+"/athletes/111254054","/activities/8304886279","Golf","Golf. Back 9  · Avocado Heights, USA","Allen Mills","2022-12-28T14:48:00.000+05:30","5.38","","km","02:38:00","","","29:22","2.0"
+"/athletes/93272730","/activities/8305266991","Elliptical","Evening Elliptical","Satish Patil","2022-12-28T18:53:00.000+05:30","","","","00:30:04","","213","",""
+"/athletes/111521930","/activities/8304858802","Walk","Morning Walk · Haora, West Bengal","Souvik Nath","2022-12-29T05:36:00.000+05:30","4.52","","km","01:00:00","37","","13:16","4.5"
+"/athletes/111408325","/activities/8305043615","Workout","Day 18 : Evening Workout","Sumit Wadhwa","2022-12-28T17:43:00.000+05:30","","","","01:11:00","","","",""
+"/athletes/95444598","/activities/8304808372","Walk","Morning Walk · Bengaluru, Karnataka","Manoj M","2022-12-29T05:59:00.000+05:30","1.28","","km","00:19:46","7","","15:26","3.9"
+"/athletes/111192942","/activities/8304900170","Weight Training","Group Fitness","Nealie Glasser","2022-12-28T18:30:00.000+05:30","","","","01:00:00","","","",""
+"/athletes/111344192","/activities/8305129440","Yoga","Afternoon Yoga","Anvesh Kalia","2022-12-28T16:12:00.000+05:30","","","","01:46:00","","512","",""
+"/athletes/111254054","/activities/8304889410","Golf","Golf. Front 9","Allen Mills","2022-12-28T12:40:00.000+05:30","4.82","","km","02:30:00","","","31:07","1.9"
+"/athletes/94332657","/activities/8304539472","Run","Afternoon Run","Jesse Williams","2022-12-28T15:41:00.000+05:30","5.18","4:38","km","00:24:03","","","4:38","12.9"
+"/athletes/94655829","/activities/8304654373","Hike","Campuhan Ridge Walk, Bali","Kalaiselvi Sekar","2022-12-28T21:30:00.000+05:30","6.00","","km","01:10:00","0","","11:39","5.1"
+"/athletes/25401364","/activities/8304010444","Run","Afternoon Run","Jose Martinez","2022-12-28T13:49:00.000+05:30","8.13","5:32","km","00:44:58","","","5:31","10.8"
+"/athletes/95558986","/activities/8303849988","Walk","Evening Walk","Damien Lorigan","2022-12-28T18:28:00.000+05:30","6.36","","km","01:10:00","47","","11:00","5.5"
+"/athletes/111179707","/activities/8303143447","Run","Desert walk for sunset View","sathyanarayanan ragothaman","2022-12-28T16:47:00.000+05:30","10.20","15:24","km","02:37:00","","","15:23","3.9"
+"/athletes/80921500","/activities/8303607564","Weight Training","Afternoon Weight Training","Juraj Mečír","2022-12-28T17:30:00.000+05:30","","","","02:01:00","","886","",""
+"/athletes/93937948","/activities/8303516332","Walk","Airport walk · Devanahalli taluk, Karnataka","Preetha Dandapani","2022-12-28T22:03:00.000+05:30","1.51","","km","00:24:19","16","","16:06","3.7"
+"/athletes/47356495","/activities/8303422027","Walk","Evening Walk","Abhishek Sharma","2022-12-28T18:00:00.000+05:30","3.58","","km","00:40:35","24","","11:20","5.3"
+"/athletes/85362332","/activities/8303461709","Kayaking","Kayaking ","Fernanda Mattei","2022-12-28T16:45:00.000+05:30","","","","01:10:00","","","",""
+"/athletes/94916434","/activities/8303367581","Walk","Lunch Walk · Gramado, Brazil","Victor Frank","2022-12-28T12:47:00.000+05:30","2.28","","km","00:21:58","16","","9:38","6.2"
+"/athletes/25025384","/activities/8303095090","Walk","Night Walk","Madhav Parashar","2022-12-28T22:07:00.000+05:30","0.62","","km","00:09:23","5","","15:08","4.0"
+"/athletes/94637059","/activities/8302921940","Walk","Day 17 : Night walk · Bengaluru, Karnataka","Karthik Gunda","2022-12-28T20:54:00.000+05:30","5.01","","km","00:48:33","4","","9:41","6.2"
+"/athletes/111518187","/activities/8302895367","Walk","Evening walk","Tejaswini Sira","2022-12-28T20:51:00.000+05:30","3.28","","km","00:45:27","46","","13:51","4.3"
+"/athletes/96331780","/activities/8302870953","Walk","Night Walk · Faridabad, Haryana","Virendra Singh","2022-12-28T21:14:00.000+05:30","0.80","","km","00:10:32","6","","13:09","4.6"
+"/athletes/111359125","/activities/8303160138","Weight Training","Lunch Activity","Manish Shetty","2022-12-28T08:30:00.000+05:30","","","","01:17:00","","","",""
+"/athletes/102341457","/activities/8303175597","Workout","Evening workout","Divya Tallur","2022-12-28T19:10:00.000+05:30","","","","02:05:00","","","",""
+"/athletes/35500962","/activities/8302707124","Walk","Evening Walk","Ankit Talele","2022-12-28T19:55:00.000+05:30","2.74","","km","00:56:28","0","","20:36","2.9"
+"/athletes/110803027","/activities/8302398026","Run","Evening walk · Golmuri-Cum-Jugsalai, Jharkhand","tinku sand","2022-12-28T19:15:00.000+05:30","3.35","10:41","km","00:35:52","","","10:42","5.6"
+"/athletes/111405068","/activities/8302281127","Workout","Morning Workout","Elena Teytelman","2022-12-28T07:55:00.000+05:30","","","","01:00:00","","156","",""
+"/athletes/100629210","/activities/8302230660","Walk","Evening Walk","Abhishek Singh","2022-12-28T18:17:00.000+05:30","4.72","","km","01:02:00","0","","13:08","4.6"
+"/athletes/47182741","/activities/8302172039","Walk","Wandering around Boston before my train  · Boston, USA","Andrew CD","2022-12-28T07:49:00.000+05:30","3.97","","km","00:41:42","28","","10:30","5.7"
+"/athletes/111276322","/activities/8302994088","Walk","Long evening walk","Aarzoo Tandon","2022-12-28T17:30:00.000+05:30","5.90","","km","01:23:00","0","","14:04","4.3"
+"/athletes/111443594","/activities/8302086024","Walk","Afternoon Walk · Model Town Tehsil, Delhi","Aastha Banda","2022-12-28T17:49:00.000+05:30","2.38","","km","00:30:54","13","","12:58","4.6"
+"/athletes/111428509","/activities/8302038086","Workout","Afternoon Workout","Neha Arora","2022-12-28T17:35:00.000+05:30","","","","01:00:00","","","",""
+"/athletes/33732068","/activities/8302004094","Walk","Evening Walk · Bengaluru, Karnataka","Ashwini Maddala","2022-12-28T18:16:00.000+05:30","0.40","","km","00:06:56","5","","17:19","3.5"
+"/athletes/33732068","/activities/8301896844","Walk","Afternoon Walk · Bengaluru, Karnataka","Ashwini Maddala","2022-12-28T17:38:00.000+05:30","0.88","","km","00:15:50","3","","17:59","3.3"
+"/athletes/111428509","/activities/8301760668","Run","Afternoon Run · Bengaluru, Karnataka","Neha Arora","2022-12-28T17:00:00.000+05:30","1.19","8:20","km","00:09:58","","","8:22","7.2"
+"/athletes/111211736","/activities/8301698115","Workout","Badminton","Aruna  N","2022-12-28T16:15:00.000+05:30","","","","01:06:00","","","",""
+"/athletes/100596399","/activities/8301340624","Run","Morning Run · District of Bratislava I, Slovakia","Ivana Kovacova","2022-12-28T10:36:00.000+05:30","7.80","6:22","km","00:49:42","","","6:22","9.4"
+"/athletes/85362332","/activities/8301413450","Crossfit","Functional training (soccer)","Fernanda Mattei","2022-12-28T09:00:00.000+05:30","","","","00:40:00","","","",""
+"/athletes/79541758","/activities/8300891708","Walk","Morning Walk · Ward 13, Chandigarh","Sanjay K","2022-12-28T08:51:00.000+05:30","2.75","","km","00:40:07","40","","14:35","4.1"
+"/athletes/92419547","/activities/8300792403","Walk","Lunch Walk","Khushboo Mehrotra","2022-12-28T10:58:00.000+05:30","0.61","","km","00:08:08","3","","13:19","4.5"
+"/athletes/93937948","/activities/8300739792","Walk","Morning walk","Preetha Dandapani","2022-12-28T10:28:00.000+05:30","5.66","","km","00:58:42","54","","10:22","5.8"
+"/athletes/111428195","/activities/8300731278","Walk","Lunch Walk","Prerna Dewale","2022-12-28T05:30:00.000+05:30","2.41","","km","00:45:00","0","","18:40","3.2"
+"/athletes/100629210","/activities/8300695930","Weight Training","Morning lower body Training","Abhishek Singh","2022-12-28T10:20:00.000+05:30","","","","00:56:04","","374","",""
+"/athletes/111167294","/activities/8300784483","Workout","Morning workout","Rahul Roy Choudhury","2022-12-28T09:00:00.000+05:30","","","","02:04:00","","","",""
+"/athletes/92419547","/activities/8300673979","Walk","Morning Walk","Khushboo Mehrotra","2022-12-28T08:37:00.000+05:30","2.93","","km","00:34:36","0","","11:48","5.1"
+"/athletes/89759398","/activities/8300672748","Run","Morning run in Corbett National Park · Ramnagar, Uttarakhand","Sandeep Malhotra","2022-12-28T10:15:00.000+05:30","3.56","9:16","km","00:33:00","","","9:16","6.5"
+"/athletes/111004967","/activities/8301396866","Workout","Morning Batminton","Sowjanya Sowji","2022-12-27T19:00:00.000+05:30","","","","02:00:00","","","",""
+"/athletes/102398735","/activities/8300604632","Walk","Morning walk","RAVINDER SINGH BISHT","2022-12-28T08:25:00.000+05:30","4.51","","km","00:19:26","26","","4:18","13.9"
+"/athletes/94637059","/activities/8300598430","Walk","Day 17 : Morning walk · Bengaluru, Karnataka","Karthik Gunda","2022-12-28T08:47:00.000+05:30","5.00","","km","00:48:45","4","","9:45","6.2"
+"/athletes/111254054","/activities/8300584058","Weight Training","Weight training - Legs 😫","Allen Mills","2022-12-27T19:00:00.000+05:30","","","","01:00:00","","","",""
+"/athletes/111276322","/activities/8300638704","Workout","Morning workout ","Aarzoo Tandon","2022-12-28T07:00:00.000+05:30","","","","02:15:00","","","",""
+"/athletes/96331780","/activities/8300537142","Walk","Morning Walk · Faridabad, Haryana","Virendra Singh","2022-12-28T08:19:00.000+05:30","2.52","","km","00:27:45","15","","11:00","5.4"
+"/athletes/101154883","/activities/8300510522","Walk","Morning Walk · Kolkata, West Bengal","Suparna Lala","2022-12-28T07:32:00.000+05:30","5.19","","km","01:01:00","17","","11:45","5.1"
+"/athletes/111457277","/activities/8300486573","Workout","Evening Workout","Sree Kothapalli","2022-12-27T19:09:00.000+05:30","","","","01:36:00","","374","",""
+"/athletes/95444598","/activities/8300377099","Walk","Morning Walk · Bengaluru, Karnataka","Manoj M","2022-12-28T06:53:00.000+05:30","1.29","","km","00:16:56","7","","13:07","4.6"
+"/athletes/111354373","/activities/8300226221","Workout","Table tennis","Joyce Miyazato","2022-12-27T19:28:00.000+05:30","","","","02:03:00","","657","",""
+"/athletes/111405068","/activities/8300215828","Workout","Evening Workout","Elena Teytelman","2022-12-27T18:24:00.000+05:30","","","","01:03:00","","197","",""
+"/athletes/92777676","/activities/8300112118","Walk","Evening Walk","Victor Caetano","2022-12-27T18:12:00.000+05:30","0.72","","km","00:11:19","27","","15:43","3.8"
+"/athletes/111408325","/activities/8300506276","Workout","Day 17 : Afternoon Workout","Sumit Wadhwa","2022-12-27T17:11:00.000+05:30","","","","00:36:21","","","",""
+"/athletes/25401364","/activities/8302386170","Run","Afternoon Run","Jose Martinez","2022-12-27T16:48:00.000+05:30","8.21","5:21","km","00:43:52","","","5:20","11.2"
+"/athletes/111192942","/activities/8300237564","Run","Interval Run","Nealie Glasser","2022-12-27T17:00:00.000+05:30","6.10","7:23","km","00:45:00","","","7:22","8.1"
+"/athletes/94332657","/activities/8299843237","Run","Day 403: Treadmill 341","Jesse Williams","2022-12-27T14:32:00.000+05:30","11.90","4:13","km","00:50:10","","","4:12","14.2"
+"/athletes/94335999","/activities/8300455079","Walk","Evening Walk · The Metropolitan District of Limerick City, Ireland","Brian Fitzgerald","2022-12-27T20:54:00.000+05:30","2.29","","km","00:34:01","10","","14:51","4.0"
+"/athletes/111400140","/activities/8299640231","Walk","Walk after work · Plano Piloto, Brazil","Marco Martins","2022-12-27T17:34:00.000+05:30","5.11","","km","00:45:59","67","","8:59","6.7"
+"/athletes/74529016","/activities/8299629978","Run","Afternoon Run · Porto Alegre, Brazil","Rafael Fraga Mohr","2022-12-27T17:33:00.000+05:30","6.13","5:58","km","00:36:34","","","5:57","10.1"
+"/athletes/47182741","/activities/8299602909","Run","Afternoon Run · Bedford, USA","Andrew CD","2022-12-27T15:37:00.000+05:30","5.36","5:17","km","00:28:19","","","5:16","11.4"
+"/athletes/92777676","/activities/8299522930","Ride","Afternoon Ride","Victor Caetano","2022-12-27T17:15:00.000+05:30","20.50","","km","00:30:10","0","","1:28","40.8"
+"/athletes/111405068","/activities/8299508959","Walk","Afternoon Walk · Chesterfield County, USA","Elena Teytelman","2022-12-27T15:04:00.000+05:30","2.20","","km","00:31:59","45","","14:32","4.1"
+"/athletes/94916434","/activities/8299459673","Walk","Afternoon Walk · Gramado, Brazil","Victor Frank","2022-12-27T16:43:00.000+05:30","2.52","","km","00:27:49","53","","11:02","5.4"
+"/athletes/111254054","/activities/8299321780","Hike","Lunch Hike · Los Angeles, USA","Allen Mills","2022-12-27T09:45:00.000+05:30","8.11","","km","01:45:00","291","","12:56","4.6"
+"/athletes/47356495","/activities/8299269306","Walk","Evening Walk","Abhishek Sharma","2022-12-27T19:42:00.000+05:30","3.29","","km","00:38:44","12","","11:46","5.1"
+"/athletes/111199444","/activities/8300494531","Walk","Morning Walk","Aswani Gande","2022-12-27T10:14:00.000+05:30","3.93","","km","00:50:03","","178","12:44","4.7"
+"/athletes/111344192","/activities/8300632172","Workout","Lunch Workout","Anvesh Kalia","2022-12-27T11:52:00.000+05:30","","","","00:31:28","","163","",""
+"/athletes/94332657","/activities/8298881701","Walk","Morning Walk","Jesse Williams","2022-12-27T10:00:00.000+05:30","1.72","","km","00:33:13","0","","19:18","3.1"
+"/athletes/93937948","/activities/8298772145","Walk","Night walk","Preetha Dandapani","2022-12-27T15:09:00.000+05:30","5.04","","km","00:39:39","9","","7:52","7.6"
+"/athletes/96331780","/activities/8298643385","Walk","Post Dinner Walk · Faridabad, Haryana","Virendra Singh","2022-12-27T21:38:00.000+05:30","3.13","","km","00:40:52","16","","13:03","4.6"
+"/athletes/25025384","/activities/8298636438","Walk","Night Walk","Madhav Parashar","2022-12-27T22:10:00.000+05:30","0.63","","km","00:12:04","5","","19:09","3.1"
+"/athletes/111276322","/activities/8298660127","Walk","Night walk","Aarzoo Tandon","2022-12-27T21:30:00.000+05:30","3.10","","km","00:41:00","0","","13:13","4.5"
+"/athletes/111192942","/activities/8300234510","Walk","Morning Walk","Nealie Glasser","2022-12-27T09:33:00.000+05:30","8.80","","km","01:57:00","0","","13:17","4.5"
+"/athletes/92419547","/activities/8298453375","Walk","Night Walk","Khushboo Mehrotra","2022-12-27T21:00:00.000+05:30","2.02","","km","00:26:54","3","","13:19","4.5"
+"/athletes/94637059","/activities/8298395388","Walk","Day 16 : Night walk · Bengaluru, Karnataka","Karthik Gunda","2022-12-27T20:49:00.000+05:30","5.01","","km","00:48:54","4","","9:45","6.1"
+"/athletes/111212512","/activities/8298264669","Walk","Evening walk  · Hyderabad, Telangana","Nikhitha Vegi","2022-12-27T20:34:00.000+05:30","2.22","","km","00:30:28","26","","13:43","4.4"
+"/athletes/100596399","/activities/8298455888","Swim","Afternoon Swim","Ivana Kovacova","2022-12-27T15:59:00.000+05:30","1,025","2:59","m","00:30:40","","","2:59/100m","2.0"
+"/athletes/35500962","/activities/8298029097","Walk","Evening Walk","Ankit Talele","2022-12-27T19:53:00.000+05:30","1.39","","km","00:29:36","0","","21:17","2.8"
+"/athletes/111428509","/activities/8297978468","Workout","Evening Workout","Neha Arora","2022-12-27T19:14:00.000+05:30","","","","01:05:00","","","",""
+"/athletes/80921500","/activities/8297932193","Weight Training","Afternoon Weight Training","Juraj Mečír","2022-12-27T13:26:00.000+05:30","","","","02:03:00","","994","",""
+"/athletes/95558986","/activities/8297852409","Walk","Afternoon Walk","Damien Lorigan","2022-12-27T13:11:00.000+05:30","6.88","","km","01:09:00","52","","10:01","6.0"
+"/athletes/100629210","/activities/8297787672","Walk","Evening Walk","Abhishek Singh","2022-12-27T18:46:00.000+05:30","4.11","","km","00:54:37","","320","13:17","4.5"
+"/athletes/62418776","/activities/8297811229","Run","Evening Run · Bengaluru, Karnataka","Aditya Aggarwal","2022-12-27T19:11:00.000+05:30","3.05","8:34","km","00:26:09","","","8:34","7.0"
+"/athletes/111353892","/activities/8302232466","Walk","Evening Walk","Sravan Katepalli","2022-12-27T12:50:00.000+05:30","4.82","","km","01:10:00","0","","14:31","4.1"
+"/athletes/111167294","/activities/8297407705","Workout","Workout","Rahul Roy Choudhury","2022-12-27T16:00:00.000+05:30","","","","02:08:00","","","",""
+"/athletes/95439814","/activities/8299416892","Workout","Packing","Fabia Zarballa","2022-12-27T09:00:00.000+05:30","","","","03:00:00","","","",""
+"/athletes/111428509","/activities/8297326973","Run","Afternoon Run","Neha Arora","2022-12-27T16:54:00.000+05:30","0.38","16s","km","00:00:06","","","0:15","228.0"
+"/athletes/85362332","/activities/8296992400","Crossfit","Functional Training- Barre Class","Fernanda Mattei","2022-12-27T10:59:00.000+05:30","","","","00:35:03","","","",""
+"/athletes/95179503","/activities/8296939162","Walk","27 Dec · Hyderabad, Telangana","Balaji Venkatesh","2022-12-27T15:49:00.000+05:30","5.11","","km","00:40:35","35","","7:56","7.6"
+"/athletes/111518187","/activities/8296505264","Workout","Afternoon Activity","Tejaswini Sira","2022-12-27T14:28:00.000+05:30","","","","00:55:03","","636","",""
+"/athletes/96331780","/activities/8296483940","Workout","Core strength Workout ","Virendra Singh","2022-12-27T08:38:00.000+05:30","","","","05:10:00","","","",""
+"/athletes/79541758","/activities/8296215805","Walk","Morning Walk · Ward 13, Chandigarh","Sanjay K","2022-12-27T10:09:00.000+05:30","4.43","","km","01:00:00","41","","13:32","4.4"
+"/athletes/100596399","/activities/8296199744","Run","Morning Run","Ivana Kovacova","2022-12-27T06:55:00.000+05:30","4.07","17:23","km","01:10:00","","","17:11","3.5"
+"/athletes/111211736","/activities/8296099059","Workout","Lunch Activity - mini golf","Aruna  N","2022-12-27T11:13:00.000+05:30","","","","01:10:00","","","",""
+"/athletes/102341457","/activities/8296333001","Workout","Morning activity","Divya Tallur","2022-12-27T08:43:00.000+05:30","","","","03:14:00","","","",""
+"/athletes/80921500","/activities/8296055839","Run","Morning Run · District of Piešťany, Slovakia","Juraj Mečír","2022-12-27T06:31:00.000+05:30","6.22","6:35","km","00:40:55","","","6:34","9.1"
+"/athletes/111167294","/activities/8296002137","Walk","Marketing · Kolkata, West Bengal","Rahul Roy Choudhury","2022-12-27T09:53:00.000+05:30","2.10","","km","00:27:38","9","","13:09","4.6"
+"/athletes/102398735","/activities/8295965186","Walk","Morning walk","RAVINDER SINGH BISHT","2022-12-27T09:10:00.000+05:30","2.28","","km","00:18:21","16","","8:02","7.5"
+"/athletes/111421239","/activities/8298503020","Swim","Swimming ","S Santhoshraghavan","2022-12-27T04:30:00.000+05:30","137","14:34","m","00:20:00","","","14:35/100m","0.4"
+"/athletes/33732068","/activities/8296363587","Run","Morning Run","Ashwini Maddala","2022-12-27T10:09:00.000+05:30","0.02","2:55:50","km","00:04:19","","","215:49","0.3"
+"/athletes/94637059","/activities/8295935885","Walk","Day 16 : Morning walk · Bengaluru, Karnataka","Karthik Gunda","2022-12-27T09:01:00.000+05:30","5.00","","km","00:47:30","9","","9:30","6.3"
