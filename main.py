@@ -51,6 +51,7 @@ with tab4:
     
 with tab5:
     general()     
+
        
 # information about last data in the app
 col1, col2, col3 = st.columns(3)

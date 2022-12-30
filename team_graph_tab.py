@@ -42,6 +42,11 @@ def team_graph():
     df_new_hours = df.query('Date == @yesterday')
     new_hours = (((df_new_hours['duration_hours'].astype('int64').sum())*60 + df_new_hours['duration_minutes'].astype('int64').sum())/60).astype('int64').astype('str')
     
+    today = dt.date.today()
+    first_day = dt.date(2022, 12, 10)
+    diff = (today-first_day).days + 1
+    st.subheader(f'Today is day {diff} of the challenge')
+    
     left, mid, right = st.columns(3)
     with left:
         st.metric(label ='🏋 Total activities', value=total_length, delta = new_length)
