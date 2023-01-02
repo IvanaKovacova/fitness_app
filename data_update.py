@@ -8,6 +8,7 @@ df['Date'] = pd.to_datetime(df['Date'], format="%Y-%m-%d")
 
 # Import new data
 df_new = pd.read_csv('data/data_new.csv', dtype='object', engine = 'python')  
+# df_new = pd.read_csv('data/data_new.csv', dtype='object', engine = 'python', sep=';')  
 
 df_new.rename(columns= {list(df_new)[1]: 'Activity_ID', list(df_new)[2]: 'Activity'}, inplace = True)
 
