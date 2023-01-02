@@ -1,140 +1,21 @@
 Athlete;Activity;" ""Type""";Location;Name;Date;Distance;Pace;Unit;Duration;Elev;Calo;EstPace;EstSpeed
-/athletes/111192942;/activities/8323749202;Walk;Long Walk;Nealie Glasser;2023-01-01T00:14:00.000+01:00;15.60;;km;5:02:00;0;;19:21;03.1
-/athletes/111457277;/activities/8323858907;Workout;Night Workout;Sree Kothapalli;2023-01-01T22:42:00.000+01:00;;;;1:49:00;;196;;
-/athletes/93937948;/activities/8323798941;Walk;Morning Walk;Preetha Dandapani;2023-01-02T08:56:00.000+01:00;9.77;;km;1:23:00;79;;8:29;07.1
-/athletes/92419547;/activities/8323798122;Walk;Walk;Khushboo Mehrotra;2023-01-02T08:45:00.000+01:00;4.55;;km;0:54:45;13;;12:01;5.0
-/athletes/25025384;/activities/8323760192;Ride;Morning Ride · Puducherry Taluk, India;Madhav Parashar;2023-01-02T06:25:00.000+01:00;78.15;;km;4:01:00;136;;3:05;19.5
-/athletes/102398735;/activities/8323753040;Walk;Morning walk;RAVINDER SINGH BISHT;2023-01-02T09:31:00.000+01:00;3.25;;km;0:15:28;29;;4:45;12.6
-/athletes/111192942;/activities/8323750019;Ice Skate;Ice Skating;Nealie Glasser;2023-01-01T23:00:00.000+01:00;;;;1:00:00;;;;
-/athletes/79541758;/activities/8323730203;Walk;Morning Walk · Ward 13, India;Sanjay K;2023-01-02T07:36:00.000+01:00;9.18;;km;2:05:00;103;;13:36;04.4
-/athletes/111276322;/activities/8323746119;Workout;Morning workout;Aarzoo Tandon;2023-01-02T07:30:00.000+01:00;;;;2:00:00;;;;
-/athletes/111211736;/activities/8323686775;Walk;Morning Walk · Tiruporur, India;Aruna  N;2023-01-02T08:07:00.000+01:00;6.13;;km;1:15:00;14;;12:14;04.9
-/athletes/96331780;/activities/8323642561;Walk;Morning Walk · Faridabad, India;Virendra Singh;2023-01-02T08:22:00.000+01:00;2.58;;km;0:27:51;16;;10:47;05.6
-/athletes/92777676;/activities/8323560666;Weight Training;Night mobility and strength training at home ;Victor Caetano;2023-01-01T21:42:00.000+01:00;;;;2:07:00;;;;
-/athletes/110802915;/activities/8323546761;Walk;Walk at the airport🤭 · Muharraq Governorate, Bahrain;Anjana Prem kumar;2023-01-02T04:52:00.000+01:00;1.27;;km;0:20:51;16;;16:25;03.7
-/athletes/95444598;/activities/8323403794;Walk;Morning Walk · Bengaluru, India;Manoj M;2023-01-02T06:32:00.000+01:00;1.21;;km;0:16:49;8;;13:53;04.3
-/athletes/94332657;/activities/8323380604;Run;Afternoon Run;Jesse Williams;2023-01-01T17:43:00.000+01:00;05.11;5:04;km;0:25:52;;;5:03;11.9
-/athletes/93272730;/activities/8323648342;Swim;Evening Swim;Satish Patil;2023-01-01T18:08:00.000+01:00;1,275;3:04;m;0:39:15;;;3:04/100m;01.9
-/athletes/25401364;/activities/8323319084;Run;Afternoon Run;Jose Martinez;2023-01-01T17:57:00.000+01:00;8.52;5:05;km;0:43:22;;;5:05;11.8
-/athletes/111453240;/activities/8323299572;Walk;Evening Walk · Austin, USA;Jason Lee;2023-01-01T18:14:00.000+01:00;1.60;;km;0:20:30;28;;12:48;04.7
-/athletes/111254054;/activities/8322883664;Walk;Afternoon Walk · Los Angeles, USA;Allen Mills;2023-01-01T11:21:00.000+01:00;11.33;;km;2:24:00;27;;12:42;04.7
-/athletes/95558986;/activities/8322407230;Walk;Evening Walk;Damien Lorigan;2023-01-01T19:09:00.000+01:00;2.81;;km;0:35:03;24;;12:28;04.8
-/athletes/111453240;/activities/8322387102;Walk;Afternoon Walk · Austin, USA;Jason Lee;2023-01-01T13:14:00.000+01:00;02.6;;km;0:27:00;37;;13:06;04.6
-/athletes/47182741;/activities/8322246151;Ride;Bike polo 2023 · Philadelphia, USA;Andrew CD;2023-01-01T10:18:00.000+01:00;25.5;;km;2:44:00;188;;6:32;09.2
-/athletes/93272730;/activities/8323648306;Workout;Tennis 2/2;Satish Patil;2023-01-01T11:47:00.000+01:00;;;;0:58:56;;438;;
-/athletes/89759398;/activities/8321917209;unknown;Hiking ;Sandeep Malhotra;2023-01-01T15:30:00.000+01:00;13.00;12:42;km;2:45:00;;;12:41;04.7
-/athletes/74529016;/activities/8322786209;Run;Afternoon Run · Garopaba, Brazil;Rafael Fraga Mohr;2023-01-01T13:52:00.000+01:00;06.5;6:20;km;0:38:21;;;6:20;09.5
-/athletes/97845585;/activities/8321855802;Run;Evening Run · District of Trnava, Region of Trnava;Simon Talapa;2023-01-01T18:03:00.000+01:00;1.52;8:43;km;0:13:16;;;8:43;06.9
-/athletes/93272730;/activities/8323648310;Workout;Tennis 1/2;Satish Patil;2023-01-01T09:37:00.000+01:00;;;;1:39:00;;328;;
-/athletes/47356495;/activities/8321841911;Walk;Karlín - Malá Strana;Abhishek Sharma;2023-01-01T12:14:00.000+01:00;14.2;;km;3:33:00;124;;15:11;03.9
-/athletes/25025384;/activities/8321838947;Walk;Evening Walk · Puducherry Taluk, India;Madhav Parashar;2023-01-01T20:17:00.000+01:00;4.80;;km;1:11:00;9;;14:47;04.1
-/athletes/94335999;/activities/8321803681;Walk;Afternoon Walk · The Metropolitan District of Limerick City, Ireland;Brian Fitzgerald;2023-01-01T16:09:00.000+01:00;3.70;;km;0:49:56;34;;13:29;04.4
-/athletes/95444598;/activities/8321667117;Walk;Night Walk · Bengaluru, India;Manoj M;2023-01-01T21:51:00.000+01:00;01.11;;km;0:15:44;7;;14:10;04.2
-/athletes/111276322;/activities/8321818177;Walk;Long walk;Aarzoo Tandon;2023-01-01T20:40:00.000+01:00;11.10;;km;1:27:00;0;;7:50;07.7
-/athletes/93937948;/activities/8321613560;Walk;Evening Walk;Preetha Dandapani;2023-01-01T20:41:00.000+01:00;6.59;;km;1:07:00;58;;10:10;05.9
-/athletes/94637059;/activities/8321507414;Walk;Night Walk · Bengaluru, India;Karthik Gunda;2023-01-01T20:49:00.000+01:00;5.00;;km;0:49:50;7;;9:58;6.0
-/athletes/101154883;/activities/8321465819;Walk;Evening Walk · Kolkata, India;Suparna Lala;2023-01-01T20:23:00.000+01:00;06.9;;km;1:07:00;31;;11:00;05.5
-/athletes/35500962;/activities/8321236028;Walk;Evening Walk;Ankit Talele;2023-01-01T20:24:00.000+01:00;1.45;;km;0:28:18;0;;19:31;03.1
-/athletes/100596399;/activities/8321016836;unknown;Afternoon Trail Run · District of Trenčín, Region of Trenčín;Ivana Kovacova;2023-01-01T14:16:00.000+01:00;9.13;;km;1:22:00;381;;8:58;06.7
-/athletes/95558986;/activities/8320980915;Walk;Afternoon Walk;Damien Lorigan;2023-01-01T14:15:00.000+01:00;2.31;;km;0:23:32;24;;10:11;05.9
-/athletes/111167294;/activities/8320765751;Workout;New year walk · Kolkata, India;Rahul Roy Choudhury;2023-01-01T13:58:00.000+01:00;16.6;;km;5:30:00;;;20:32;02.9
-/athletes/111518187;/activities/8320756457;Walk;Evening Walk;Tejaswini Sira;2023-01-01T18:55:00.000+01:00;2.16;;km;0:32:43;21;;15:08;4.0
-/athletes/111276322;/activities/8321812380;Workout;Evening workout;Aarzoo Tandon;2023-01-01T17:00:00.000+01:00;;;;2:25:00;;;;
-/athletes/111211736;/activities/8320695154;Walk;Evening Walk · Tiruporur, India;Aruna  N;2023-01-01T18:03:00.000+01:00;06.10;;km;1:12:00;11;;11:48;05.1
-/athletes/25025384;/activities/8320692694;Walk;Evening Walk · India;Madhav Parashar;2023-01-01T18:24:00.000+01:00;0.99;;km;0:17:28;18;;17:38;03.4
-/athletes/62418776;/activities/8320517486;Run;Afternoon Run · Bengaluru, India;Aditya Aggarwal;2023-01-01T17:38:00.000+01:00;07.9;8:35;km;1:00:00;;;8:27;07.1
-/athletes/111367285;/activities/8320437441;Walk;Evening walk at fields  · Peddavadugur, India;leela krishna;2023-01-01T17:11:00.000+01:00;2.49;;km;0:33:33;15;;13:28;04.5
-/athletes/94637059;/activities/8320050404;Walk;Afternoon Walk · Bengaluru, India;Karthik Gunda;2023-01-01T12:12:00.000+01:00;6.00;;km;1:01:00;9;;10:09;05.9
-/athletes/79541758;/activities/8320061127;unknown;Meditation_Yoga;Sanjay K;2023-01-01T16:39:00.000+01:00;;;;0:30:53;;;;
-/athletes/80921500;/activities/8319942811;Run;Morning Run · District of Piešťany, Region of Trnava;Juraj Mečír;2023-01-01T09:55:00.000+01:00;21.33;6:47;km;2:24:00;;;6:45;08.9
-/athletes/100596399;/activities/8319723982;Walk;New Year Walk · District of Trenčín, Region of Trenčín;Ivana Kovacova;2023-01-01T10:11:00.000+01:00;6.00;;km;1:21:00;275;;13:30;04.4
-/athletes/93937948;/activities/8319465815;Walk;Lunch Walk;Preetha Dandapani;2023-01-01T11:17:00.000+01:00;11.51;;km;2:14:00;97;;11:38;05.2
-/athletes/111399175;/activities/8319257289;Walk;Lunch Walk;Saranraj SP;2023-01-01T12:25:00.000+01:00;1.68;;km;0:28:14;9;;16:48;03.6
-/athletes/92419547;/activities/8319207381;Walk;Morning walk;Khushboo Mehrotra;2023-01-01T09:43:00.000+01:00;5.50;;km;0:52:54;15;;9:37;06.2
-/athletes/111167294;/activities/8319205260;Workout;Workout;Rahul Roy Choudhury;2023-01-01T09:00:00.000+01:00;;;;2:09:00;;;;
-/athletes/111211736;/activities/8319120531;Workout;Gardening ;Aruna  N;2023-01-01T08:56:00.000+01:00;;;;1:39:00;;;;
-/athletes/79541758;/activities/8319113295;Walk;Morning Walk · Ward 13, India;Sanjay K;2023-01-01T07:32:00.000+01:00;10.35;;km;2:12:00;111;;12:45;04.7
-/athletes/102398735;/activities/8319094902;Walk;Morning walk;RAVINDER SINGH BISHT;2023-01-01T09:34:00.000+01:00;03.6;;km;0:32:32;60;;10:37;05.6
-/athletes/111457277;/activities/8319060164;Walk;Evening Walk;Sree Kothapalli;2022-12-31T19:59:00.000+01:00;5.31;;km;1:22:00;33;;15:26;03.9
-/athletes/111254054;/activities/8322887906;Weight Training;Weight Training-chest and arms;Allen Mills;2022-12-31T19:00:00.000+01:00;;;;1:00:00;;;;
-/athletes/111344192;/activities/8319888192;Workout;Evening Workout;Anvesh Kalia;2022-12-31T20:08:00.000+01:00;;;;1:06:00;;341;;
-/athletes/111196489;/activities/8318914240;Workout;Evening Workout;William Matheson;2022-12-31T18:56:00.000+01:00;;;;1:08:00;;;;
-/athletes/111367285;/activities/8318846366;Walk;New year started with peaceful morning walk  · Peddavadugur, India;leela krishna;2023-01-01T05:46:00.000+01:00;5.72;;km;0:49:57;41;;8:43;06.9
-/athletes/111457277;/activities/8318825255;Walk;Afternoon Walk;Sree Kothapalli;2022-12-31T17:54:00.000+01:00;3.21;;km;0:54:11;17;;16:52;03.6
-/athletes/95444598;/activities/8321571547;Walk;Night Walk · Bengaluru, India;Manoj M;2023-01-01T06:25:00.000+01:00;0.84;;km;0:11:45;7;;13:59;04.3
-/athletes/111192942;/activities/8321674004;Walk;Long Walk;Nealie Glasser;2022-12-31T16:00:00.000+01:00;12.60;;km;3:32:00;0;;16:49;03.6
-/athletes/111223184;/activities/8321005922;Run;Evening Run;Palak Agarwal;2022-12-31T23:45:00.000+01:00;3.40;8:49;km;0:30:00;;;8:49;06.8
-/athletes/111408325;/activities/8319036767;Workout;Afternoon Workout;Sumit Wadhwa;2022-12-31T16:36:00.000+01:00;;;;1:12:00;;;;
-/athletes/47182741;/activities/8318638302;Walk;Evening Walk · Philadelphia, USA;Andrew CD;2022-12-31T18:18:00.000+01:00;01.6;;km;0:11:17;24;;10:38;05.6
-/athletes/25401364;/activities/8318632643;Walk;Afternoon Walk · Round Rock, USA;Jose Martinez;2022-12-31T16:58:00.000+01:00;3.26;;km;0:39:19;9;;12:03;5.0
-/athletes/94332657;/activities/8318587327;Run;Afternoon Run;Jesse Williams;2022-12-31T15:48:00.000+01:00;05.8;5:17;km;0:26:49;;;5:16;11.4
-/athletes/25401364;/activities/8318386465;Run;Afternoon Run;Jose Martinez;2022-12-31T15:18:00.000+01:00;5.93;5:06;km;0:30:14;;;5:05;11.8
-/athletes/111421239;/activities/8317492260;Walk;New Year Eve's Walk Along Streets ;S Santhoshraghavan;2022-12-31T17:06:00.000+01:00;8.00;;km;4:00:00;0;;30:00:00;2.0
-/athletes/94916434;/activities/8318203954;Walk;Afternoon Walk · Gramado, Brazil;Victor Frank;2022-12-31T16:59:00.000+01:00;3.99;;km;0:47:39;35;;11:56;5.0
-/athletes/93272730;/activities/8323045572;Swim;Afternoon Swim;Satish Patil;2022-12-31T13:08:00.000+01:00;1;3:35;m;0:35:50;;;3:35/100m;01.7
-/athletes/110803027;/activities/8317946103;Run;Dance+Party;tinku sand;2022-12-31T21:40:00.000+01:00;1.78;1:39:16;km;2:56:00;;;98:52:00;0.6
-/athletes/111344192;/activities/8319888285;Workout;Lunch Workout;Anvesh Kalia;2022-12-31T11:49:00.000+01:00;;;;1:01:00;;290;;
-/athletes/93272730;/activities/8323045575;Workout;Tennis doubles ;Satish Patil;2022-12-31T09:39:00.000+01:00;;;;2:37:00;;1,208;;
-/athletes/35500962;/activities/8317521732;Walk;Night Walk;Ankit Talele;2022-12-31T21:59:00.000+01:00;2.29;;km;0:42:44;0;;18:39;03.2
-/athletes/92419547;/activities/8317452422;Walk;Night Walk;Khushboo Mehrotra;2022-12-31T20:39:00.000+01:00;03.3;;km;0:31:47;13;;10:29;05.7
-/athletes/94335999;/activities/8317524931;Walk;Afternoon Walk · The Metropolitan District of Limerick City, Ireland;Brian Fitzgerald;2022-12-31T16:07:00.000+01:00;3.77;;km;0:45:47;25;;12:08;04.9
-/athletes/111405068;/activities/8317238531;Walk;Morning Walk;Elena Teytelman;2022-12-31T10:45:00.000+01:00;2.17;;km;0:31:04;55;;14:18;04.2
-/athletes/111408325;/activities/8317343202;Workout;Morning Workout;Sumit Wadhwa;2022-12-31T09:23:00.000+01:00;;;;0:41:23;;;;
-/athletes/80921500;/activities/8317031533;Walk;Afternoon Walk · District of Piešťany, Region of Trnava;Juraj Mečír;2022-12-31T15:47:00.000+01:00;3.72;;km;0:55:19;21;;14:52;4.0
-/athletes/111276322;/activities/8317034119;Workout;Dance workout;Aarzoo Tandon;2022-12-31T18:30:00.000+01:00;;;;2:30:00;;;;
-/athletes/95558986;/activities/8316996334;Walk;Trip to the Zoo!;Damien Lorigan;2022-12-31T12:48:00.000+01:00;10.86;;km;1:41:00;49;;9:18;06.5
-/athletes/47356495;/activities/8316849540;Walk;Afternoon Walk;Abhishek Sharma;2022-12-31T15:55:00.000+01:00;1.15;;km;0:15:25;6;;13:24;04.5
-/athletes/111167294;/activities/8316768010;Walk;Year end walk · Kolkata, India;Rahul Roy Choudhury;2022-12-31T11:48:00.000+01:00;25.31;;km;3:56:00;71;;9:19;06.4
-/athletes/94637059;/activities/8316729085;Walk;Day 20 : Evening walk · Bengaluru, India;Karthik Gunda;2022-12-31T16:35:00.000+01:00;8.00;;km;1:19:00;13;;9:52;06.1
-/athletes/47356495;/activities/8316766129;Run;5km Sprint;Abhishek Sharma;2022-12-31T15:18:00.000+01:00;5.17;6:03;km;0:31:17;;;6:03;09.9
-/athletes/111405068;/activities/8316559264;Workout;Morning Workout;Elena Teytelman;2022-12-31T08:26:00.000+01:00;;;;1:02:00;;168;;
-/athletes/111211736;/activities/8316358640;Walk;Evening walk - long and peaceful one... · Tiruporur, India;Aruna  N;2022-12-31T18:03:00.000+01:00;6.23;;km;1:14:00;11;;11:52;05.1
-/athletes/100629210;/activities/8316333042;Walk;Evening Walk;Abhishek Singh;2022-12-31T18:48:00.000+01:00;2.34;;km;0:32:03;11;;13:41;04.4
-/athletes/93937948;/activities/8317181589;Elliptical;Evening activity;Preetha Dandapani;2022-12-31T13:00:00.000+01:00;;;;0:30:00;0;;;
-/athletes/101154883;/activities/8316056263;Walk;Afternoon Walk · Kolkata, India;Suparna Lala;2022-12-31T17:49:00.000+01:00;04.1;;km;0:44:42;18;;11:08;05.4
-/athletes/111276322;/activities/8317050479;Walk;Long evening walk ;Aarzoo Tandon;2022-12-31T16:15:00.000+01:00;14.60;;km;2:12:00;0;;9:02;06.6
-/athletes/79541758;/activities/8315890870;Walk;Afternoon Walk;Sanjay K;2022-12-31T15:54:00.000+01:00;2.23;;km;0:32:11;22;;14:25;04.2
-/athletes/80921500;/activities/8315873138;Weight Training;Lunch Weight Training;Juraj Mečír;2022-12-31T11:52:00.000+01:00;;;;1:36:00;;700;;
-/athletes/111367285;/activities/8317447556;Walk;Walk · Peddavadugur, India;leela krishna;2022-12-31T16:25:00.000+01:00;2.55;;km;0:28:58;39;;11:21;05.3
-/athletes/96331780;/activities/8315326769;Ride;Afternoon Ride · Faridabad, India;Virendra Singh;2022-12-31T15:26:00.000+01:00;8.33;;km;0:41:08;77;;4:56;12.2
-/athletes/74529016;/activities/8315350242;unknown;Morning Surfing · Garopaba, Brazil;Rafael Fraga Mohr;2022-12-31T07:02:00.000+01:00;2.67;;km;1:03:00;;;23:35;02.5
-/athletes/111443594;/activities/8315282387;Walk;Afternoon Walk · Model Town Tehsil, India;Aastha Banda;2022-12-31T16:20:00.000+01:00;1.88;;km;0:13:52;8;;7:22;08.1
-/athletes/100596399;/activities/8315337979;unknown;Ski;Ivana Kovacova;2022-12-31T08:30:00.000+01:00;9.50;;km;2:00:00;;;12:37;04.8
-/athletes/25025384;/activities/8314601577;Walk;Afternoon Walk · Puducherry Taluk, India;Madhav Parashar;2022-12-31T13:30:00.000+01:00;2.33;;km;0:40:23;4;;17:19;03.5
-/athletes/111443093;/activities/8314544450;Walk;Afternoon Walk · Gurgaon, India;Ankit Agarwal;2022-12-30T08:30:00.000+01:00;5.55;;km;0:56:36;48;;10:11;05.9
-/athletes/111443594;/activities/8314497198;Walk;Afternoon Walk · Model Town Tehsil, India;Aastha Banda;2022-12-31T13:25:00.000+01:00;3.93;;km;0:19:23;27;;4:55;12.2
-/athletes/93937948;/activities/8314358704;Walk;Morning Walk;Preetha Dandapani;2022-12-31T09:21:00.000+01:00;2.77;;km;0:38:57;16;;14:03;04.3
-/athletes/92419547;/activities/8314320779;Walk;Walk;Khushboo Mehrotra;2022-12-31T08:32:00.000+01:00;4.00;;km;1:03:00;10;;15:45;03.8
-/athletes/102398735;/activities/8314236680;Walk;Morning walk;RAVINDER SINGH BISHT;2022-12-31T09:43:00.000+01:00;7.61;;km;0:23:15;59;;3:03;19.6
-/athletes/111167294;/activities/8314290299;Workout;Leg day;Rahul Roy Choudhury;2022-12-31T08:30:00.000+01:00;;;;2:05:00;;;;
-/athletes/111211736;/activities/8314207852;Workout;Morning Activity - yoga ;Aruna  N;2022-12-31T09:45:00.000+01:00;;;;0:49:17;;;;
-/athletes/111457277;/activities/8314177245;Walk;Night Walk;Sree Kothapalli;2022-12-30T22:11:00.000+01:00;01.4;;km;0:18:43;11;;17:59;03.3
-/athletes/111004967;/activities/8315047777;Workout;Yearend Batminton;Sowjanya Sowji;2022-12-30T19:00:00.000+01:00;;;;1:30:00;;;;
-/athletes/79541758;/activities/8314152806;Walk;Morning Walk · Ward 13, India;Sanjay K;2022-12-31T06:33:00.000+01:00;8.55;;km;2:01:00;84;;14:09;04.2
-/athletes/94637059;/activities/8314147379;Walk;Day 20 : Morning walk · Bengaluru, India;Karthik Gunda;2022-12-31T07:42:00.000+01:00;5.00;;km;0:55:22;36;;11:04;05.4
-/athletes/111457277;/activities/8314145466;Workout;Evening Workout;Sree Kothapalli;2022-12-30T19:51:00.000+01:00;;;;2:18:00;;421;;
-/athletes/111344192;/activities/8314143759;Walk;Night Walk;Anvesh Kalia;2022-12-30T21:32:00.000+01:00;1.70;;km;0:35:40;;103;20:58;02.9
-/athletes/111421239;/activities/8314140399;Walk;Morning Walk  · Zone 1 Tiruvottiyur, India;S Santhoshraghavan;2022-12-31T09:10:00.000+01:00;2.23;;km;0:25:22;4;;11:22;05.3
-/athletes/111408325;/activities/8314068493;Workout;Day 20 : Evening Workout;Sumit Wadhwa;2022-12-30T20:05:00.000+01:00;;;;1:07:00;;;;
-/athletes/93272730;/activities/8314196095;Workout;Evening Tennis (indoors);Satish Patil;2022-12-30T18:33:00.000+01:00;;;;2:04:00;;1,193;;
-/athletes/92777676;/activities/8314005341;Yoga;Mobility session at home;Victor Caetano;2022-12-30T22:08:00.000+01:00;;;;1:26:00;;;;
-/athletes/95444598;/activities/8313995034;Walk;Morning Walk · Bengaluru, India;Manoj M;2022-12-31T07:33:00.000+01:00;1.43;;km;0:19:56;7;;13:56;04.3
-/athletes/25401364;/activities/8314163149;Walk;Evening Walk · Round Rock, USA;Jose Martinez;2022-12-30T19:21:00.000+01:00;01.11;;km;0:14:02;2;;12:38;04.7
-/athletes/111521930;/activities/8313896297;Walk;Morning Walk · Haora, India;Souvik Nath;2022-12-31T05:42:00.000+01:00;5.95;;km;1:06:00;47;;11:05;05.4
-/athletes/94332657;/activities/8313593303;Run;Day 406: Treadmill 344;Jesse Williams;2022-12-30T16:01:00.000+01:00;05.8;5:00;km;0:25:28;;;5:00;12.0
-/athletes/25401364;/activities/8313548722;Run;Afternoon Run;Jose Martinez;2022-12-30T16:20:00.000+01:00;8.14;5:14;km;0:42:35;;;5:13;11.5
-/athletes/111394610;/activities/8316092061;Alpine Ski;Ski;craig friedman;2022-12-30T17:00:00.000+01:00;;;;6:00:00;;;;
-/athletes/111192942;/activities/8314386959;Walk;Afternoon Walk;Nealie Glasser;2022-12-30T13:05:00.000+01:00;11.00;;km;4:01:00;0;;21:54;02.7
-/athletes/111405068;/activities/8313815719;Walk;Afternoon Walk · Chesterfield County, USA;Elena Teytelman;2022-12-30T15:02:00.000+01:00;2.35;;km;0:37:01;51;;15:45;03.8
-/athletes/94916434;/activities/8313113065;Walk;Afternoon Walk · Gramado, Brazil;Victor Frank;2022-12-30T17:10:00.000+01:00;02.4;;km;0:20:43;14;;10:09;05.9
-/athletes/80921500;/activities/8312901273;Weight Training;Evening Weight Training;Juraj Mečír;2022-12-30T18:51:00.000+01:00;;;;1:36:00;;781;;
-/athletes/111344192;/activities/8314143740;Workout;Lunch Workout;Anvesh Kalia;2022-12-30T12:48:00.000+01:00;;;;0:20:14;;103;;
-/athletes/93272730;/activities/8314196094;Yoga;Lunch Yoga and core workout ;Satish Patil;2022-12-30T12:19:00.000+01:00;;;;0:30:37;;146;;
-/athletes/47356495;/activities/8312635157;Walk;Evening Walk;Abhishek Sharma;2022-12-30T18:46:00.000+01:00;2.91;;km;0:34:51;16;;11:58;5.0
-/athletes/111359125;/activities/8312661316;Weight Training;Lunch Activity;Manish Shetty;2022-12-30T11:22:00.000+01:00;;;;1:00:00;;;;
-/athletes/102341457;/activities/8312801133;Workout;Evening workout;Divya Tallur;2022-12-30T15:00:00.000+01:00;;;;2:04:00;;;;
-/athletes/89759398;/activities/8312406031;Walk;Exploring the hills · Nainital, India;Sandeep Malhotra;2022-12-30T11:32:00.000+01:00;12.84;;km;2:01:00;414;;9:25;06.4
-/athletes/94335999;/activities/8312492303;Walk;Afternoon Walk · The Metropolitan District of Limerick City, Ireland;Brian Fitzgerald;2022-12-30T15:00:00.000+01:00;2.61;;km;0:39:20;20;;15:04;4.0
-/athletes/111276322;/activities/8312628326;Walk;Night walk;Aarzoo Tandon;2022-12-30T20:55:00.000+01:00;5.60;;km;0:45:00;0;;8:02;07.5
-/athletes/94637059;/activities/8312040943;Walk;Day 19 : Night walk · Bengaluru, India;Karthik Gunda;2022-12-30T20:47:00.000+01:00;5.00;;km;0:50:23;5;;10:04;6.0
-/athletes/35500962;/activities/8311951070;Walk;Evening Walk;Ankit Talele;2022-12-30T20:33:00.000+01:00;1.80;;km;0:36:13;0;;20:07;3.0
+/athletes/111394610;/activities/8290408222;Hike;Snow hike;craig friedman;2022-12-25T16:20:00.000+01:00;5.47;;km;1:45:00;0;;19:11;03.1
+/athletes/111394610;/activities/8276167015;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-21T14:30:00.000+01:00;7.67;5:19;km;0:40:49;;;5:19;11.3
+/athletes/111394610;/activities/8275970334;Walk;Morning Walk;craig friedman;2022-12-21T15:45:00.000+01:00;5.95;;km;1:15:00;0;;12:36;04.8
+/athletes/111394610;/activities/8268509524;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-19T16:30:00.000+01:00;08.11;5:16;km;0:42:44;;;5:16;11.4
+/athletes/111394610;/activities/8268526646;Walk;Morning walk;craig friedman;2022-12-19T18:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8265199155;Walk;Evening walk;craig friedman;2022-12-18T23:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8265200494;Walk;Morning Walk;craig friedman;2022-12-18T15:00:00.000+01:00;2.41;;km;0:30:00;0;;12:26;04.8
+/athletes/111394610;/activities/8260502433;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-17T15:01:00.000+01:00;7.58;5:09;km;0:39:07;;;5:09;11.6
+/athletes/111394610;/activities/8260395337;Walk;Morning walk;craig friedman;2022-12-17T18:01:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8252999642;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-15T15:29:00.000+01:00;7.79;5:18;km;0:41:21;;;5:18;11.3
+/athletes/111394610;/activities/8250242879;Walk;Evening walk;craig friedman;2022-12-14T23:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8247388330;Walk;Evening walk;craig friedman;2022-12-14T01:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8241892685;Walk;Evening dog walk;craig friedman;2022-12-13T00:29:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8241652893;Run;Evening run;craig friedman;2022-12-12T17:09:00.000+01:00;;;;0:40:52;;;;
+/athletes/111394610;/activities/8238230964;unknown;Evening walk;craig friedman;2022-12-11T18:27:00.000+01:00;;;;0:54:32;;;;
+/athletes/111394610;/activities/8239986754;Walk;Evening walk;craig friedman;2022-12-12T00:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+/athletes/111394610;/activities/8240580832;Workout;Yard work;craig friedman;2022-12-11T20:00:00.000+01:00;;;;1:00:00;;;;
+/athletes/111394610;/activities/8236458709;Run;Morning dog walk · Austin, USA;craig friedman;2022-12-11T08:25:00.000+01:00;2.90;10:16;km;0:29:47;;;10:16;05.8
+/athletes/111394610;/activities/8233518432;Run;Afternoon walk · Austin, USA;craig friedman;2022-12-10T17:12:00.000+01:00;1.68;8:47;km;0:14:48;;;8:48;06.8
+/athletes/111394610;/activities/8232344455;Run;Morning run in Shoal Creek Hike and Bike Trail with Murphy · Austin, USA;craig friedman;2022-12-10T08:46:00.000+01:00;09.2;5:42;km;0:51:29;;;5:42;10.5
