@@ -148,13 +148,14 @@ df_points.loc[df_points['Difference'] < 14, 'Comeback'] = False
 df_points['Total_points_with_bonus'] = df_points['Total_points']
 
 # 2X Saturdays and Sundays
-df_points.loc[df_points['Bonus'] == '2X', 'Total_points_with_bonus'] = df_points['Total_points']*2
+df_points.loc[df_points['Bonus'].str.contains('2X'), 'Total_points_with_bonus'] = df_points['Total_points']*2
 
 # 3X based on a list (replace dates)
-df_points.loc[df_points['Bonus'] == '3X', 'Total_points_with_bonus'] = df_points['Total_points']*3
+df_points.loc[df_points['Bonus'].str.contains('3X'), 'Total_points_with_bonus'] = df_points['Total_points']*3
 
 # great comeback
 df_points.loc[df_points['Comeback'] == True, 'Total_points_with_bonus'] = (df_points['Total_points_with_bonus'] + 100)
+df_points.loc[df_points['Comeback']==True, 'Bonus'] = 'Comeback'
 df_points.loc[(df_points['Comeback'] == True) & (df_points['Bonus'] =='2X'), 'Bonus'] = '2X and Comeback'
 df_points.loc[(df_points['Comeback'] == True) & (df_points['Bonus'] =='3X'), 'Bonus'] = '3X and Comeback'
 
