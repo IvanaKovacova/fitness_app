@@ -155,7 +155,7 @@ df_points.loc[df_points['Bonus'].str.contains('3X'), 'Total_points_with_bonus'] 
 
 # great comeback
 df_points.loc[df_points['Comeback'] == True, 'Total_points_with_bonus'] = (df_points['Total_points_with_bonus'] + 100)
-df_points.loc[df_points['Comeback']==True, 'Bonus'] = 'Comeback'
+df_points.loc[(df_points['Comeback']==True) & (df_points['Bonus'] =='None')] = 'Comeback'
 df_points.loc[(df_points['Comeback'] == True) & (df_points['Bonus'] =='2X'), 'Bonus'] = '2X and Comeback'
 df_points.loc[(df_points['Comeback'] == True) & (df_points['Bonus'] =='3X'), 'Bonus'] = '3X and Comeback'
 
@@ -172,14 +172,16 @@ df_points.loc[(df_points['activity_for_points'] == 'Swim') & (df_points['previou
 df_points.loc[(df_points['activity_for_points'] == 'Cycling') & (df_points['previous_km_sum'] < 1000) & (df_points['Sum_of_kms'] >= 1000), 'Milestone'] = True
 df_points.loc[(df_points['activity_for_points'] == 'Other') & (df_points['count_of_activities'] == 19), 'Milestone'] = True
 
-df_points.loc[(df_points['Milestone'] == True), 'Bonus'] = 'Milestone'
-df_points.loc[(df_points['Milestone'] == True) & ((df_points['Day_of_week'] == 'Saturday') | (df_points['Day_of_week'] == 'Sunday')), 'Bonus'] = '2X and Milestone'
-df_points.loc[(df_points['Milestone'] == True) & df_points['Date'].isin(triple_x_list), 'Bonus'] = '3X and Milestone'
-df_points.loc[(df_points['Milestone'] == True) & ((df_points['Day_of_week'] == 'Saturday') | (df_points['Day_of_week'] == 'Sunday')) & (df_points['Comeback'] == True), 'Bonus'] = '2X, Milestone, Comeback'
-df_points.loc[(df_points['Milestone'] == True) & df_points['Date'].isin(triple_x_list) & (df_points['Comeback'] == True), 'Bonus'] = '3X, Milestone, Comeback'
+df_points.loc[(df_points['Milestone'] == True) & (df_points['Bonus'] == 'None'), 'Bonus'] = 'Milestone'
+df_points.loc[(df_points['Milestone'] == True) & df_points['Bonus'].str.contains('2X'), 'Bonus'] = '2X and Milestone'
+df_points.loc[(df_points['Milestone'] == True) & df_points['Bonus'].str.contains('3X'), 'Bonus'] = '3X and Milestone'
+df_points.loc[(df_points['Milestone'] == True) & df_points['Bonus'].str.contains('2X') & (df_points['Comeback'] == True), 'Bonus'] = '2X, Milestone, Comeback'
+df_points.loc[(df_points['Milestone'] == True) & df_points['Bonus'].str.contains('3X') & (df_points['Comeback'] == True), 'Bonus'] = '3X, Milestone, Comeback'
 
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] != 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +1000
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] == 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +500
+
+df_points.loc[(df_points['Milestone'] == False) & (df_points['Bonus'] == 'Milestone'), 'Bonus'] = 'None'
 
 
 df_points['Date'] = pd.to_datetime(df_points['Date']).dt.date
