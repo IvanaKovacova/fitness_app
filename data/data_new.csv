@@ -1,5 +1,49 @@
 Athlete,Activity," ""Type""",Location,Name,Date,Distance,Pace,Unit,Duration,Elev,Calo,EstPace,EstSpeed
-/athletes/110803027,/activities/8317946103,Other,Dance+Party,tinku sand,2022-12-31T21:40:00.000+01:00,1.78,1:39:16,km,2:56:00,,,98:52:00,0.6
-/athletes/110803027,/activities/8314267949,Run,"Evening walk · Golmuri-Cum-Jugsalai, India",tinku sand,2022-12-30T15:01:00.000+01:00,5.37,9:37,km,0:51:42,,,9:37,6.2
-/athletes/110803027,/activities/8307839736,Run,"Market walk, but forgot to save before getting on the bike · Golmuri-Cum-Jugsalai, India",tinku sand,2022-12-29T19:26:00.000+01:00,5.43,3:31,km,0:19:07,,,3:31,17
-/athletes/110803027,/activities/8302398026,Run,"Evening walk · Golmuri-Cum-Jugsalai, India",tinku sand,2022-12-28T19:15:00.000+01:00,3.35,10:41,km,0:35:52,,,10:42,5.6
+/athletes/94637059,/activities/8236421497,Walk,"Day 2 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-11T20:29:00.000+01:00,4,,km,0:37:48,10,,9:26,6.3
+/athletes/94637059,/activities/8234964626,Walk,"Day 2 : Afternoon walk · Bengaluru, India",Karthik Gunda,2022-12-11T15:39:00.000+01:00,5,,km,0:47:17,21,,9:27,6.3
+/athletes/94637059,/activities/8234012724,Walk,"Day 2 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-11T09:01:00.000+01:00,5,,km,0:46:07,21,,9:13,6.5
+/athletes/94637059,/activities/8232559298,Walk,"Day 1 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-10T22:47:00.000+01:00,3,,km,0:25:02,0,,8:20,7.2
+/athletes/94637059,/activities/8230794399,Walk,"Day 1 - Afternoon walk · Bengaluru, India",Karthik Gunda,2022-12-10T15:52:00.000+01:00,6,,km,0:53:43,21,,8:57,6.7
+/athletes/94637059,/activities/8229707266,Walk,"Day 1 - Morning walk. Rainy day !! · Bengaluru, India",Karthik Gunda,2022-12-10T07:17:00.000+01:00,11,,km,1:40:00,33,,9:05,6.6
+/athletes/94637059,/activities/8316729085,Walk,"Day 20 : Evening walk · Bengaluru, India",Karthik Gunda,2022-12-31T16:35:00.000+01:00,8,,km,1:19:00,13,,9:52,6.1
+/athletes/94637059,/activities/8314147379,Walk,"Day 20 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-31T07:42:00.000+01:00,5,,km,0:55:22,36,,11:04,5.4
+/athletes/94637059,/activities/8312040943,Walk,"Day 19 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-30T20:47:00.000+01:00,5,,km,0:50:23,5,,10:04,6
+/athletes/94637059,/activities/8309874986,Walk,"Day 19 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-30T10:15:00.000+01:00,5,,km,0:48:14,9,,9:38,6.2
+/athletes/94637059,/activities/8306019344,Walk,"Day 18 : Afternoon walk · Bengaluru, India",Karthik Gunda,2022-12-29T15:15:00.000+01:00,7,,km,1:09:00,8,,9:51,6.1
+/athletes/94637059,/activities/8302921940,Walk,"Day 17 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-28T20:54:00.000+01:00,5.01,,km,0:48:33,4,,9:41,6.2
+/athletes/94637059,/activities/8300598430,Walk,"Day 17 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-28T08:47:00.000+01:00,5,,km,0:48:45,4,,9:45,6.2
+/athletes/94637059,/activities/8298395388,Walk,"Day 16 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-27T20:49:00.000+01:00,5.01,,km,0:48:54,4,,9:45,6.1
+/athletes/94637059,/activities/8295935885,Walk,"Day 16 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-27T09:01:00.000+01:00,5,,km,0:47:30,9,,9:30,6.3
+/athletes/94637059,/activities/8293715709,Walk,"Day 15 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-26T20:07:00.000+01:00,5,,km,0:47:49,7,,9:33,6.3
+/athletes/94637059,/activities/8291484468,Walk,"Day 16 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-26T09:25:00.000+01:00,5,,km,0:49:00,10,,9:48,6.1
+/athletes/94637059,/activities/8290120039,Walk,"Day 15 : Evening walk · Bengaluru, India",Karthik Gunda,2022-12-25T16:42:00.000+01:00,10,,km,1:34:00,27,,9:24,6.4
+/athletes/94637059,/activities/8288242492,Walk,"Day 15 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-25T08:49:00.000+01:00,5,,km,0:47:53,10,,9:34,6.3
+/athletes/94637059,/activities/8286654593,Walk,"Day 14 : Night Walk · Bengaluru, India",Karthik Gunda,2022-12-24T20:03:00.000+01:00,5,,km,0:46:22,12,,9:16,6.5
+/athletes/94637059,/activities/8285614537,Walk,"Day 14 : Afternoon walk · Bengaluru, India",Karthik Gunda,2022-12-24T16:37:00.000+01:00,5,,km,0:48:02,0,,9:36,6.2
+/athletes/94637059,/activities/8282244438,Walk,"Day 13 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-23T19:32:00.000+01:00,5,,km,0:47:38,3,,9:31,6.3
+/athletes/94637059,/activities/8280787408,Walk,"Day 13 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-23T09:36:00.000+01:00,5,,km,0:47:29,15,,9:29,6.3
+/athletes/94637059,/activities/8277063403,Walk,"Day 12 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-22T09:14:00.000+01:00,5,,km,0:48:26,3,,9:41,6.2
+/athletes/94637059,/activities/8275303843,Walk,"Day 11 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-21T22:02:00.000+01:00,5,,km,0:47:43,5,,9:32,6.3
+/athletes/94637059,/activities/8273091844,Walk,"Day 11 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-21T08:07:00.000+01:00,5,,km,0:49:18,18,,9:51,6.1
+/athletes/94637059,/activities/8271117129,Walk,"Day 10 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-20T21:22:00.000+01:00,5,,km,0:47:57,13,,9:35,6.3
+/athletes/94637059,/activities/8269067609,Walk,"Day 10 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-20T09:17:00.000+01:00,5,,km,0:47:29,12,,9:29,6.3
+/athletes/94637059,/activities/8267220777,Walk,"Day 9 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-19T21:47:00.000+01:00,5,,km,0:48:21,2,,9:40,6.2
+/athletes/94637059,/activities/8265396240,Walk,"Day 10 : Morning Walk · Bengaluru, India",Karthik Gunda,2022-12-19T09:59:00.000+01:00,5,,km,0:48:27,5,,9:41,6.2
+/athletes/94637059,/activities/8263670003,Walk,"Day 9 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-18T20:10:00.000+01:00,5,,km,0:46:49,23,,9:21,6.4
+/athletes/94637059,/activities/8261387989,Walk,"Day 9 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-18T10:29:00.000+01:00,7.01,,km,1:10:00,6,,9:59,6
+/athletes/94637059,/activities/8259265492,Walk,"Day 8 :  Night walk · Bengaluru, India",Karthik Gunda,2022-12-17T20:13:00.000+01:00,5,,km,0:47:28,18,,9:29,6.3
+/athletes/94637059,/activities/8257064948,Walk,"Day 8 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-17T07:36:00.000+01:00,5,,km,0:46:31,11,,9:18,6.4
+/athletes/94637059,/activities/8255452513,Walk,"Day 7 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-16T20:49:00.000+01:00,5,,km,0:46:15,20,,9:15,6.5
+/athletes/94637059,/activities/8253855203,Walk,"Day 7 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-16T10:41:00.000+01:00,5,,km,0:46:25,14,,9:16,6.5
+/athletes/94637059,/activities/8251527401,Walk,"Day 6 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-15T19:25:00.000+01:00,5.01,,km,0:47:04,9,,9:23,6.4
+/athletes/94637059,/activities/8250229625,Walk,"Day 6 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-15T11:32:00.000+01:00,5,,km,0:46:56,14,,9:23,6.4
+/athletes/94637059,/activities/8248092240,Walk,"Day 5 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-14T21:10:00.000+01:00,5,,km,0:47:21,5,,9:28,6.3
+/athletes/94637059,/activities/8246213937,Walk,"Day 5 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-14T09:35:00.000+01:00,5,,km,0:46:38,3,,9:19,6.4
+/athletes/94637059,/activities/8244238419,Walk,"Day 4 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-13T21:53:00.000+01:00,5,,km,0:46:59,2,,9:23,6.4
+/athletes/94637059,/activities/8242319653,Walk,"Day 4 : Morning walk · Bengaluru, India",Karthik Gunda,2022-12-13T11:08:00.000+01:00,5,,km,0:46:03,4,,9:12,6.5
+/athletes/94637059,/activities/8240191894,Walk,"Day 3 : Night walk · Bengaluru, India",Karthik Gunda,2022-12-12T20:40:00.000+01:00,10.01,,km,1:30:00,13,,8:59,6.7
+/athletes/94637059,/activities/8329361743,Walk,"Morning Walk · Bengaluru, India",Karthik Gunda,2023-01-03T10:05:00.000+01:00,4,,km,0:40:21,4,,10:05,5.9
+/athletes/94637059,/activities/8326549640,Walk,"Night Walk · Bengaluru, India",Karthik Gunda,2023-01-02T21:02:00.000+01:00,6,,km,0:59:34,10,,9:55,6
+/athletes/94637059,/activities/8324069253,Walk,"Morning walk · Bengaluru, India",Karthik Gunda,2023-01-02T11:37:00.000+01:00,4,,km,0:38:44,14,,9:41,6.2
+/athletes/94637059,/activities/8321507414,Walk,"Night Walk · Bengaluru, India",Karthik Gunda,2023-01-01T20:49:00.000+01:00,5,,km,0:49:50,7,,9:58,6
+/athletes/94637059,/activities/8320050404,Walk,"Afternoon Walk · Bengaluru, India",Karthik Gunda,2023-01-01T12:12:00.000+01:00,6,,km,1:01:00,9,,10:09,5.9
