@@ -1,30 +1,5 @@
-Athlete;Activity;" ""Type""";Location;Name;Date;Distance;Pace;Unit;Duration;Elev;Calo;EstPace;EstSpeed
-/athletes/111394610;/activities/8290408222;Hike;Snow hike;craig friedman;2022-12-25T16:20:00.000+01:00;5.47;;km;1:45:00;0;;19:11;03.1
-/athletes/111394610;/activities/8276167015;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-21T14:30:00.000+01:00;7.67;5:19;km;0:40:49;;;5:19;11.3
-/athletes/111394610;/activities/8275970334;Walk;Morning Walk;craig friedman;2022-12-21T15:45:00.000+01:00;5.95;;km;1:15:00;0;;12:36;04.8
-/athletes/111394610;/activities/8268509524;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-19T16:30:00.000+01:00;08.11;5:16;km;0:42:44;;;5:16;11.4
-/athletes/111394610;/activities/8268526646;Walk;Morning walk;craig friedman;2022-12-19T18:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8265199155;Walk;Evening walk;craig friedman;2022-12-18T23:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8265200494;Walk;Morning Walk;craig friedman;2022-12-18T15:00:00.000+01:00;2.41;;km;0:30:00;0;;12:26;04.8
-/athletes/111394610;/activities/8260502433;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-17T15:01:00.000+01:00;7.58;5:09;km;0:39:07;;;5:09;11.6
-/athletes/111394610;/activities/8260395337;Walk;Morning walk;craig friedman;2022-12-17T18:01:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8252999642;Run;Afternoon Run · Austin, USA;craig friedman;2022-12-15T15:29:00.000+01:00;7.79;5:18;km;0:41:21;;;5:18;11.3
-/athletes/111394610;/activities/8250242879;Walk;Evening walk;craig friedman;2022-12-14T23:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8247388330;Walk;Evening walk;craig friedman;2022-12-14T01:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8241892685;Walk;Evening dog walk;craig friedman;2022-12-13T00:29:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8241652893;Run;Evening run;craig friedman;2022-12-12T17:09:00.000+01:00;;;;0:40:52;;;;
-/athletes/111394610;/activities/8238230964;unknown;Evening walk;craig friedman;2022-12-11T18:27:00.000+01:00;;;;0:54:32;;;;
-/athletes/111394610;/activities/8239986754;Walk;Evening walk;craig friedman;2022-12-12T00:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
-/athletes/111394610;/activities/8240580832;Workout;Yard work;craig friedman;2022-12-11T20:00:00.000+01:00;;;;1:00:00;;;;
-/athletes/111394610;/activities/8236458709;Run;Morning dog walk · Austin, USA;craig friedman;2022-12-11T08:25:00.000+01:00;2.90;10:16;km;0:29:47;;;10:16;05.8
-/athletes/111394610;/activities/8233518432;Run;Afternoon walk · Austin, USA;craig friedman;2022-12-10T17:12:00.000+01:00;1.68;8:47;km;0:14:48;;;8:48;06.8
-/athletes/111394610;/activities/8232344455;Run;Morning run in Shoal Creek Hike and Bike Trail with Murphy · Austin, USA;craig friedman;2022-12-10T08:46:00.000+01:00;09.2;5:42;km;0:51:29;;;5:42;10.5
-/athletes/111394610;/activities/8316092061;Alpine Ski;Ski;craig friedman;2022-12-30T17:00:00.000+01:00;;;;6:00:00;;;;
-/athletes/111394610;/activities/8316088091;Walk;Evening walk;craig friedman;2022-12-30T00:00:00.000+01:00;04.2;;km;1:00:00;0;;14:55;4.0
-/athletes/111394610;/activities/8316080773;Alpine Ski;Ski;craig friedman;2022-12-29T17:00:00.000+01:00;;;;6:00:00;;;;
-/athletes/111394610;/activities/8316073770;Walk;Evening walk;craig friedman;2022-12-29T00:00:00.000+01:00;3.21;;km;0:50:00;0;;15:34;03.9
-/athletes/111394610;/activities/8316062739;Alpine Ski;Ski;craig friedman;2022-12-28T17:03:00.000+01:00;;;;6:00:00;;;;
-/athletes/111394610;/activities/8316048940;Walk;Evening walk;craig friedman;2022-12-28T00:02:00.000+01:00;3.21;;km;0:45:00;0;;14:01;04.3
-/athletes/111394610;/activities/8316039868;Hike;Snowy hike;craig friedman;2022-12-27T17:00:00.000+01:00;4.82;;km;1:30:00;0;;18:40;03.2
-/athletes/111394610;/activities/8298103194;Alpine Ski;Ski;craig friedman;2022-12-26T15:11:00.000+01:00;;;;5:00:00;;;;
-/athletes/111394610;/activities/8298088452;Hike;Morning Hike;craig friedman;2022-12-26T15:00:00.000+01:00;4.82;;km;1:00:00;0;;12:26;04.8
+Athlete,Activity," ""Type""",Location,Name,Date,Distance,Pace,Unit,Duration,Elev,Calo,EstPace,EstSpeed
+/athletes/110803027,/activities/8317946103,Other,Dance+Party,tinku sand,2022-12-31T21:40:00.000+01:00,1.78,1:39:16,km,2:56:00,,,98:52:00,0.6
+/athletes/110803027,/activities/8314267949,Run,"Evening walk · Golmuri-Cum-Jugsalai, India",tinku sand,2022-12-30T15:01:00.000+01:00,5.37,9:37,km,0:51:42,,,9:37,6.2
+/athletes/110803027,/activities/8307839736,Run,"Market walk, but forgot to save before getting on the bike · Golmuri-Cum-Jugsalai, India",tinku sand,2022-12-29T19:26:00.000+01:00,5.43,3:31,km,0:19:07,,,3:31,17
+/athletes/110803027,/activities/8302398026,Run,"Evening walk · Golmuri-Cum-Jugsalai, India",tinku sand,2022-12-28T19:15:00.000+01:00,3.35,10:41,km,0:35:52,,,10:42,5.6
