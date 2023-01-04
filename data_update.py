@@ -181,8 +181,8 @@ df_points.loc[(df_points['Milestone'] == True) & df_points['Bonus'].str.contains
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] != 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +1000
 df_points.loc[(df_points['Milestone'] == True) & (df_points['activity_for_points'] == 'Other'), 'Total_points_with_bonus'] = df_points['Total_points_with_bonus'] +500
 
-df_points.loc[(df_points['Milestone'] == False) & (df_points['Bonus'] == 'Milestone'), 'Bonus'] = 'None'
-
+df_points.loc[(df_points['Milestone'] == False) & (df_points['Bonus'].str.contains('2X')), 'Bonus'] = '2X'
+df_points.loc[(df_points['Milestone'] == False) & (df_points['Bonus'].str.contains('3X')), 'Bonus'] = '3X'
 
 df_points['Date'] = pd.to_datetime(df_points['Date']).dt.date
 # export data to excel
