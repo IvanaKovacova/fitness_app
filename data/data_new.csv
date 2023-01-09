@@ -1,121 +1,195 @@
-Athlete;Activity;" ""Type""";Location;Name;Date;Distance;Pace;Unit;Duration;Elev;Calo;EstPace;EstSpeed
-/athletes/93937948;/activities/8356157044;Walk;Morning Walk;Preetha Dandapani;2023-01-08T09:02:00.000+01:00;2.45;;km;0:43:50;0;;17:53;03.4
-/athletes/111167294;/activities/8356112550;Workout;Free hand workout;Rahul Roy Choudhury;2023-01-08T09:00:00.000+01:00;;;;2:03:00;;;;
-/athletes/92419547;/activities/8356049504;Walk;Morning Walk;Khushboo Mehrotra;2023-01-08T07:29:00.000+01:00;05.3;;km;0:44:06;2;;8:46;06.8
-/athletes/111408325;/activities/8355908189;Workout;Evening Workout;Sumit Wadhwa;2023-01-07T20:50:00.000+01:00;;;;0:30:36;;;;
-/athletes/111457277;/activities/8355810556;Workout;Evening Workout;Sree Kothapalli;2023-01-07T18:37:00.000+01:00;;;;1:50:00;;256;;
-/athletes/111199444;/activities/8355736451;Walk;Afternoon Walk;Aswani Gande;2023-01-07T16:37:00.000+01:00;5.21;;km;1:14:00;;266;14:12;04.2
-/athletes/95444598;/activities/8355696477;Walk;Morning Walk · Bengaluru, India;Manoj M;2023-01-08T06:32:00.000+01:00;1.59;;km;0:22:40;8;;14:15;04.2
-/athletes/111408325;/activities/8355767966;Workout;Day 27 : Evening Yoga ;Sumit Wadhwa;2023-01-07T17:58:00.000+01:00;;;;1:03:00;;;;
-/athletes/111457277;/activities/8355486487;Walk;Afternoon Walk;Sree Kothapalli;2023-01-07T16:38:00.000+01:00;3.24;;km;0:42:23;82;;13:04;04.6
-/athletes/16846403;/activities/8355701389;Walk;Caminhada noturna · Guaíba, Brazil;Felipe Garcez;2023-01-07T20:29:00.000+01:00;2.25;;km;0:27:29;29;;12:12;04.9
-/athletes/94332657;/activities/8355353301;Run;Afternoon Run;Jesse Williams;2023-01-07T16:01:00.000+01:00;5.27;4:45;km;0:25:06;;;4:45;12.6
-/athletes/25401364;/activities/8355211752;Run;Afternoon Run;Jose Martinez;2023-01-07T15:30:00.000+01:00;9.33;5:16;km;0:49:06;;;5:15;11.4
-/athletes/111354373;/activities/8355037910;Elliptical;Afternoon Elliptical;Joyce Miyazato;2023-01-07T17:33:00.000+01:00;;;;0:39:39;;215;;
-/athletes/111405068;/activities/8354763305;Walk;Afternoon Walk;Elena Teytelman;2023-01-07T14:48:00.000+01:00;2.37;;km;0:35:41;96;;15:03;4.0
-/athletes/111394610;/activities/8355274174;Hike;Morning hike;craig friedman;2023-01-07T18:01:00.000+01:00;08.4;;km;2:00:00;0;;14:55;4.0
-/athletes/111192942;/activities/8354542960;Workout;Afternoon Workout;Nealie Glasser;2023-01-07T14:03:00.000+01:00;;;;0:31:29;;183;;
-/athletes/94916434;/activities/8354495441;Walk;Afternoon Walk · Gramado, Brazil;Victor Frank;2023-01-07T15:44:00.000+01:00;02.7;;km;0:24:11;17;;11:40;05.1
-/athletes/111433583;/activities/8354051366;Hike;Morning hike;Isha Kanani;2023-01-07T09:06:00.000+01:00;2.57;;km;0:32:00;0;;12:27;04.8
-/athletes/95558986;/activities/8353958715;Walk;Afternoon Walk;Damien Lorigan;2023-01-07T14:01:00.000+01:00;11.77;;km;1:34:00;71;;7:59;07.5
-/athletes/111276322;/activities/8354081525;Walk;Night walk;Aarzoo Tandon;2023-01-07T21:03:00.000+01:00;10.00;;km;1:40:00;0;;10:00;6.0
-/athletes/93937948;/activities/8353721496;Walk;Evening Walk;Preetha Dandapani;2023-01-07T19:36:00.000+01:00;07.11;;km;1:19:00;44;;11:06;05.4
-/athletes/94637059;/activities/8353385948;Walk;Night Walk · Bengaluru, India;Karthik Gunda;2023-01-07T16:56:00.000+01:00;8.00;;km;1:18:00;22;;9:45;06.2
-/athletes/47356495;/activities/8353380587;Run;Short 5km sprint;Abhishek Sharma;2023-01-07T16:18:00.000+01:00;05.8;5:50;km;0:29:37;;;5:49;10.3
-/athletes/111359125;/activities/8353315360;unknown;Morning Activity;Manish Shetty;2023-01-07T08:30:00.000+01:00;;;;1:07:00;;;;
-/athletes/89759398;/activities/8353596048;Workout;Badminton;Sandeep Malhotra;2023-01-07T14:30:00.000+01:00;;;;1:00:00;;;;
-/athletes/94335999;/activities/8353185426;Walk;Afternoon Walk · The Metropolitan District of Limerick City, Ireland;Brian Fitzgerald;2023-01-07T14:53:00.000+01:00;2.35;;km;0:27:25;19;;11:39;05.1
-/athletes/79541758;/activities/8352899868;Walk;Walking all around the city · Ward 13, India;Sanjay K;2023-01-07T07:45:00.000+01:00;20.6;;km;4:32:00;236;;13:33;04.4
-/athletes/89759398;/activities/8352895803;Run;Running to warmup;Sandeep Malhotra;2023-01-07T19:56:00.000+01:00;02.5;7:27;km;0:15:18;;;7:27;8.0
-/athletes/95532353;/activities/8352889894;Run;Morning Run · Porto Alegre, Brazil;Dio Goldoni;2023-01-07T10:32:00.000+01:00;11.62;4:02;km;0:46:54;;;4:02;14.9
-/athletes/111167294;/activities/8352938917;Workout;Evening workout;Rahul Roy Choudhury;2023-01-07T18:00:00.000+01:00;;;;2:03:00;;;;
-/athletes/111405068;/activities/8352829903;Workout;Morning Workout;Elena Teytelman;2023-01-07T08:29:00.000+01:00;;;;1:03:00;;150;;
-/athletes/80921500;/activities/8352804576;Walk;Morning Walk · District of Topoľčany, Region of Nitra;Juraj Mečír;2023-01-07T08:14:00.000+01:00;25.18;;km;6:06:00;452;;14:32;04.1
-/athletes/35500962;/activities/8352957088;Run;Cros trainer ;Ankit Talele;2023-01-07T13:51:00.000+01:00;3.00;11:20;km;0:34:00;;;11:20;05.3
-/athletes/111421239;/activities/8352488120;Workout;Badminton ;S Santhoshraghavan;2023-01-07T13:38:00.000+01:00;;;;0:30:00;;;;
-/athletes/47182741;/activities/8352610607;Run;Morning Run · Philadelphia, USA;Andrew CD;2023-01-07T08:06:00.000+01:00;10.00;5:12;km;0:52:04;;;5:12;11.5
-/athletes/100596399;/activities/8353049832;Walk;Easy Hike · District of Pezinok, Region of Bratislava;Ivana Kovacova;2023-01-07T09:56:00.000+01:00;15.81;;km;3:37:00;524;;13:43;04.4
-/athletes/47356495;/activities/8352340635;Workout;Meditation and Breathing exercises;Abhishek Sharma;2023-01-07T13:38:00.000+01:00;;;;0:32:44;;101;;
-/athletes/74529016;/activities/8352218356;unknown;Morning Surfing · Garopaba, Brazil;Rafael Fraga Mohr;2023-01-07T08:00:00.000+01:00;3.62;;km;1:47:00;;;29:33:00;2.0
-/athletes/111212512;/activities/8351961897;Walk;Evening walk · Hyderabad, India;Nikhitha Vegi;2023-01-07T17:09:00.000+01:00;2.18;;km;0:32:06;18;;14:43;04.1
-/athletes/25025384;/activities/8351965020;unknown;Accessories and Spares shopping · Alandur, India;Madhav Parashar;2023-01-07T14:38:00.000+01:00;40.14;;km;2:34:00;91;;3:50;15.6
-/athletes/96331780;/activities/8351724267;Ride;Ride with new findings  · Faridabad, India;Virendra Singh;2023-01-07T16:01:00.000+01:00;13.89;;km;0:54:19;99;;3:54;15.3
-/athletes/111211736;/activities/8351619038;Hike;Trek to Tada falls  · K.V.B.Puram, India;Aruna  N;2023-01-07T11:19:00.000+01:00;5.93;;km;1:58:00;135;;19:53;3.0
-/athletes/92419547;/activities/8350778874;Walk;Walk;Khushboo Mehrotra;2023-01-07T12:14:00.000+01:00;2.00;;km;0:31:45;0;;15:52;03.8
-/athletes/93937948;/activities/8350530400;Walk;Morning Walk;Preetha Dandapani;2023-01-07T10:10:00.000+01:00;11.18;;km;1:56:00;100;;10:22;05.8
-/athletes/25025384;/activities/8350466130;Walk;Morning Walk;Madhav Parashar;2023-01-07T10:39:00.000+01:00;5.44;;km;1:16:00;18;;13:58;04.3
-/athletes/100629210;/activities/8350419904;Workout;Morning Workout;Abhishek Singh;2023-01-07T10:43:00.000+01:00;;;;0:42:05;;273;;
-/athletes/102398735;/activities/8350399725;Walk;Morning walk;RAVINDER SINGH BISHT;2023-01-07T09:42:00.000+01:00;3.14;;km;0:31:30;31;;10:01;6.0
-/athletes/111167294;/activities/8350378170;Walk;Morning Walk · Kolkata, India;Rahul Roy Choudhury;2023-01-07T07:51:00.000+01:00;14.44;;km;2:37:00;45;;10:52;05.5
-/athletes/95362701;/activities/8350354859;Walk;Morning walk  · Rourkela, India;Subramita Dash;2023-01-07T09:55:00.000+01:00;03.5;;km;0:33:23;16;;10:56;05.5
-/athletes/25401364;/activities/8350322712;Walk;Night Walk · Round Rock, USA;Jose Martinez;2023-01-06T21:12:00.000+01:00;3.46;;km;0:41:11;13;;11:54;5.0
-/athletes/111276322;/activities/8351630856;Workout;Morning workout ;Aarzoo Tandon;2023-01-07T07:00:00.000+01:00;;;;2:04:00;;;;
-/athletes/111254054;/activities/8350289004;Run;Weight Training-Chest and arms;Allen Mills;2023-01-06T18:00:00.000+01:00;;;;1:30:00;0;;;
-/athletes/94637059;/activities/8350190257;Walk;Morning Walk · Bengaluru, India;Karthik Gunda;2023-01-07T07:44:00.000+01:00;5.00;;km;0:50:13;6;;10:02;6.0
-/athletes/79541758;/activities/8350073991;unknown;Morning Meditation;Sanjay K;2023-01-07T07:04:00.000+01:00;;;;0:31:20;;;;
-/athletes/111367285;/activities/8350019543;Walk;Weekend morning walk · Peddavadugur, India;leela krishna;2023-01-07T06:21:00.000+01:00;4.41;;km;0:45:35;24;;10:20;05.8
-/athletes/111408325;/activities/8350125172;Workout;Day 26 : Evening Activity ;Sumit Wadhwa;2023-01-06T17:53:00.000+01:00;;;;1:30:00;;;;
-/athletes/111457277;/activities/8349919668;Workout;Afternoon Workout;Sree Kothapalli;2023-01-06T17:28:00.000+01:00;;;;1:34:00;;460;;
-/athletes/95444598;/activities/8349918490;Walk;Morning Walk · Bengaluru, India;Manoj M;2023-01-07T06:15:00.000+01:00;01.7;;km;0:15:14;12;;14:14;04.2
-/athletes/111433583;/activities/8349915343;Walk;Incline walk;Isha Kanani;2023-01-06T16:16:00.000+01:00;04.2;;km;0:46:00;0;;11:26;05.2
-/athletes/111394610;/activities/8352626131;Walk;Evening walk;craig friedman;2023-01-07T00:00:00.000+01:00;3.54;;km;0:45:00;0;;12:42;04.7
-/athletes/111254054;/activities/8349827774;Walk;Afternoon Walk · Los Angeles, USA;Allen Mills;2023-01-06T14:42:00.000+01:00;11.28;;km;1:36:00;42;;8:30;7.0
-/athletes/47182741;/activities/8349740367;Ride;Picking up takeout  · Philadelphia, USA;Andrew CD;2023-01-06T18:14:00.000+01:00;11.84;;km;0:38:22;80;;3:14;18.5
-/athletes/92777676;/activities/8349726074;Ride;Evening Ride;Victor Caetano;2023-01-06T19:55:00.000+01:00;40.00;;km;1:03:00;0;;1:34;38.1
-/athletes/16846403;/activities/8349871370;Walk;Caminhada noturna · Guaíba, Brazil;Felipe Garcez;2023-01-06T20:15:00.000+01:00;3.16;;km;0:36:10;10;;11:26;05.2
-/athletes/95558986;/activities/8349670769;Walk;Night Walk;Damien Lorigan;2023-01-06T23:13:00.000+01:00;1.84;;km;0:23:05;16;;12:32;04.8
-/athletes/94332657;/activities/8349664628;Run;Afternoon Run;Jesse Williams;2023-01-06T16:08:00.000+01:00;6.49;4:49;km;0:31:13;;;4:48;12.5
-/athletes/111354273;/activities/8352381724;Walk;Walk;Jonathon Klanderman;2023-01-06T18:20:00.000+01:00;;;;0:16:51;;208;;
-/athletes/111192942;/activities/8349513930;Yoga;At-Home Yoga;Nealie Glasser;2023-01-06T17:19:00.000+01:00;;;;0:35:06;;152;;
-/athletes/111405068;/activities/8349308338;Walk;Afternoon Walk;Elena Teytelman;2023-01-06T15:07:00.000+01:00;2.30;;km;0:31:40;76;;13:46;04.4
-/athletes/80921500;/activities/8349071412;Walk;Night Walk · District of Piešťany, Region of Trnava;Juraj Mečír;2023-01-06T21:15:00.000+01:00;1.90;;km;0:26:07;17;;13:44;04.4
-/athletes/111344192;/activities/8349445393;Walk;Lunch Walk;Anvesh Kalia;2023-01-06T12:32:00.000+01:00;1.19;;km;0:44:36;;105;37:28:00;01.6
-/athletes/111408325;/activities/8348764371;Workout;Lunch Workout;Sumit Wadhwa;2023-01-06T12:17:00.000+01:00;;;;0:38:40;;;;
-/athletes/111354273;/activities/8352381579;Walk;Walk;Jonathon Klanderman;2023-01-06T13:25:00.000+01:00;;;;0:28:04;;303;;
-/athletes/111405068;/activities/8349308357;Workout;Lunch Workout;Elena Teytelman;2023-01-06T12:01:00.000+01:00;;;;1:32:00;;129;;
-/athletes/25401364;/activities/8348557729;Walk;Lunch Walk;Jose Martinez;2023-01-06T11:22:00.000+01:00;4.46;;km;1:01:00;;231;13:40;04.4
-/athletes/47182741;/activities/8348539002;Walk;Afternoon Walk · Philadelphia, USA;Andrew CD;2023-01-06T13:01:00.000+01:00;1.84;;km;0:14:23;8;;7:49;07.7
-/athletes/94335999;/activities/8349709319;Walk;Afternoon Walk · The Metropolitan District of Limerick City, Ireland;Brian Fitzgerald;2023-01-06T17:16:00.000+01:00;3.21;;km;0:38:38;34;;12:02;5.0
-/athletes/47356495;/activities/8348433466;Walk;Evening Walk;Abhishek Sharma;2023-01-06T18:08:00.000+01:00;1.71;;km;0:21:17;10;;12:26;04.8
-/athletes/80921500;/activities/8348459639;Weight Training;Afternoon Weight Training;Juraj Mečír;2023-01-06T16:38:00.000+01:00;;;;2:06:00;;867;;
-/athletes/94916434;/activities/8348523331;Walk;Afternoon Walk · Gramado, Brazil;Victor Frank;2023-01-06T13:30:00.000+01:00;2.41;;km;0:24:32;15;;10:10;05.9
-/athletes/25025384;/activities/8349093550;Walk;Night Walk;Madhav Parashar;2023-01-06T22:07:00.000+01:00;0.66;;km;0:13:28;0;;20:24;02.9
-/athletes/111276322;/activities/8348158320;Walk;Night Walk;Aarzoo Tandon;2023-01-06T21:30:00.000+01:00;3.20;;km;0:38:00;0;;11:52;05.1
-/athletes/94637059;/activities/8348058888;Walk;Night Walk · Bengaluru, India;Karthik Gunda;2023-01-06T21:12:00.000+01:00;5.00;;km;0:50:08;7;;10:01;6.0
-/athletes/74529016;/activities/8349045437;Surfing;Lunch Surfing · Garopaba, Brazil;Rafael Fraga Mohr;2023-01-06T11:45:00.000+01:00;04.5;;km;1:41:00;;;24:56:00;02.4
-/athletes/35500962;/activities/8348028249;Walk;Night Walk;Ankit Talele;2023-01-06T21:09:00.000+01:00;2.16;;km;0:39:09;0;;18:07;03.3
-/athletes/62418776;/activities/8347979999;Walk;Night Walk · Bengaluru, India;Aditya Aggarwal;2023-01-06T21:14:00.000+01:00;1.83;;km;0:24:25;14;;13:20;04.5
-/athletes/47356495;/activities/8347892069;Run;Afternoon Run;Abhishek Sharma;2023-01-06T16:22:00.000+01:00;5.74;5:56;km;0:34:07;;;5:56;10.1
-/athletes/111167294;/activities/8347834092;Walk;Walk before dinner · Kolkata, India;Rahul Roy Choudhury;2023-01-06T20:02:00.000+01:00;5.74;;km;1:09:00;25;;12:01;5.0
-/athletes/111211736;/activities/8347747021;Walk;Evening Walk · Tiruporur, India;Aruna  N;2023-01-06T19:53:00.000+01:00;3.58;;km;0:51:55;8;;14:30;04.1
-/athletes/101154883;/activities/8347698393;Walk;Ditched uber · Kolkata, India;Suparna Lala;2023-01-06T20:00:00.000+01:00;3.85;;km;0:48:04;0;;12:29;04.8
-/athletes/95362701;/activities/8347400387;Walk;Evening walk  · Rourkela, India;Subramita Dash;2023-01-06T19:22:00.000+01:00;2.48;;km;0:28:14;14;;11:23;05.3
-/athletes/100629210;/activities/8347298295;Walk;Evening Walk;Abhishek Singh;2023-01-06T18:48:00.000+01:00;3.53;;km;0:41:07;42;;11:38;05.2
-/athletes/111428195;/activities/8347183194;Walk;Evening Walk;Prerna Dewale;2023-01-06T13:07:00.000+01:00;1.61;;km;0:30:00;0;;18:38;03.2
-/athletes/111354373;/activities/8347562508;Elliptical;Morning Elliptical;Joyce Miyazato;2023-01-06T08:41:00.000+01:00;;;;0:32:16;;160;;
-/athletes/79541758;/activities/8346434676;Walk;Morning Walk · Ward 13, India;Sanjay K;2023-01-06T09:29:00.000+01:00;10.73;;km;2:17:00;102;;12:46;04.7
-/athletes/100596399;/activities/8346289873;Weight Training;Morning Weight Training;Ivana Kovacova;2023-01-06T09:54:00.000+01:00;;;;1:28:00;;327;;
-/athletes/94637059;/activities/8345601392;Walk;Morning walk · Bengaluru, India;Karthik Gunda;2023-01-06T12:13:00.000+01:00;3.00;;km;0:30:20;9;;10:06;05.9
-/athletes/92419547;/activities/8345476483;Walk;Walk;Khushboo Mehrotra;2023-01-06T09:09:00.000+01:00;5.00;;km;1:03:00;10;;12:35;04.8
-/athletes/100629210;/activities/8345476108;Weight Training;Morning Weight Training;Abhishek Singh;2023-01-06T10:29:00.000+01:00;;;;1:07:00;;353;;
-/athletes/102398735;/activities/8345429909;Walk;Morning walk;RAVINDER SINGH BISHT;2023-01-06T09:31:00.000+01:00;1.84;;km;0:17:57;15;;9:45;06.2
-/athletes/62418776;/activities/8345405252;Workout;Morning Badminton;Aditya Aggarwal;2023-01-06T09:40:00.000+01:00;;;;1:00:00;;449;;
-/athletes/111167294;/activities/8346981543;Workout;Workout;Rahul Roy Choudhury;2023-01-06T08:30:00.000+01:00;;;;2:00:00;;;;
-/athletes/111518187;/activities/8345368043;Workout;Morning Activity;Tejaswini Sira;2023-01-06T09:42:00.000+01:00;;;;0:32:42;;;;
-/athletes/111004967;/activities/8345347361;Workout;Batminton;Sowjanya Sowji;2023-01-05T19:00:00.000+01:00;;;;1:30:00;;;;
-/athletes/93937948;/activities/8347637664;Workout;Morning activity;Preetha Dandapani;2023-01-06T02:30:00.000+01:00;;;;1:07:00;;;;
-/athletes/111367285;/activities/8345267354;Yoga;Morning Yoga;leela krishna;2023-01-06T06:59:00.000+01:00;;;;2:01:00;;;;
-/athletes/96331780;/activities/8345236055;Walk;Morning Walk · Faridabad, India;Virendra Singh;2023-01-06T08:08:00.000+01:00;2.57;;km;0:26:57;11;;10:29;05.7
-/athletes/47182741;/activities/8345234443;Ride;Polo · Philadelphia, USA;Andrew CD;2023-01-05T18:21:00.000+01:00;21.10;;km;2:30:00;92;;7:06;08.4
-/athletes/111457277;/activities/8345115453;Workout;Evening Workout;Sree Kothapalli;2023-01-05T18:27:00.000+01:00;;;;1:40:00;;412;;
-/athletes/111276322;/activities/8348163203;Workout;Stretch and meditation ;Aarzoo Tandon;2023-01-06T07:00:00.000+01:00;;;;0:35:00;;;;
-/athletes/111408325;/activities/8345200141;Workout;Day 25 : Evening Workout;Sumit Wadhwa;2023-01-05T19:11:00.000+01:00;;;;0:35:11;;;;
-/athletes/111433583;/activities/8345052966;Workout;HIIT group training;Isha Kanani;2023-01-05T16:51:00.000+01:00;;;;0:50:00;;;;
-/athletes/93272730;/activities/8345218259;unknown;Evening Swim;Satish Patil;2023-01-05T19:08:00.000+01:00;1;3:14;m;0:32:29;;;3:14/100m;18.5
-/athletes/111453240;/activities/8345045446;Walk;Evening Walk · Austin, USA;Jason Lee;2023-01-05T18:15:00.000+01:00;2.20;;km;0:31:05;33;;14:07;04.2
-/athletes/95444598;/activities/8349865406;Walk;Morning Walk · Bengaluru, India;Manoj M;2023-01-06T06:44:00.000+01:00;1.17;;km;0:16:09;5;;13:48;04.3
-/athletes/111192942;/activities/8345000134;Workout;Cleaning;Nealie Glasser;2023-01-05T19:50:00.000+01:00;;;;0:31:19;;104;;
-/athletes/111344192;/activities/8344974857;Walk;Evening Walk · Round Rock, USA;Anvesh Kalia;2023-01-05T18:24:00.000+01:00;3.50;;km;0:45:57;17;;13:07;04.6
-/athletes/111359125;/activities/8344966382;Weight Training;Evening Activity;Manish Shetty;2023-01-05T18:20:00.000+01:00;;;;0:38:39;;;;
-/athletes/111405068;/activities/8345165300;Workout;Evening Workout;Elena Teytelman;2023-01-05T18:24:00.000+01:00;;;;1:06:00;;221;;
-/athletes/111547501;/activities/8347353117;Workout;Night Workout;kunjal gosar;2023-01-05T23:30:00.000+01:00;;;;0:47:22;;321;;
+Athlete,Activity," ""Type""",Location,Name,Date,Distance,Pace,Unit,Duration,Elev,Calo,EstPace,EstSpeed
+/athletes/100596399,/activities/8362217426,Walk,"Morning Walk · District of Bratislava IV, Region of Bratislava",Ivana Kovacova,2023-01-09T08:26:00.000+01:00,2.17,,km,0:30:38,55,,14:07,4.3
+/athletes/92419547,/activities/8361883986,Walk,Walk,Khushboo Mehrotra,2023-01-09T08:33:00.000+01:00,3,,km,0:44:19,9,,14:46,4.1
+/athletes/111167294,/activities/8361928787,Workout,Morning Workout,Rahul Roy Choudhury,2023-01-09T09:00:00.000+01:00,,,,2:06:00,,,,
+/athletes/102398735,/activities/8361867548,Walk,Morning walk,RAVINDER SINGH BISHT,2023-01-09T09:32:00.000+01:00,1.9,,km,0:18:59,15,,9:59,6
+/athletes/25025384,/activities/8361881664,Swim,Morning Swim,Madhav Parashar,2023-01-09T10:12:00.000+01:00,750,5:46,m,0:43:18,,,5:46/100m,1
+/athletes/111276322,/activities/8362257917,Workout,Morning workout ,Aarzoo Tandon,2023-01-09T08:00:00.000+01:00,,,,2:17:00,,,,
+/athletes/111421239,/activities/8361788495,Walk,Short Walk ,S Santhoshraghavan,2023-01-09T09:50:00.000+01:00,0.82,,km,0:12:03,13,,14:41,4.1
+/athletes/111004967,/activities/8361834654,Workout,Morning Batminton,Sowjanya Sowji,2023-01-08T19:00:00.000+01:00,,,,1:30:00,,,,
+/athletes/102341457,/activities/8361736947,Workout,Morning workout,Divya Tallur,2023-01-09T01:42:00.000+01:00,,,,2:14:00,,,,
+/athletes/111211736,/activities/8361728342,Walk,"Morning Walk · Tiruporur, India",Aruna  N,2023-01-09T08:27:00.000+01:00,4.42,,km,0:51:53,9,,11:44,5.1
+/athletes/111367285,/activities/8361646389,Yoga,Morning Yoga ,leela krishna,2023-01-09T06:54:00.000+01:00,,,,1:26:00,,,,
+/athletes/111457277,/activities/8361645200,Workout,Evening Workout,Sree Kothapalli,2023-01-08T19:08:00.000+01:00,,,,1:41:00,,247,,
+/athletes/111457277,/activities/8361470705,Walk,Afternoon Walk,Sree Kothapalli,2023-01-08T17:32:00.000+01:00,1.15,,km,0:17:06,4,,14:52,4
+/athletes/95444598,/activities/8361450507,Walk,"Morning Walk · Bengaluru, India",Manoj M,2023-01-09T06:00:00.000+01:00,1.41,,km,0:20:45,8,,14:42,4.1
+/athletes/94332657,/activities/8361288515,Run,Afternoon Run,Jesse Williams,2023-01-08T16:11:00.000+01:00,6.46,4:45,km,0:30:44,,,4:45,12.6
+/athletes/80921500,/activities/8361143730,Walk,Night Walk,Juraj Mečír,2023-01-08T23:47:00.000+01:00,0.28,,km,0:04:44,0,,16:54,3.5
+/athletes/25401364,/activities/8361082635,Walk,"Afternoon Walk · Austin, USA",Jose Martinez,2023-01-08T14:25:00.000+01:00,11.34,,km,2:02:00,101,,10:45,5.6
+/athletes/67051167,/activities/8360929272,Walk,"Beach Walk · Capão da Canoa, Brazil",Enzo Bertoldi,2023-01-08T10:14:00.000+01:00,10.15,,km,2:03:00,10,,12:07,5
+/athletes/93272730,/activities/8361073757,Swim,Afternoon Swim,Satish Patil,2023-01-08T13:30:00.000+01:00,"1,300",3:05,m,0:40:10,,,3:05/100m,1.9
+/athletes/47182741,/activities/8360370599,Ride,"Morning Ride · Philadelphia, USA",Andrew CD,2023-01-08T10:20:00.000+01:00,27.74,,km,2:43:00,187,,5:52,10.2
+/athletes/93272730,/activities/8361073650,Workout,Lunch Workout,Satish Patil,2023-01-08T12:39:00.000+01:00,,,,0:33:48,,142,,
+/athletes/111192942,/activities/8360264912,Workout,Cleaning,Nealie Glasser,2023-01-08T12:58:00.000+01:00,,,,1:01:00,,200,,
+/athletes/95558986,/activities/8360179054,Walk,Afternoon Walk,Damien Lorigan,2023-01-08T13:44:00.000+01:00,8.44,,km,1:57:00,34,,13:51,4.3
+/athletes/25401364,/activities/8360143600,Run,Lunch Run,Jose Martinez,2023-01-08T11:45:00.000+01:00,8.46,5:14,km,0:44:17,,,5:14,11.5
+/athletes/111344192,/activities/8360849345,Workout,Morning Workout,Anvesh Kalia,2023-01-08T10:15:00.000+01:00,,,,1:40:00,,474,,
+/athletes/111394610,/activities/8359967317,Run,"Lunch Run · Austin, USA",craig friedman,2023-01-08T11:09:00.000+01:00,7.78,5:11,km,0:40:23,,,5:11,11.6
+/athletes/111421239,/activities/8359564097,Walk,Morning Walk ,S Santhoshraghavan,2023-01-08T16:39:00.000+01:00,1.3,,km,0:30:00,0,,23:04,2.6
+/athletes/111408325,/activities/8359698151,Walk,Day 28 : Morning Walk,Sumit Wadhwa,2023-01-08T10:27:00.000+01:00,1.87,,km,0:25:41,8,,13:44,4.4
+/athletes/111443594,/activities/8359974128,Walk,"Afternoon Walk · Model Town Tehsil, India",Aastha Banda,2023-01-08T16:09:00.000+01:00,26.21,,km,2:09:00,134,,4:55,12.2
+/athletes/94332495,/activities/8359521028,Walk,"Evening Walk · Bengaluru, India",Renoy Zachariah,2023-01-08T20:46:00.000+01:00,4.15,,km,1:03:00,37,,15:10,4
+/athletes/93937948,/activities/8359475567,Walk,Evening Walk,Preetha Dandapani,2023-01-08T20:27:00.000+01:00,8.31,,km,1:09:00,71,,8:18,7.2
+/athletes/94637059,/activities/8359430994,Walk,"Night Walk · Bengaluru, India",Karthik Gunda,2023-01-08T20:58:00.000+01:00,5.01,,km,0:49:40,15,,9:54,6.1
+/athletes/94335999,/activities/8359384829,Walk,"Afternoon Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2023-01-08T15:04:00.000+01:00,3.37,,km,0:46:49,32,,13:53,4.3
+/athletes/35500962,/activities/8359227845,Walk,Evening Walk,Ankit Talele,2023-01-08T20:28:00.000+01:00,2.46,,km,0:44:03,0,,17:54,3.4
+/athletes/74529016,/activities/8360731410,unknown,"Lunch Surfing · Garopaba, Brazil",Rafael Fraga Mohr,2023-01-08T11:42:00.000+01:00,1.53,,km,0:42:33,,,27:48:00,2.2
+/athletes/111276322,/activities/8359092288,Walk,Evening walk,Aarzoo Tandon,2023-01-08T19:06:00.000+01:00,10.1,,km,1:48:00,0,,10:41,5.6
+/athletes/111354373,/activities/8360773959,Elliptical,Morning Elliptical,Joyce Miyazato,2023-01-08T10:38:00.000+01:00,,,,0:36:23,,189,,
+/athletes/111353892,/activities/8358532601,unknown,Morning Activity,Sravan Katepalli,2023-01-08T12:56:00.000+01:00,,,,1:00:00,,,,
+/athletes/111167294,/activities/8358422261,Walk,"Lunch Walk · Kolkata, India",Rahul Roy Choudhury,2023-01-08T13:15:00.000+01:00,15.18,,km,2:18:00,33,,9:05,6.6
+/athletes/62418776,/activities/8358345557,Run,"Afternoon Run · Bengaluru, India",Aditya Aggarwal,2023-01-08T17:37:00.000+01:00,8.16,8:31,km,1:09:00,,,8:27,7.1
+/athletes/47356495,/activities/8358214621,Workout,Core strength exercises ,Abhishek Sharma,2023-01-08T13:31:00.000+01:00,,,,0:34:19,,114,,
+/athletes/97845585,/activities/8358047081,Walk,"Afternoon Walk · District of Trnava, Region of Trnava",Simon Talapa,2023-01-08T13:09:00.000+01:00,2.18,,km,0:29:32,3,,13:32,4.4
+/athletes/111212512,/activities/8358001045,Walk,"Evening walk  · Hyderabad, India",Nikhitha Vegi,2023-01-08T17:21:00.000+01:00,3.34,,km,0:43:08,31,,12:54,4.6
+/athletes/25025384,/activities/8357906098,Ride,"100 miler with WCCG Madhavaram Chapter · Alandur, India",Madhav Parashar,2023-01-08T05:56:00.000+01:00,163.13,,km,8:39:00,406,,3:10,18.9
+/athletes/47356495,/activities/8357868454,Workout,Stretching and Breathing Exercises ,Abhishek Sharma,2023-01-08T12:40:00.000+01:00,,,,0:35:09,,103,,
+/athletes/95558986,/activities/8357582967,Walk,Morning Walk,Damien Lorigan,2023-01-08T10:56:00.000+01:00,2.03,,km,0:22:13,16,,10:56,5.5
+/athletes/94637059,/activities/8357503443,Walk,"Afternoon Walk · Bengaluru, India",Karthik Gunda,2023-01-08T08:47:00.000+01:00,8,,km,1:18:00,27,,9:45,6.2
+/athletes/100596399,/activities/8357513746,Run,"Long run with hill repeats · District of Bratislava IV, Region of Bratislava",Ivana Kovacova,2023-01-08T11:03:00.000+01:00,11.13,,km,1:24:00,237,,7:32,8
+/athletes/111223184,/activities/8356958833,Walk,Afternoon Walk,Palak Agarwal,2023-01-08T10:23:00.000+01:00,2.5,,km,0:39:24,0,,15:45,3.8
+/athletes/92419547,/activities/8356647653,Walk,Afternoon Walk,Khushboo Mehrotra,2023-01-08T12:34:00.000+01:00,2,,km,0:18:52,5,,9:26,6.4
+/athletes/111367285,/activities/8356370021,Walk,"Field work  · Peddavadugur, India",leela krishna,2023-01-08T12:16:00.000+01:00,0.96,,km,0:15:15,0,,15:53,3.8
+/athletes/111443594,/activities/8356346934,Workout,Lunch Activity,Aastha Banda,2023-01-08T07:15:00.000+01:00,,,,1:00:00,,,,
+/athletes/79541758,/activities/8356324660,Walk,"Morning Walk · Ward 13, India",Sanjay K,2023-01-08T06:20:00.000+01:00,10.77,,km,2:17:00,92,,12:43,4.7
+/athletes/33732068,/activities/8358134905,Walk,Lunch Run,Ashwini Maddala,2023-01-08T12:24:00.000+01:00,1.9,,km,0:34:00,0,,17:53,3.4
+/athletes/93937948,/activities/8356157044,Walk,Morning Walk,Preetha Dandapani,2023-01-08T09:02:00.000+01:00,2.45,,km,0:43:50,0,,17:53,3.4
+/athletes/111167294,/activities/8356112550,Workout,Free hand workout,Rahul Roy Choudhury,2023-01-08T09:00:00.000+01:00,,,,2:03:00,,,,
+/athletes/92419547,/activities/8356049504,Walk,Morning Walk,Khushboo Mehrotra,2023-01-08T07:29:00.000+01:00,5.03,,km,0:44:06,2,,8:46,6.8
+/athletes/111276322,/activities/8359080685,Workout,Morning workout and stretch ,Aarzoo Tandon,2023-01-08T08:30:00.000+01:00,,,,2:00:00,,,,
+/athletes/25401364,/activities/8360143241,Walk,"Evening Walk · Round Rock, USA",Jose Martinez,2023-01-07T20:49:00.000+01:00,3.52,,km,0:43:29,6,,12:21,4.9
+/athletes/111344192,/activities/8358074269,Workout,Evening Workout,Anvesh Kalia,2023-01-07T20:30:00.000+01:00,,,,1:02:00,,310,,
+/athletes/89759398,/activities/8361761454,Workout,Badminton,Sandeep Malhotra,2023-01-08T02:30:00.000+01:00,,,,1:00:00,,,,
+/athletes/111408325,/activities/8355908189,Workout,Evening Workout,Sumit Wadhwa,2023-01-07T20:50:00.000+01:00,,,,0:30:36,,,,
+/athletes/111457277,/activities/8355810556,Workout,Evening Workout,Sree Kothapalli,2023-01-07T18:37:00.000+01:00,,,,1:50:00,,256,,
+/athletes/111433583,/activities/8360582704,Walk,Evening walk,Isha Kanani,2023-01-07T17:44:00.000+01:00,2.41,,km,0:33:00,0,,13:41,4.4
+/athletes/111199444,/activities/8355736451,Walk,Afternoon Walk,Aswani Gande,2023-01-07T16:37:00.000+01:00,5.21,,km,1:14:00,,266,14:12,4.2
+/athletes/95444598,/activities/8355696477,Walk,"Morning Walk · Bengaluru, India",Manoj M,2023-01-08T06:32:00.000+01:00,1.59,,km,0:22:40,8,,14:15,4.2
+/athletes/111408325,/activities/8355767966,Workout,Day 27 : Evening Yoga ,Sumit Wadhwa,2023-01-07T17:58:00.000+01:00,,,,1:03:00,,,,
+/athletes/111457277,/activities/8355486487,Walk,Afternoon Walk,Sree Kothapalli,2023-01-07T16:38:00.000+01:00,3.24,,km,0:42:23,82,,13:04,4.6
+/athletes/16846403,/activities/8355701389,Walk,"Caminhada noturna · Guaíba, Brazil",Felipe Garcez,2023-01-07T20:29:00.000+01:00,2.25,,km,0:27:29,29,,12:12,4.9
+/athletes/111394610,/activities/8359730994,Walk,Afternoon Walk,craig friedman,2023-01-07T23:00:00.000+01:00,3.21,,km,0:45:13,0,,14:05,4.3
+/athletes/94332657,/activities/8355353301,Run,Afternoon Run,Jesse Williams,2023-01-07T16:01:00.000+01:00,5.27,4:45,km,0:25:06,,,4:45,12.6
+/athletes/111433583,/activities/8360579792,Workout,Burpees + core,Isha Kanani,2023-01-07T14:16:00.000+01:00,,,,0:34:00,,,,
+/athletes/25401364,/activities/8355211752,Run,Afternoon Run,Jose Martinez,2023-01-07T15:30:00.000+01:00,9.33,5:16,km,0:49:06,,,5:15,11.4
+/athletes/111354373,/activities/8355037910,Elliptical,Afternoon Elliptical,Joyce Miyazato,2023-01-07T17:33:00.000+01:00,,,,0:39:39,,215,,
+/athletes/111405068,/activities/8354763305,Walk,Afternoon Walk,Elena Teytelman,2023-01-07T14:48:00.000+01:00,2.37,,km,0:35:41,96,,15:03,4
+/athletes/111394610,/activities/8355274174,Hike,Morning hike,craig friedman,2023-01-07T18:01:00.000+01:00,8.04,,km,2:00:00,0,,14:55,4
+/athletes/111192942,/activities/8354542960,Workout,Afternoon Workout,Nealie Glasser,2023-01-07T14:03:00.000+01:00,,,,0:31:29,,183,,
+/athletes/94916434,/activities/8354495441,Walk,"Afternoon Walk · Gramado, Brazil",Victor Frank,2023-01-07T15:44:00.000+01:00,2.07,,km,0:24:11,17,,11:40,5.1
+/athletes/93272730,/activities/8361073544,Swim,Lunch Swim,Satish Patil,2023-01-07T12:07:00.000+01:00,"1,250",3:07,m,0:39:00,,,3:07/100m,1.9
+/athletes/93272730,/activities/8361073435,Workout,Elliptical and rowing ,Satish Patil,2023-01-07T11:16:00.000+01:00,,,,0:30:21,,130,,
+/athletes/111433583,/activities/8354051366,Hike,Morning hike,Isha Kanani,2023-01-07T09:06:00.000+01:00,2.57,,km,0:32:00,0,,12:27,4.8
+/athletes/95558986,/activities/8353958715,Walk,Afternoon Walk,Damien Lorigan,2023-01-07T14:01:00.000+01:00,11.77,,km,1:34:00,71,,7:59,7.5
+/athletes/111276322,/activities/8354081525,Walk,Night walk,Aarzoo Tandon,2023-01-07T21:03:00.000+01:00,10,,km,1:40:00,0,,10:00,6
+/athletes/111346448,/activities/8361854798,Workout,Weekend Evening Activity,Anoop Karunakaran,2023-01-07T20:00:00.000+01:00,,,,2:00:00,,,,
+/athletes/93937948,/activities/8353721496,Walk,Evening Walk,Preetha Dandapani,2023-01-07T19:36:00.000+01:00,7.11,,km,1:19:00,44,,11:06,5.4
+/athletes/94637059,/activities/8353385948,Walk,"Night Walk · Bengaluru, India",Karthik Gunda,2023-01-07T16:56:00.000+01:00,8,,km,1:18:00,22,,9:45,6.2
+/athletes/47356495,/activities/8353380587,Run,Short 5km sprint,Abhishek Sharma,2023-01-07T16:18:00.000+01:00,5.08,5:50,km,0:29:37,,,5:49,10.3
+/athletes/111359125,/activities/8353315360,Weight Training,Morning Activity,Manish Shetty,2023-01-07T08:30:00.000+01:00,,,,1:07:00,,,,
+/athletes/89759398,/activities/8353596048,Workout,Badminton,Sandeep Malhotra,2023-01-07T14:30:00.000+01:00,,,,1:00:00,,,,
+/athletes/94335999,/activities/8353185426,Walk,"Afternoon Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2023-01-07T14:53:00.000+01:00,2.35,,km,0:27:25,19,,11:39,5.1
+/athletes/79541758,/activities/8352899868,Walk,"Walking all around the city · Ward 13, India",Sanjay K,2023-01-07T07:45:00.000+01:00,20.06,,km,4:32:00,236,,13:33,4.4
+/athletes/89759398,/activities/8352895803,Run,Running to warmup,Sandeep Malhotra,2023-01-07T19:56:00.000+01:00,2.05,7:27,km,0:15:18,,,7:27,8
+/athletes/95532353,/activities/8352889894,Run,"Morning Run · Porto Alegre, Brazil",Dio Goldoni,2023-01-07T10:32:00.000+01:00,11.62,4:02,km,0:46:54,,,4:02,14.9
+/athletes/111167294,/activities/8352938917,Workout,Evening workout,Rahul Roy Choudhury,2023-01-07T18:00:00.000+01:00,,,,2:03:00,,,,
+/athletes/111405068,/activities/8352829903,Workout,Morning Workout,Elena Teytelman,2023-01-07T08:29:00.000+01:00,,,,1:03:00,,150,,
+/athletes/80921500,/activities/8352804576,Walk,"Morning Walk · District of Topoľčany, Region of Nitra",Juraj Mečír,2023-01-07T08:14:00.000+01:00,25.18,,km,6:06:00,452,,14:32,4.1
+/athletes/35500962,/activities/8352957088,Run,Cros trainer ,Ankit Talele,2023-01-07T13:51:00.000+01:00,3,11:20,km,0:34:00,,,11:20,5.3
+/athletes/111421239,/activities/8352488120,Workout,Badminton ,S Santhoshraghavan,2023-01-07T13:38:00.000+01:00,,,,0:30:00,,,,
+/athletes/47182741,/activities/8352610607,Run,"Morning Run · Philadelphia, USA",Andrew CD,2023-01-07T08:06:00.000+01:00,10,5:12,km,0:52:04,,,5:12,11.5
+/athletes/100596399,/activities/8353049832,Walk,"Easy Hike · District of Pezinok, Region of Bratislava",Ivana Kovacova,2023-01-07T09:56:00.000+01:00,15.81,,km,3:37:00,524,,13:43,4.4
+/athletes/47356495,/activities/8352340635,Workout,Meditation and Breathing exercises,Abhishek Sharma,2023-01-07T13:38:00.000+01:00,,,,0:32:44,,101,,
+/athletes/74529016,/activities/8352218356,Surfing,"Morning Surfing · Garopaba, Brazil",Rafael Fraga Mohr,2023-01-07T08:00:00.000+01:00,3.62,,km,1:47:00,,,29:33:00,2
+/athletes/111212512,/activities/8351961897,Walk,"Evening walk · Hyderabad, India",Nikhitha Vegi,2023-01-07T17:09:00.000+01:00,2.18,,km,0:32:06,18,,14:43,4.1
+/athletes/25025384,/activities/8351965020,Ride,"Accessories and Spares shopping · Alandur, India",Madhav Parashar,2023-01-07T14:38:00.000+01:00,40.14,,km,2:34:00,91,,3:50,15.6
+/athletes/96331780,/activities/8351724267,Ride,"Ride with new findings  · Faridabad, India",Virendra Singh,2023-01-07T16:01:00.000+01:00,13.89,,km,0:54:19,99,,3:54,15.3
+/athletes/111211736,/activities/8351619038,Hike,"Trek to Tada falls  · K.V.B.Puram, India",Aruna  N,2023-01-07T11:19:00.000+01:00,5.93,,km,1:58:00,135,,19:53,3
+/athletes/92419547,/activities/8350778874,Walk,Walk,Khushboo Mehrotra,2023-01-07T12:14:00.000+01:00,2,,km,0:31:45,0,,15:52,3.8
+/athletes/93937948,/activities/8350530400,Walk,Morning Walk,Preetha Dandapani,2023-01-07T10:10:00.000+01:00,11.18,,km,1:56:00,100,,10:22,5.8
+/athletes/25025384,/activities/8350466130,Walk,Morning Walk,Madhav Parashar,2023-01-07T10:39:00.000+01:00,5.44,,km,1:16:00,18,,13:58,4.3
+/athletes/100629210,/activities/8350419904,Workout,Morning Workout,Abhishek Singh,2023-01-07T10:43:00.000+01:00,,,,0:42:05,,273,,
+/athletes/102398735,/activities/8350399725,Walk,Morning walk,RAVINDER SINGH BISHT,2023-01-07T09:42:00.000+01:00,3.14,,km,0:31:30,31,,10:01,6
+/athletes/111004967,/activities/8361833908,Workout,Weekend Batminton ,Sowjanya Sowji,2023-01-06T19:00:00.000+01:00,,,,2:30:00,,,,
+/athletes/111167294,/activities/8350378170,Walk,"Morning Walk · Kolkata, India",Rahul Roy Choudhury,2023-01-07T07:51:00.000+01:00,14.44,,km,2:37:00,45,,10:52,5.5
+/athletes/95362701,/activities/8350354859,Walk,"Morning walk  · Rourkela, India",Subramita Dash,2023-01-07T09:55:00.000+01:00,3.05,,km,0:33:23,16,,10:56,5.5
+/athletes/25401364,/activities/8350322712,Walk,"Night Walk · Round Rock, USA",Jose Martinez,2023-01-06T21:12:00.000+01:00,3.46,,km,0:41:11,13,,11:54,5
+/athletes/111276322,/activities/8351630856,Workout,Morning workout ,Aarzoo Tandon,2023-01-07T07:00:00.000+01:00,,,,2:04:00,,,,
+/athletes/111254054,/activities/8350289004,Run,Weight Training-Chest and arms,Allen Mills,2023-01-06T18:00:00.000+01:00,,,,1:30:00,0,,,
+/athletes/94637059,/activities/8350190257,Walk,"Morning Walk · Bengaluru, India",Karthik Gunda,2023-01-07T07:44:00.000+01:00,5,,km,0:50:13,6,,10:02,6
+/athletes/79541758,/activities/8350073991,Yoga,Morning Meditation,Sanjay K,2023-01-07T07:04:00.000+01:00,,,,0:31:20,,,,
+/athletes/111367285,/activities/8350019543,Walk,"Weekend morning walk · Peddavadugur, India",leela krishna,2023-01-07T06:21:00.000+01:00,4.41,,km,0:45:35,24,,10:20,5.8
+/athletes/111408325,/activities/8350125172,Workout,Day 26 : Evening Activity ,Sumit Wadhwa,2023-01-06T17:53:00.000+01:00,,,,1:30:00,,,,
+/athletes/111457277,/activities/8349919668,Workout,Afternoon Workout,Sree Kothapalli,2023-01-06T17:28:00.000+01:00,,,,1:34:00,,460,,
+/athletes/95444598,/activities/8349918490,Walk,"Morning Walk · Bengaluru, India",Manoj M,2023-01-07T06:15:00.000+01:00,1.07,,km,0:15:14,12,,14:14,4.2
+/athletes/111433583,/activities/8349915343,Walk,Incline walk,Isha Kanani,2023-01-06T16:16:00.000+01:00,4.02,,km,0:46:00,0,,11:26,5.2
+/athletes/111394610,/activities/8352626131,Walk,Evening walk,craig friedman,2023-01-07T00:00:00.000+01:00,3.54,,km,0:45:00,0,,12:42,4.7
+/athletes/111254054,/activities/8349827774,Walk,"Afternoon Walk · Los Angeles, USA",Allen Mills,2023-01-06T14:42:00.000+01:00,11.28,,km,1:36:00,42,,8:30,7
+/athletes/93272730,/activities/8361073390,Elliptical,Afternoon Elliptical,Satish Patil,2023-01-06T17:53:00.000+01:00,,,,0:30:18,,223,,
+/athletes/47182741,/activities/8349740367,Ride,"Picking up takeout  · Philadelphia, USA",Andrew CD,2023-01-06T18:14:00.000+01:00,11.84,,km,0:38:22,80,,3:14,18.5
+/athletes/92777676,/activities/8349726074,Ride,Evening Ride,Victor Caetano,2023-01-06T19:55:00.000+01:00,40,,km,1:03:00,0,,1:34,38.1
+/athletes/16846403,/activities/8349871370,Walk,"Caminhada noturna · Guaíba, Brazil",Felipe Garcez,2023-01-06T20:15:00.000+01:00,3.16,,km,0:36:10,10,,11:26,5.2
+/athletes/95558986,/activities/8349670769,Walk,Night Walk,Damien Lorigan,2023-01-06T23:13:00.000+01:00,1.84,,km,0:23:05,16,,12:32,4.8
+/athletes/94332657,/activities/8349664628,Run,Afternoon Run,Jesse Williams,2023-01-06T16:08:00.000+01:00,6.49,4:49,km,0:31:13,,,4:48,12.5
+/athletes/111354273,/activities/8352381724,Walk,Walk,Jonathon Klanderman,2023-01-06T18:20:00.000+01:00,,,,0:16:51,,208,,
+/athletes/111192942,/activities/8349513930,Yoga,At-Home Yoga,Nealie Glasser,2023-01-06T17:19:00.000+01:00,,,,0:35:06,,152,,
+/athletes/111405068,/activities/8349308338,Walk,Afternoon Walk,Elena Teytelman,2023-01-06T15:07:00.000+01:00,2.3,,km,0:31:40,76,,13:46,4.4
+/athletes/80921500,/activities/8349071412,Walk,"Night Walk · District of Piešťany, Region of Trnava",Juraj Mečír,2023-01-06T21:15:00.000+01:00,1.9,,km,0:26:07,17,,13:44,4.4
+/athletes/111344192,/activities/8349445393,Walk,Lunch Walk,Anvesh Kalia,2023-01-06T12:32:00.000+01:00,1.19,,km,0:44:36,,105,37:28:00,1.6
+/athletes/111408325,/activities/8348764371,Workout,Lunch Workout,Sumit Wadhwa,2023-01-06T12:17:00.000+01:00,,,,0:38:40,,,,
+/athletes/111354273,/activities/8352381579,Walk,Walk,Jonathon Klanderman,2023-01-06T13:25:00.000+01:00,,,,0:28:04,,303,,
+/athletes/111405068,/activities/8349308357,Workout,Lunch Workout,Elena Teytelman,2023-01-06T12:01:00.000+01:00,,,,1:32:00,,129,,
+/athletes/93272730,/activities/8361073388,Yoga,Lunch Yoga,Satish Patil,2023-01-06T11:14:00.000+01:00,,,,1:14:00,,282,,
+/athletes/25401364,/activities/8348557729,Walk,Lunch Walk,Jose Martinez,2023-01-06T11:22:00.000+01:00,4.46,,km,1:01:00,,231,13:40,4.4
+/athletes/47182741,/activities/8348539002,Walk,"Afternoon Walk · Philadelphia, USA",Andrew CD,2023-01-06T13:01:00.000+01:00,1.84,,km,0:14:23,8,,7:49,7.7
+/athletes/94335999,/activities/8349709319,Walk,"Afternoon Walk · The Metropolitan District of Limerick City, Ireland",Brian Fitzgerald,2023-01-06T17:16:00.000+01:00,3.21,,km,0:38:38,34,,12:02,5
+/athletes/47356495,/activities/8348433466,Walk,Evening Walk,Abhishek Sharma,2023-01-06T18:08:00.000+01:00,1.71,,km,0:21:17,10,,12:26,4.8
+/athletes/80921500,/activities/8348459639,Weight Training,Afternoon Weight Training,Juraj Mečír,2023-01-06T16:38:00.000+01:00,,,,2:06:00,,867,,
+/athletes/94916434,/activities/8348523331,Walk,"Afternoon Walk · Gramado, Brazil",Victor Frank,2023-01-06T13:30:00.000+01:00,2.41,,km,0:24:32,15,,10:10,5.9
+/athletes/25025384,/activities/8349093550,Walk,Night Walk,Madhav Parashar,2023-01-06T22:07:00.000+01:00,0.66,,km,0:13:28,0,,20:24,2.9
+/athletes/111276322,/activities/8348158320,Walk,Night Walk,Aarzoo Tandon,2023-01-06T21:30:00.000+01:00,3.2,,km,0:38:00,0,,11:52,5.1
+/athletes/94637059,/activities/8348058888,Walk,"Night Walk · Bengaluru, India",Karthik Gunda,2023-01-06T21:12:00.000+01:00,5,,km,0:50:08,7,,10:01,6
+/athletes/74529016,/activities/8349045437,Surfing,"Lunch Surfing · Garopaba, Brazil",Rafael Fraga Mohr,2023-01-06T11:45:00.000+01:00,4.05,,km,1:41:00,,,24:56:00,2.4
+/athletes/35500962,/activities/8348028249,Walk,Night Walk,Ankit Talele,2023-01-06T21:09:00.000+01:00,2.16,,km,0:39:09,0,,18:07,3.3
+/athletes/62418776,/activities/8347979999,Walk,"Night Walk · Bengaluru, India",Aditya Aggarwal,2023-01-06T21:14:00.000+01:00,1.83,,km,0:24:25,14,,13:20,4.5
+/athletes/47356495,/activities/8347892069,Run,Afternoon Run,Abhishek Sharma,2023-01-06T16:22:00.000+01:00,5.74,5:56,km,0:34:07,,,5:56,10.1
+/athletes/111167294,/activities/8347834092,Walk,"Walk before dinner · Kolkata, India",Rahul Roy Choudhury,2023-01-06T20:02:00.000+01:00,5.74,,km,1:09:00,25,,12:01,5
+/athletes/111211736,/activities/8347747021,Walk,"Evening Walk · Tiruporur, India",Aruna  N,2023-01-06T19:53:00.000+01:00,3.58,,km,0:51:55,8,,14:30,4.1
+/athletes/101154883,/activities/8347698393,Walk,"Ditched uber · Kolkata, India",Suparna Lala,2023-01-06T20:00:00.000+01:00,3.85,,km,0:48:04,0,,12:29,4.8
+/athletes/95362701,/activities/8347400387,Walk,"Evening walk  · Rourkela, India",Subramita Dash,2023-01-06T19:22:00.000+01:00,2.48,,km,0:28:14,14,,11:23,5.3
+/athletes/100629210,/activities/8347298295,Walk,Evening Walk,Abhishek Singh,2023-01-06T18:48:00.000+01:00,3.53,,km,0:41:07,42,,11:38,5.2
+/athletes/111428195,/activities/8347183194,Walk,Evening Walk,Prerna Dewale,2023-01-06T13:07:00.000+01:00,1.61,,km,0:30:00,0,,18:38,3.2
+/athletes/111354373,/activities/8347562508,Elliptical,Morning Elliptical,Joyce Miyazato,2023-01-06T08:41:00.000+01:00,,,,0:32:16,,160,,
+/athletes/79541758,/activities/8346434676,Walk,"Morning Walk · Ward 13, India",Sanjay K,2023-01-06T09:29:00.000+01:00,10.73,,km,2:17:00,102,,12:46,4.7
+/athletes/100596399,/activities/8346289873,Weight Training,Morning Weight Training,Ivana Kovacova,2023-01-06T09:54:00.000+01:00,,,,1:28:00,,327,,
+/athletes/94637059,/activities/8345601392,Walk,"Morning walk · Bengaluru, India",Karthik Gunda,2023-01-06T12:13:00.000+01:00,3,,km,0:30:20,9,,10:06,5.9
+/athletes/92419547,/activities/8345476483,Walk,Walk,Khushboo Mehrotra,2023-01-06T09:09:00.000+01:00,5,,km,1:03:00,10,,12:35,4.8
+/athletes/100629210,/activities/8345476108,Weight Training,Morning Weight Training,Abhishek Singh,2023-01-06T10:29:00.000+01:00,,,,1:07:00,,353,,
+/athletes/102398735,/activities/8345429909,Walk,Morning walk,RAVINDER SINGH BISHT,2023-01-06T09:31:00.000+01:00,1.84,,km,0:17:57,15,,9:45,6.2
+/athletes/62418776,/activities/8345405252,Workout,Morning Badminton,Aditya Aggarwal,2023-01-06T09:40:00.000+01:00,,,,1:00:00,,449,,
+/athletes/111167294,/activities/8346981543,Workout,Workout,Rahul Roy Choudhury,2023-01-06T08:30:00.000+01:00,,,,2:00:00,,,,
+/athletes/111518187,/activities/8345368043,Workout,Morning Activity,Tejaswini Sira,2023-01-06T09:42:00.000+01:00,,,,0:32:42,,,,
+/athletes/111004967,/activities/8345347361,Workout,Batminton,Sowjanya Sowji,2023-01-05T19:00:00.000+01:00,,,,1:30:00,,,,
+/athletes/93937948,/activities/8347637664,Workout,Morning activity,Preetha Dandapani,2023-01-06T02:30:00.000+01:00,,,,1:07:00,,,,
+/athletes/111367285,/activities/8345267354,Yoga,Morning Yoga,leela krishna,2023-01-06T06:59:00.000+01:00,,,,2:01:00,,,,
+/athletes/96331780,/activities/8345236055,Walk,"Morning Walk · Faridabad, India",Virendra Singh,2023-01-06T08:08:00.000+01:00,2.57,,km,0:26:57,11,,10:29,5.7
+/athletes/47182741,/activities/8345234443,Ride,"Polo · Philadelphia, USA",Andrew CD,2023-01-05T18:21:00.000+01:00,21.1,,km,2:30:00,92,,7:06,8.4
+/athletes/111457277,/activities/8345115453,Workout,Evening Workout,Sree Kothapalli,2023-01-05T18:27:00.000+01:00,,,,1:40:00,,412,,
+/athletes/111276322,/activities/8348163203,Workout,Stretch and meditation ,Aarzoo Tandon,2023-01-06T07:00:00.000+01:00,,,,0:35:00,,,,
+/athletes/111408325,/activities/8345200141,Workout,Day 25 : Evening Workout,Sumit Wadhwa,2023-01-05T19:11:00.000+01:00,,,,0:35:11,,,,
+/athletes/111433583,/activities/8345052966,Workout,HIIT group training,Isha Kanani,2023-01-05T16:51:00.000+01:00,,,,0:50:00,,,,
+/athletes/93272730,/activities/8345218259,Swim,Evening Swim,Satish Patil,2023-01-05T19:08:00.000+01:00,"1,000",3:14,m,0:32:29,,,3:14/100m,1.8
+/athletes/111453240,/activities/8345045446,Walk,"Evening Walk · Austin, USA",Jason Lee,2023-01-05T18:15:00.000+01:00,2.2,,km,0:31:05,33,,14:07,4.2
+/athletes/95444598,/activities/8349865406,Walk,"Morning Walk · Bengaluru, India",Manoj M,2023-01-06T06:44:00.000+01:00,1.17,,km,0:16:09,5,,13:48,4.3
+/athletes/111192942,/activities/8345000134,Workout,Cleaning,Nealie Glasser,2023-01-05T19:50:00.000+01:00,,,,0:31:19,,104,,
+/athletes/111344192,/activities/8344974857,Walk,"Evening Walk · Round Rock, USA",Anvesh Kalia,2023-01-05T18:24:00.000+01:00,3.5,,km,0:45:57,17,,13:07,4.6
+/athletes/111359125,/activities/8344966382,Weight Training,Evening Activity,Manish Shetty,2023-01-05T18:20:00.000+01:00,,,,0:38:39,,,,
+/athletes/111405068,/activities/8345165300,Workout,Evening Workout,Elena Teytelman,2023-01-05T18:24:00.000+01:00,,,,1:06:00,,221,,
+/athletes/111547501,/activities/8347353117,Workout,Night Workout,kunjal gosar,2023-01-05T23:30:00.000+01:00,,,,0:47:22,,321,,
+/athletes/94332657,/activities/8344667497,Run,Afternoon Run,Jesse Williams,2023-01-05T16:06:00.000+01:00,5.24,4:48,km,0:25:10,,,4:48,12.5
+/athletes/111433583,/activities/8344577084,Run,Neighborhood run,Isha Kanani,2023-01-05T14:24:00.000+01:00,5.47,8:35,km,0:47:00,,,8:35,7
+/athletes/111394610,/activities/8344578856,Run,"Afternoon Run · Austin, USA",craig friedman,2023-01-05T16:25:00.000+01:00,7.76,5:25,km,0:41:59,,,5:24,11.1
+/athletes/92777676,/activities/8344550020,Run,Evening Run,Victor Caetano,2023-01-05T18:36:00.000+01:00,6.12,12:28,km,1:16:00,,,12:25,4.8
+/athletes/25401364,/activities/8344504772,Run,Afternoon Run,Jose Martinez,2023-01-05T16:10:00.000+01:00,6.95,5:14,km,0:36:25,,,5:14,11.5
+/athletes/95558986,/activities/8344448496,Walk,Night Walk,Damien Lorigan,2023-01-05T22:05:00.000+01:00,1.63,,km,0:23:47,13,,14:35,4.1
+/athletes/111354373,/activities/8344248745,Elliptical,Afternoon Elliptical,Joyce Miyazato,2023-01-05T17:30:00.000+01:00,,,,1:02:00,,313,,
